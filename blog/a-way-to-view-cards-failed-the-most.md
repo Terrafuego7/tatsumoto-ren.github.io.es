@@ -1,19 +1,19 @@
 ---
-title: Is there a way to view the cards I have failed the most times on Anki?
+title: ¿Hay alguna forma de ver las tarjetas que he fallado más veces en Anki?
 date: 1670239639
 tags: ['faq']
 position: -9968
 ---
 
-You can list them in the Anki Browser.
-For example,
-to see cards that have lapsed more than 5 times
-open the Anki Browser (shortcut: `b`) and type `prop:lapses>5`.
-Likewise, `prop:lapses>10` will show cards that have lapsed more than 10 times, etc.
+Puedes listarlas en el Explorador.
+Por ejemplo,
+para ver las tarjetas que han caducado más de 5 veces
+abre el explorador (atajo: `b`) y escribe `prop:lapses>5`.
+Del mismo modo, al usar `prop:lapses>10` se mostrarán las tarjetas que han caducado más de 10 veces, etc.
 
-I recommend [resetting leeches](useful-anki-add-ons-for-japanese.html#reset-card-scheduling).
-The extra time required to drill them in is not worth it.
-After resetting
-edit the corresponding notes to make them simpler and avoid lapses in the future.
-For example, change the example sentence.
-Afterwards relearn the updated cards.
+Recomiendo [resetear sanguijuelas](useful-anki-add-ons-for-japanese.html#reset-card-scheduling).
+No vale la pena gastar tiempo extra para memorizarlas.
+Después de resetearlas
+edita las notas correspondientes para simplificarlas y evitar olvidos en el futuro.
+Por ejemplo, cambia la frase de ejemplo.
+Después vuelve a aprender las tarjetas actualizadas.
