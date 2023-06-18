@@ -1,626 +1,515 @@
 ---
-title: Discussing various card templates
+title: Discusión sobre las distintas plantillas de tarjetas
 date: 1610646660
 tags: [anki]
 ---
 
 <p align="center"><img alt="flashcards" class="shadow" src="img/bluepilled-flashcards.webp"></p>
 
-Many learners agree that the most effective way to acquire Japanese
-is to combine the SRS with immersion.
-After finishing learning
-[kana](learning-kana-in-two-days.html) and [kanji](jp1k-anki-deck.html)
-you're going to continue to use Anki
-in your study time to memorize vocabulary.
-When memorizing new vocabulary, there are various card templates you can choose from.
+Muchos estudiantes coinciden en que la forma más efectiva de adquirir el japonés
+es combinar el repaso espaciado (SRS, por su sigla en inglés) con la inmersión.
+Después de terminar de aprender
+los [kana](learning-kana-in-two-days.html) y los [kanji](jp1k-anki-deck.html),
+seguirás utilizando Anki
+en tu tiempo de estudio para memorizar vocabulario.
+Al memorizar nuevo vocabulario, existen diferentes plantillas de tarjetas entre las que puedes elegir.
 
-Card templates are differentiated by what you put on the front of the card.
-There are two major card templates that people tend to use: `sentence cards` and `word cards`.
-Both have their variations depending on what other information they contain.
+Las plantillas de tarjetas se diferencian por lo que se coloca en el frente de la tarjeta.
+Hay dos plantillas principales que la gente tiende a usar: las `tarjetas de oraciones` y las `tarjetas de palabras`.
+Ambas tienen sus variaciones dependiendo de la información adicional que contengan.
 
-This article covers **recognition** cards.
-Production cards are covered [here](writing-japanese.html).
+Este artículo cubre las tarjetas de **reconocimiento**.
+Las tarjetas de producción se tratan en [este enlace](writing-japanese.html).
 
 ****
 
-## How cards are created
+## Cómo se crean las tarjetas
 
-In Anki, the user creates *notes* that store information the user intends to remember.
-A note is divided into fields, and each field can store some text.
-The simplest note has only two fields, "Question" and "Answer", or "Front" and "Back".
-Anki generates *cards* from the notes the user has made using *card templates*.
-A *card template*, or *card type* is an HTML and CSS template that defines how a card will look.
-You can have several cards per note, depending on the card templates you have created.
-For example, each sentence item would have
-a card to test reading and a card to test writing by hand.
+En Anki, el usuario crea *notas* que almacenan la información que desea recordar.
+Una nota se divide en campos, y cada campo puede almacenar texto.
+La nota más simple tiene solo dos campos, "Pregunta" y "Respuesta", o "Frente" y "Dorso".
+Anki genera *tarjetas* a partir de las notas que el usuario ha creado utilizando *plantillas de tarjeta*.
+Una *plantilla de tarjeta*, o *tipo de tarjeta*, es una plantilla HTML y CSS que define cómo se verá una tarjeta.
+Puedes tener varias tarjetas por nota, dependiendo de las plantillas de tarjeta que hayas creado.
+Por ejemplo, cada elemento de oración
+tendría una tarjeta para evaluar la lectura y otra tarjeta para evaluar la escritura a mano.
 
-## Various card templates
+## Varios tipos de plantillas de tarjetas
 
-The division of card templates is arbitrary.
-We introduce it because from the perspective of language learning
-it is important what we test ourselves on.
-Here, a card template is characterized by the field of the note
-that is placed on the front.
-The fields on the back of the card are less significant.
-Their purpose is to help increase your understanding of what is on the front.
+La división de las plantillas de tarjetas es arbitraria.
+La incluimos porque, desde la perspectiva del aprendizaje de idiomas,
+es importante en qué nos evaluamos a nosotros mismos.
+Aquí, una plantilla de tarjeta se caracteriza por el campo de la nota
+que se coloca en el frente.
+Los campos en el dorso de la tarjeta son menos significativos.
+Su propósito es ayudar a aumentar tu comprensión de lo que está en el frente.
 
-* **Word Cards** test your reading comprehension of a single word.
-  * **[Simple Word Cards](#simple-word-cards)** contain the minimum of information necessary to understand the word.
-  * **[Word Context Cards](#word-context-cards)** must additionally have an example sentence on the back of the card.
-* **[Sentence Cards](#sentence-cards)** test your reading comprehension of a sentence or a part of a sentence.
-* **[Targeted Sentence Cards](#targeted-sentence-cards)** test your reading comprehension of a single word in context.
-* Other types of cards are rarely used, including cards with audio on the front.
+* **Tarjetas de Palabras** evalúan tu comprensión de lectura de una sola palabra.
+  * **[Tarjetas de Palabras Simples](#tarjetas-de-palabras-simples)** contienen la información mínima necesaria para entender la palabra.
+  * **[Tarjetas de Contexto de Palabras](#tarjetas-de-contexto-de-palabras)** deben tener adicionalmente una oración de ejemplo en el dorso de la tarjeta.
+* **[Tarjetas de Oraciones](#tarjetas-de-oraciones)** evalúan tu comprensión de lectura de una oración o parte de una oración.
+* **[Tarjetas de Oraciones Objetivo](#tarjetas-de-oraciones-objetivo)** evalúan tu comprensión de lectura de una sola palabra en contexto.
+* Otros tipos de tarjetas se utilizan raramente, incluyendo tarjetas con audio en el frente.
 
-We approach card templates based on the idea that
-your practice in Anki should mimic real world situations.
-In other words, you should *practice how you play*.
-And in real world we read sentences, and we write sentences.
-So the preference is given to card formats that have sentences in them.
-Having said that, word cards have their place in your SRS.
-They are very effective for studying concrete nouns.
+Abordamos las plantillas de tarjetas con base en la idea de que
+tu práctica en Anki debería imitar situaciones del mundo real.
+En otras palabras, debes *practicar como juegas*.
+Y en el mundo real leemos oraciones y escribimos oraciones.
+Por lo tanto, se da preferencia a los formatos de tarjetas que contienen oraciones.
+Dicho esto, las tarjetas de palabras tienen su lugar en tu SRS.
+Son muy efectivas para estudiar sustantivos concretos.
 
-Regardless of the card template,
-you create your cards from words and sentences you encounter while consuming Japanese.
-Learners utilize
+Independientemente de la plantilla de tarjeta,
+creas tus tarjetas a partir de palabras y oraciones que encuentras mientras consumes japonés.
+Los estudiantes utilizan
 [GoldenDict](setting-up-goldendict.html)
 [Qolibri](setting-up-qolibri.html),
-[mpv scripts](mining-from-movies-and-tv-shows.html#user-scripts-for-mpv),
+[scripts de mpv](mining-from-movies-and-tv-shows.html#user-scripts-for-mpv),
 [Yomichan](setting-up-yomichan.html),
-and [other software](resources.html#dictionaries)
-to make card creation faster and easier.
+y [otros programas](resources.html#dictionaries)
+para agilizar y facilitar la creación de tarjetas.
 
-## Simple word cards
+## Tarjetas de palabras simples
 
-By simple word cards I mean a word in the target language on the front of the card
-and a definition and usually audio and a picture on the back.
-No context is present on this type of cards.
+Por tarjetas de palabras simples me refiero a una palabra en el idioma objetivo en el frente de la tarjeta
+y una definición y, por lo general, audio e imagen en el dorso.
+En este tipo de tarjetas no se presenta contexto.
 
-<p align="center"><img alt="word-card" class="shadow" src="img/example-word-card.webp"></p>
+<p align="center"><img alt="tarjeta-de-palabra" class="shadow" src="img/example-word-card.webp"></p>
 
-<p align="center"><i>A simple word card.</i></p>
+<p align="center"><i>Una tarjeta de palabra simple.</i></p>
 
-SWCs are the easiest to make and the fastest to review.
+Las TPS son las más fáciles de crear y las más rápidas de revisar.
 
-### How to review SWCs
+### Cómo revisar las TPS
 
-1) Read the target word.
-2) Recall the meaning and the reading of the word.
+1) Lee la palabra objetivo.
+2) Recuerda el significado y la lectura de la palabra.
 
-Pass the card if you understand the meaning and the reading of the target word.
-Otherwise, choose `Again` to review the card again sooner.
+Pasa la tarjeta si comprendes el significado y la lectura de la palabra objetivo.
+De lo contrario, elige "Repetir" para revisar la tarjeta nuevamente más pronto.
 
-### Pros and cons of SWCs
+### Ventajas y desventajas de las TPS
 
-As mentioned in the beginning of this article,
-simple word cards are very powerful when learning concrete nouns.
-A *concrete noun* is a noun that you can see or touch.
-The nouns `phone`, `dog`, `car` are concrete nouns.
-If a word is not a concrete noun,
-learning it through a simple word card is not going to be effective.
-For example, words like <span title="ふっかつ ー restore, revive">復活</span>
-or <span title="はしる ー to run">走る</span> require context to understand their meaning and usage.
-Without it, you will almost certainly misunderstand the meaning
-and won't know which grammar constructions should be used with the word.
+Como se mencionó al principio de este artículo,
+las tarjetas de palabras simples son muy efectivas al aprender sustantivos concretos.
+Un *sustantivo concreto* es un sustantivo que puedes ver o tocar.
+Los sustantivos "teléfono", "perro", "coche" son sustantivos concretos.
+Si una palabra no es un sustantivo concreto,
+aprenderla a través de una tarjeta de palabra simple no será efectivo.
+Por ejemplo, palabras como <span title="ふっかつ ー restaurar, revivir">復活</span>
+o <span title="はしる ー correr">走る</span> requieren contexto para entender su significado y uso.
+Sin él, es casi seguro que malentenderás el significado
+y no sabrás qué construcciones gramaticales se deben usar con la palabra.
 
-But because most concrete nouns
-have clear meanings,
-are used similarly
-and are surrounded by similar grammar patterns
-that can be easily picked up from repeated exposure
-providing context is completely unnecessary in my opinion.
-Often you can understand the meaning of a concrete noun even without a dictionary.
-To understand what <span title="ねこ ー a cat">猫</span> means,
-it's enough to look at a photo of it.
+Pero debido a que la mayoría de los sustantivos concretos
+tienen significados claros,
+se usan de manera similar
+y están rodeados de patrones gramaticales similares
+que se pueden aprender fácilmente a través de la exposición repetida,
+en mi opinión, proporcionar contexto es completamente innecesario.
+A menudo puedes entender el significado de un sustantivo concreto incluso sin un diccionario.
+Para entender qué significa <span title="ねこ ー un gato">猫</span>,
+basta con ver una foto de él.
 
-The time saved by using SWCs for nouns outweighs the benefits of using sentence cards
-because one can add many more SWCs than sentence cards
-and can rep them much more quickly as well without thinking about context.
-By simply thinking of the reading and the meaning of a word you're making SWCs very low effort.
+El tiempo ahorrado al usar TPS para sustantivos supera los beneficios de usar tarjetas de oraciones,
+porque se pueden agregar muchas más TPS que tarjetas de oraciones,
+y se pueden revisar mucho más rápidamente sin pensar en el contexto.
+Al simplemente pensar en la lectura y el significado de una palabra, estás haciendo que las TPS requieran muy poco esfuerzo.
 
-I would argue that word cards should comprise around 15% of your total number of cards.
+Argumentaría que las tarjetas de palabras deberían representar alrededor del 15% de tu número total de tarjetas.
 
-## Word context cards
+## Tarjetas de contexto de palabras
 
-WCCs contain the target word on the front.
-The front of the card sometimes also contains hints
-that disambiguate certain aspects of the target word.
+Las TCP contienen la palabra objetivo en el frente.
+El frente de la tarjeta a veces también contiene pistas
+que desambiguan ciertos aspectos de la palabra objetivo.
 
-The back of the card contains everything you need to understand the target word:
+El dorso de la tarjeta contiene todo lo que necesitas para entender la palabra objetivo:
 
-* Readings and pitch accents
-* Example sentence
-* Definitions
+* Lecturas y acentos de tono
+* Oración de ejemplo
+* Definiciones
 * Audio
-* and so on.
+* y demás.
 
-<p align="center"><img alt="example-wcc" class="shadow" src="img/example-word-context-card.webp"></p>
+<p align="center"><img alt="ejemplo-tcp" class="shadow" src="img/example-word-context-card.webp"></p>
 
-<p align="center"><i>A word context card.</i></p>
+<p align="center"><i>Una tarjeta de contexto de palabra.</i></p>
 
-### How to review word context cards
+### Cómo revisar las tarjetas de contexto de palabras
 
-WCCs test your reading comprehension of a single word.
-Similarly to SWCs,
-press `Good` only if you understand how the word is read and what it means.
+Las TCP evalúan tu comprensión de lectura de una sola palabra.
+De manera similar a las TP, 
+presiona `Bien` solo si entiendes cómo se lee la palabra y qué significa.
 
-The first time that you learn a new card,
-you read the sentence on the back of the card and listen to the audio
-to understand the usage of the word.
-After that whenever the card comes up for review
-you see the isolated word on the front,
-recall the meaning,
-and if you are able to recall the meaning well
-then you move on to the next card
-without listening to the audio
-or reading the sentence on the back.
+La primera vez que aprendes una nueva tarjeta,
+lees la oración en el dorso de la tarjeta y escuchas el audio
+para entender el uso de la palabra.
+Después de eso, cada vez que la tarjeta aparezca para su revisión,
+verás la palabra aislada en el frente,
+recordarás el significado,
+y si puedes recordar bien el significado,
+pasarás a la siguiente tarjeta
+sin escuchar el audio
+ni leer la oración en el dorso.
 
-When using this card template you can go through the reviews extremely quickly
-because unless you forget the word,
-you don't need the sentence,
-and you don't force yourself to read it.
-You can just skip the sentence and go to the next card.
+Cuando usas esta plantilla de tarjeta, puedes revisar muy rápidamente
+porque a menos que olvides la palabra,
+no necesitas la oración,
+y no te obligas a leerla.
+Simplemente puedes omitir la oración y pasar a la siguiente tarjeta.
 
-### Pros and cons of WCCs
+### Ventajas y desventajas de las TCP
 
-Like SWCs, WCCs should work great for concrete nouns.
-If you happen to find a concrete noun in context,
-mining a WCC would be a natural choice.
-The cons present themselves when learning other types of speech.
+Al igual que las TP, las TCP deberían funcionar muy bien para sustantivos concretos.
+Si te encuentras con un sustantivo concreto en contexto,
+crear una TCP sería una elección natural.
+Las desventajas se presentan al aprender otros tipos de palabras.
 
-WCCs take more time to make than SWCs.
-Some extra time is needed to add the context (sentence, image, audio) to the card.
-However, there are tools that can automate this process.
-For example, mpv scripts.
+Las TCP llevan más tiempo crearlas que las TP.
+Se necesita tiempo adicional para agregar el contexto (oración, imagen, audio) a la tarjeta.
+Sin embargo, existen herramientas que pueden automatizar este proceso.
+Por ejemplo, scripts de mpv.
 
-WCCs should be as fast to review as SWCs.
-All you need to do is recall what the target word means.
-For words other than concrete nouns WCCs could take additional time to recall the meaning.
-If the word is abstract,
-it can be hard to tell whether you understand the meaning or not
-without context on the front.
+Las TCP deberían ser tan rápidas de revisar como las TP.
+Lo único que necesitas hacer es recordar qué significa la palabra objetivo.
+Para palabras que no sean sustantivos concretos, las TCP podrían llevar más tiempo recordar el significado.
+Si la palabra es abstracta,
+puede ser difícil saber si entiendes el significado o no
+sin contexto en el frente.
 
-WCCs strip the context information from the front of the card
-forcing you to recall the meaning and the reading regardless of the context.
-This makes cards harder to learn and review.
+Las TCP eliminan la información de contexto del frente de la tarjeta,
+obligándote a recordar el significado y la lectura sin importar el contexto.
+Esto hace que las tarjetas sean más difíciles de aprender y revisar.
 
-* Because words other than concrete nouns are rarely seen in isolation,
-  such practice is unnatural.
-* Because the piece of knowledge you're testing yourself on is so small,
-  it is difficult to associate the word directly to its meaning.
-* You spend more time and effort recalling the meaning
-  compared to a card with context on the front.
-  It is easier to read an example sentence and understand the word in a sentence.
-* If you can remember the meaning of an isolated word,
-  that doesn't necessarily mean that when you read the word in a sentence
-  you're going to understand the sentence.
+* Debido a que las palabras que no son sustantivos concretos rara vez se ven aisladas,
+  esta práctica es poco natural.
+* Debido a que el conocimiento en el que te estás evaluando es tan pequeño,
+  es difícil asociar directamente la palabra con su significado.
+* Dedicas más tiempo y esfuerzo a recordar el significado
+  en comparación con una tarjeta con contexto en el frente.
+  Es más fácil leer una oración de ejemplo y comprender la palabra en una oración.
+* Si puedes recordar el significado de una palabra aislada,
+eso no significa necesariamente que cuando leas la palabra en una oración
+vas a entender la oración.
 
-Because the context is missing on the front
-there's often a need to rely on additional field
-that serves to reduce memory interference &mdash; the hint field.
-The hint field is needed when a word has multiple meanings.
-For such word you can't recall the right meaning without looking at an example.
-A WCC with context on the front in essence turns into a type of sentence card.
-In this case I would definitely choose to create a targeted sentence card instead.
+Debido a que falta el contexto en el frente,
+a menudo es necesario confiar en un campo adicional
+que sirve para reducir la interferencia de la memoria: el campo de pista.
+El campo de pista es necesario cuando una palabra tiene múltiples significados.
+Para esa palabra, no puedes recordar el significado correcto sin mirar un ejemplo.
+Una TCP con contexto en el frente, en esencia, se convierte en un tipo de tarjeta de oración.
+En este caso, definitivamente elegiría crear una tarjeta de oración específica en su lugar.
 
-If you choose to use them,
-Word Context Cards, much like Simple Word Cards,
-can be useful,
-but I wouldn't recommend using them as your primary card template.
+Si decides usarlas, las Tarjetas de Contexto de Palabras, al igual que las Tarjetas de Palabras Simples, pueden ser útiles,
+pero no recomendaría usarlas como tu plantilla principal de tarjeta.
 
-## Sentence cards
+## Tarjetas de oraciones
 
-A [sentence card](http://www.antimoon.com/how/usingsm-makeitems-sentence.htm)
-is an SRS card with a sentence in the question field.
-The sentence has **one** unknown word or phrase.
+Una [tarjeta de oración](http://www.antimoon.com/how/usingsm-makeitems-sentence.htm)
+es una tarjeta de SRS con una oración en el campo de pregunta.
+La oración tiene **una** palabra o frase desconocida.
 
-Some people might make cards with multiple unknowns,
-but it comes at the expense of harder reviews.
-If you have a sentence card that tests two (or more) words at the same time,
-you will need to make repetitions
-that are frequent enough to keep the more difficult word in memory.
+Algunas personas podrían hacer tarjetas con múltiples elementos desconocidos,
+pero esto conlleva repasos más difíciles.
+Si tienes una tarjeta de oración que evalúa dos (o más) palabras al mismo tiempo,
+necesitarás hacer repasos
+que sean lo suficientemente frecuentes para mantener la palabra más difícil en la memoria.
 
-On the back you find readings and dictionary definitions.
-Optimally you also want to add audio for the entire sentence and/or the target word,
-pitch accent information
-and a picture if the sentence comes from a video.
+En el dorso encontrarás lecturas y definiciones de diccionario.
+Idealmente, también querrás agregar audio para toda la oración y/o la palabra objetivo,
+información sobre el acento tonal
+y una imagen si la oración proviene de un video.
 
-<p align="center"><img alt="example-sentence-card" class="shadow" src="img/example-sentence-card.webp"></p>
+<p align="center"><img alt="ejemplo-tarjeta-de-oracion" class="shadow" src="img/example-sentence-card.webp"></p>
 
-<p align="center"><i>A sentence card.</i></p>
+<p align="center"><i>Una tarjeta de oración.</i></p>
 
-### How to review sentence cards
+### Cómo revisar las tarjetas de oraciones
 
-The algorithm is
-[explained](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/)
-on the AJATT site.
-I simplified it a bit, below are the main steps:
+El algoritmo se explica en el [sitio de AJATT](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/).
+Lo simplifiqué un poco, a continuación están los pasos principales:
 
-1) You read the full sentence.
-2) Know the meaning of every word in the sentence.
-3) Understand the meaning of the entire sentence.
+1) Lees la oración completa.
+2) Conoces el significado de cada palabra en la oración.
+3) Comprendes el significado de la oración completa.
 
-If the above requirements are satisfied, press `Good`.
-Otherwise, choose `Again` so that you will see the card sooner.
+Si se cumplen los requisitos anteriores, presiona `Bien`.
+De lo contrario, elige `Repetir` para ver la tarjeta más pronto.
 
-There are other steps and nuances described on the AJATT site
-but most sentence cards users skip them.
-In particular, I don't think many people read sentences out loud
-or copy them by hand onto a piece of paper.
-These are not helpful and only make reviews longer.
+Hay otros pasos y matices descritos en el sitio de AJATT,
+pero la mayoría de los usuarios de tarjetas de oraciones los omiten.
+En particular, no creo que muchas personas lean las oraciones en voz alta
+o las copien a mano en un papel.
+Estas acciones no son útiles y solo alargan los repasos.
 
-### Pros and cons of sentence cards
+### Ventajas y desventajas de las tarjetas de oraciones
 
-The first advantage of sentence cards is that they are easy to remember.
-You have a whole sentence as context shown to you.
-The context helps your brain remember what the target word means.
-If you just have a word on the front,
-especially if it's a word with a more abstract meaning,
-it can be hard to tell whether you understand the meaning or not.
+La primera ventaja de las tarjetas de oraciones es que son fáciles de recordar.
+Tienes una oración completa como contexto que se muestra.
+El contexto ayuda a tu cerebro a recordar lo que significa la palabra objetivo.
+Si solo tienes una palabra en el frente,
+especialmente si es una palabra con un significado más abstracto,
+puede ser difícil saber si entiendes el significado o no.
 
-Sentence cards are natural and organic.
-What I mean by this is that
-the practice of reading sentences closely resembles real world situations.
-It's more akin to what you're doing in real life when reading a book.
-The target word is embedded in a context that helps make the meaning of the word clear.
+Las tarjetas de oraciones son naturales y orgánicas.
+Lo que quiero decir con esto es que
+la práctica de leer oraciones se parece mucho a situaciones del mundo real.
+Es más similar a lo que haces en la vida real al leer un libro.
+La palabra objetivo está integrada en un contexto que ayuda a que el significado de la palabra sea claro.
 
-But they have certain weaknesses, the main being **review time**.
-On a sentence card the target word is not emphasized in any way.
-As a result during each rep you have to read the whole sentence
-and essentially test yourself on every word in it.
-On average, it takes 20 seconds to answer a sentence card.
-This is a lot of time compared to reading and recalling just the target word.
-Thankfully, there are some tricks to do reps faster, which are described in the TSC section.
+Pero tienen ciertas debilidades, siendo la principal el **tiempo de repaso**.
+En una tarjeta de oración, la palabra objetivo no se enfatiza de ninguna manera.
+Como resultado, en cada repetición tienes que leer toda la oración
+y básicamente evaluarte a ti mismo en cada palabra de la misma.
+En promedio, se tarda 20 segundos en responder una tarjeta de oración.
+Esto es mucho tiempo en comparación con leer y recordar solo la palabra objetivo.
+Afortunadamente, existen algunos trucos para hacer repasos más rápidos, que se describen en la sección de TOE.
 
-Sentence cards are criticized a lot
-because they can create context-dependent memories.
-If you always recall the meaning of a word
-when that word is contained within a certain sentence,
-sometimes you end up just memorizing that sentence instead of the target word.
-Then when you see that target word out of context or in a different context
-you're not able to draw the connection and recall what the word means
-or even realize that you learned that word.
-To a lesser extent this also happens with word cards
-because having no context is a type of context in itself.
-When seeing the word in immersion,
-one might be unable to draw the connection and recall it.
-It is likely that context-dependent memories can form when using any type of card templates.
-To combat context-dependent memories, immersion is key.
-The knowledge of a word internalizes
-after seeing it enough times in different contexts in the wild.
+Las tarjetas de oraciones reciben muchas críticas
+porque pueden crear memorias dependientes del contexto.
+Si siempre recuerdas el significado de una palabra
+cuando esa palabra está contenida dentro de una determinada oración,
+a veces terminas memorizando esa oración en lugar de la palabra objetivo.
+Luego, cuando ves esa palabra objetivo fuera de contexto o en un contexto diferente,
+no puedes establecer la conexión y recordar qué significa la palabra
+o incluso darte cuenta de que aprendiste esa palabra.
+En menor medida, esto también ocurre con las tarjetas de palabras
+porque no tener contexto es un tipo de contexto en sí mismo.
+Cuando ves la palabra en inmersión,
+es posible que no puedas establecer la conexión y recordarla.
+Es probable que se puedan formar memorias dependientes del contexto al usar cualquier tipo de plantilla de tarjeta.
+Para combatir las memorias dependientes del contexto, la inmersión es clave.
+El conocimiento de una palabra se internaliza
+después de verla varias veces en diferentes contextos en la vida real.
 
-Sometimes you see people say that by reviewing sentences
-you will build internal grammar and remember word usages,
-which is helpful in your output.
-I think it comes from a misunderstanding of the AJATT site.
-There's an embedded assumption that
-SRS can be used to learn how to output.
-In reality the role of the SRS is to aid comprehension
-by helping you memorize meanings and readings of words.
-Output can only come from lots of exposure and seeing words in different contexts.
-Reading sentences in the SRS can only play a minor role.
+A veces se dice que al revisar oraciones
+construirás la gramática interna y recordarás el uso de las palabras,
+lo cual es útil para tu producción.
+Creo que esto proviene de una falta de comprensión del sitio de AJATT.
+Hay una suposición subyacente de que
+el SRS se puede utilizar para aprender a producir.
+En realidad, el papel del SRS es ayudar a la comprensión
+ayudándote a memorizar los significados y las lecturas de las palabras.
+La producción solo puede surgir de una exposición abundante y ver palabras en diferentes contextos.
+La lectura de oraciones en el SRS solo puede desempeñar un papel menor.
 
-Nevertheless, there is some truth to the statement.
-Though according to Wozniak passive recognition doesn't guarantee active recall,
-reading the same piece many times has an effect similar to TV commercials.
-You sometimes can recite them from memory just from repeated exposure.
-You can expect to memorize many sentences this way,
-but you will almost certainly not memorize all of them.
-I must point out that it's a mere side effect
-and shouldn't be treated as an advantage of using sentence cards.
+No obstante, hay algo de verdad en esta afirmación.
+Aunque según Wozniak, el reconocimiento pasivo no garantiza el recuerdo activo,
+leer varias veces la misma pieza tiene un efecto similar al de los comerciales de televisión.
+A veces puedes recitarlos de memoria solo por la exposición repetida.
+Puedes esperar memorizar muchas oraciones de esta manera,
+pero casi seguramente no las memorizarás todas.
+Debo señalar que es simplemente un efecto secundario
+y no debe considerarse una ventaja del uso de tarjetas de oraciones.
 
-## Targeted sentence cards
+## Tarjetas de oraciones específicas
 
-TSCs are like [sentence cards](#sentence-cards),
-but you always make sure to highlight the target word.
-This is done by selecting the word and pressing <kbd>Ctrl</kbd>+<kbd>B</kbd> in Anki, nice and simple.
-Yomichan can do it too if its settings are tweaked in a certain way.
+Las TOE son similares a las [tarjetas de oraciones](#tarjetas-de-oraciones),
+pero siempre te aseguras de resaltar la palabra objetivo.
+Esto se hace seleccionando la palabra y presionando <kbd>Ctrl</kbd>+<kbd>B</kbd> en Anki, fácil y sencillo.
+Yomichan también puede hacerlo si se ajusta su configuración de cierta manera.
 
-<p align="center"><img alt="example-mpvacious-card" class="shadow" src="img/example-mpvacious-card.webp"></p>
+<p align="center"><img alt="ejemplo-tarjeta-de-oracion-especifica" class="shadow" src="img/example-mpvacious-card.webp"></p>
 
-<p align="center"><i>A targeted sentence card.</i></p>
+<p align="center"><i>Una tarjeta de oración específica.</i></p>
 
-TSCs are very flexible and give their users a lot of choices of how to review them.
-Depending on your liking, you can:
+Las TOE son muy flexibles y brindan a los usuarios muchas opciones para revisarlas.
+Dependiendo de tus preferencias, puedes:
 
-* Rep them as regular sentence cards.
-  You read the full sentence
-  and decide whether you understood all bits and pieces.
-* Read the whole sentence but only test yourself on the target word.
-  This has a positive effect of lifting the mental burden of testing yourself
-  on too many things at the same time.
-* Only read the target word, and probably a few words surrounding it.
-  This way of reviewing TSCs is close to WCCs and SWCs and can save a lot of review time.
-  If a sentence is too long,
-  I usually start reading a few words behind the target word
-  and stop as soon as I've understood the clause.
-  Grade yourself on the target word only, don't penalize yourself for failing other words.
+* Repasarlas como tarjetas de oraciones regulares.
+  Lees la oración completa
+  y decides si entendiste todas las partes.
+* Leer toda la oración, pero evaluarte solo en la palabra objetivo.
+  Esto tiene el efecto positivo de aliviar la carga mental de evaluarte
+  en demasiadas cosas al mismo tiempo.
+* Leer solo la palabra objetivo y, probablemente, unas pocas palabras que la rodean.
+  Esta forma de revisar las TOE se asemeja a las TCO y las TPS y puede ahorrar mucho tiempo de repaso.
+  Si una oración es demasiado larga,
+  generalmente comienzo a leer unas pocas palabras detrás de la palabra objetivo
+  y paro tan pronto como entiendo la oración.
+  Evalúate solo en la palabra objetivo, no te penalices si fallas en otras palabras.
 
-When you learn a sentence for the first time,
-make sure to read and understand it fully,
-even if you don't want to read it every time the card comes up.
-Understanding the context greatly helps in understanding of the target word.
+Cuando aprendas una oración por primera vez,
+asegúrate de leerla y entenderla por completo,
+incluso si no quieres leerla cada vez que aparezca la tarjeta.
+Entender el contexto ayuda mucho a comprender la palabra objetivo.
 
-It is also important that you already know all the words besides the target word.
-You don't want to stumble upon words you haven't learned each time you review the card.
-This concept is called "one target sentences" and is discussed later on this site,
-in the articles about making your own cards.
+También es importante que ya conozcas todas las palabras además de la palabra objetivo.
+No quieres encontrarte con palabras que no has aprendido cada vez que repases la tarjeta.
+Este concepto se llama "oraciones con un objetivo" y se discute más adelante en este sitio,
+en los artículos sobre cómo crear tus propias tarjetas.
 
-Follow [this link](setting-up-anki.html#import-an-example-mining-deck) to download
-a deck with example Targeted Sentence Cards.
+Sigue [este enlace](setting-up-anki.html#import-an-example-mining-deck) para descargar
+un mazo con ejemplos de Tarjetas de Oraciones Específicas.
 
-### Make Yomichan highlight the target word for you
+### Haz que Yomichan resalte la palabra objetivo por ti
 
-I recommend setting up Yomichan to mark the target word automatically when a new card is made.
-This saves you the extra step
-that you'd otherwise have to take every time you make a new targeted sentence card.
+Recomiendo configurar Yomichan para que marque automáticamente la palabra objetivo cuando se crea una nueva tarjeta.
+Esto te ahorra el paso adicional
+que tendrías que realizar cada vez que creas una nueva tarjeta de oración específica.
 [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
-is aware of this setting and preserves highlighted words when updating sentences.
+es consciente de esta configuración y conserva las palabras resaltadas al actualizar las oraciones.
 
-Go to Yomichan Settings > "Anki" > "Configure Anki card format…".
+Ve a Configuración de Yomichan > "Anki" > "Configurar formato de tarjeta de Anki...".
 
-<p align="center"><img alt="highlight-target-word" class="shadow" src="img/highlight-target-word.png"></p>
+<p align="center"><img alt="resaltar-palabra-objetivo" class="shadow" src="img/highlight-target-word.png"></p>
 
-<p align="center"><i>Yomichan settings.</i></p>
+<p align="center"><i>Configuración de Yomichan.</i></p>
 
-**Note:** All Yomichan settings are covered in [Setting up Yomichan](setting-up-yomichan.html#anki-settings) later.
+**Nota:** Todas las configuraciones de Yomichan se explican en detalle en [Configuración de Yomichan](setting-up-yomichan.html#anki-settings) más adelante.
 
-### Why TSCs?
+### ¿Por qué las TOE?
 
-* **TSCs are stress-free.**
-  Because you do not have to read the entire sentence for every single card,
-  you can review TSCs much faster.
-  But at the same time you always have access to the full sentence on the front,
-  so you can read it if you want,
-  or skip reading if you don't have time to spend on your reviews.
-  Drop the weight quickly and go back to the fun stuff.
-* **TSCs are easy to make.**
-  You can use mpv scripts such as [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
-  to make each card in just a few seconds.
-  When you're reading a novel, Yomichan alone can handle everything.
-* **Context is always there.**
-  You don't deprive yourself of the full sentence, and it makes your reviews easier.
-* **You see how the word is used.**
-  Because words are rarely found outside of sentences,
-  you ensure that your practice in Anki closely resembles reading out in the wild.
-  Even if you test yourself just on the target word,
-  the information on the card should help you understand its usage.
-* **Eliminate the fatigue.**
-  You don't have to test yourself on every word.
-  If you think that sentence cards test you on too many items at the same time
-  which causes you to burn out mentally,
-  then evaluate yourself only on the target word.
-  TSCs give you the freedom of choice.
-* **TSCs are forgiving to beginners.**
-  When I just started learning sentence items,
-  the ability to test myself only on the target word saved me lots of gray hair
-  because I didn't have to recall meanings and readings of all the other words in a sentence
-  that I still knew poorly or didn't know at all yet.
-* **Save yourself decisions when creating cards.**
-  You don't need to choose between various card templates because TSCs
-  fuse *word cards* and *sentence cards* together in their own unique way.
-* **Any length will do.**
-  TSCs free you from the need to mine shorter sentences.
-  Often short sentences lack enough context.
-  Sentence cards users have to seek shorter sentences in order to shorten the reviews.
-  You don't have to keep things short for the sake of quicker reps.
-  At the same time long sentences won't overwhelm you because you aren't obliged to read them.
-* **Stay on target.**
-  Due to the format of the card template and the combination of the note fields
-  TSCs always have only one target word per card,
-  but they can contain more than one unknown word total.
-  Adding only one-target sentences to the SRS is a good practice,
-  it guarantees that all cards in the collection have similar intrinsic difficulties
-  which makes reviews smooth and effortless.
-  On the other hand,
-  if you have to make a TSC with many unknown words,
-  it does not become a burden
-  &mdash; when grading yourself you skip everything but the main target.
-* **Keep your cards.**
-  There's an idea in the community that cards should get deleted or suspended
-  after they reach a certain interval.
-  The idea is justified by an assumption that immersion alone is enough
-  to keep any word in memory after it's been acquired.
-  I think it's just a cope invented to deal with the fact
-  that sentence cards take forever to finish one's daily reviews.
-  If you're a TSC user, your reviews are quick,
-  so don't buy into deleting all your old cards.
+* **Las TOE son libres de estrés.**
+  Debido a que no tienes que leer la oración completa en cada tarjeta,
+  puedes repasar las TOE mucho más rápido.
+  Pero al mismo tiempo, siempre tienes acceso a la oración completa en el frente,
+  por lo que puedes leerla si quieres,
+  o saltar la lectura si no tienes tiempo para dedicar a tus repasos.
+  Libérate rápidamente y vuelve a las cosas divertidas.
+* **Las TOE son fáciles de hacer.**
+  Puedes usar scripts de mpv como [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
+  para crear cada tarjeta en solo unos segundos.
+  Cuando estás leyendo una novela, solo Yomichan puede encargarse de todo.
+* **El contexto siempre está presente.**
+  No te privas de la oración completa, lo que facilita tus repasos.
+* **Ves cómo se utiliza la palabra.**
+  Debido a que las palabras rara vez se encuentran fuera de las oraciones,
+  te aseguras de que tu práctica en Anki se asemeje estrechamente a la lectura en la vida real.
+  Incluso si te evalúas solo en la palabra objetivo,
+  la información en la tarjeta debería ayudarte a comprender su uso.
+* **Elimina la fatiga.**
+  No tienes que evaluarte en cada palabra.
+  Si crees que las tarjetas de oraciones te evalúan en demasiados elementos al mismo tiempo,
+  lo que te agota mentalmente,
+  entonces evalúate solo en la palabra objetivo.
+  Las TOE te dan libertad de elección.
+* **Las TOE son amigables para los principiantes.**
+  Cuando recién comencé a aprender elementos de oraciones,
+  la capacidad de evaluarme solo en la palabra objetivo me ahorró muchos dolores de cabeza
+  porque no tenía que recordar los significados y las lecturas de todas las demás palabras en una oración
+  que aún conocía mal o que aún no conocía en absoluto.
+* **Ahorra decisiones al crear tarjetas.**
+  No necesitas elegir entre varias plantillas de tarjetas porque las TOE
+  fusionan las *tarjetas de palabras* y las *tarjetas de oraciones* de una manera única.
+* **Cualquier longitud funciona.**
+  Las TOE te liberan de la necesidad de extraer oraciones más cortas.
+  A menudo, las oraciones cortas carecen de suficiente contexto.
+  Los usuarios de tarjetas de oraciones deben buscar oraciones más cortas para acortar los repasos.
+  No tienes que mantener las cosas cortas solo para hacer repasos más rápidos.
+  Al mismo tiempo, las oraciones largas no te abrumarán porque no estás obligado a leerlas.
+* **Mantén el enfoque.**
+  Debido al formato de la plantilla de tarjeta y la combinación de los campos de la nota,
+  las TOE siempre tienen solo una palabra objetivo por tarjeta,
+  pero pueden contener más de una palabra desconocida en total.
+  Agregar solo oraciones con un objetivo al SRS es una buena práctica,
+  garantiza que todas las tarjetas en la colección tengan dificultades intrínsecas similares,
+  lo que facilita los repasos.
+  Por otro lado,
+  si tienes que hacer una TOE con muchas palabras desconocidas,
+  no se convierte en una carga
+  —al evaluarte, omites todo excepto el objetivo principal.
+* **Conserva tus tarjetas.**
+  Existe una idea en la comunidad de que las tarjetas deben eliminarse o suspenderse
+  después de alcanzar un cierto intervalo.
+  La idea se justifica por la suposición de que la inmersión por sí sola es suficiente
+  para mantener cualquier palabra en la memoria después de haberla adquirido.
+  Creo que es solo una forma de lidiar con el hecho de que las tarjetas de oraciones retardan una eternidad el terminar los repasos diarios.
+  Si eres usuario de TOE, tus repasos son rápidos,
+  así que no te deshagas de todas tus tarjetas antiguas.
 
-### Are TSCs too easy?
+### ¿Las TOE son demasiado fáciles?
 
-Since TSCs allow you to look at the context,
-they are easier than word cards, but it's a good thing.
+Dado que las TOE te permiten ver el contexto, son más fáciles que las tarjetas de palabras, pero eso es algo bueno.
 
-On the contrary,
-by reviewing words in isolation you basically create unnecessary difficulty for yourself.
-You also violate the *practice how you play* principle
-by testing yourself on something that is rarely seen in real life.
+Por el contrario, al repasar palabras de forma aislada, básicamente te creas dificultades innecesarias. También vas en contra del principio de  *practica con calidad para lograr un buen desempeño* al evaluarte en algo que rara vez se ve en la vida real.
 
-> But what if I memorize the meaning of the sentence as a whole,
-> and become unable to recognize or understand the target word in other contexts?
+> Pero, ¿qué pasa si memorizo el significado de la oración en su conjunto y luego no soy capaz de reconocer o entender la palabra objetivo en otros contextos?
 
-First you won't be able to read very well at all
-until you actually practice reading and put in the hours.
-The SRS can only help a little.
-Second, it doesn't happen often.
-Yes, sometimes you will form context-dependent memories.
-To fully acquire a word
-and transfer the knowledge from being context-dependent to context-independent
-it has to be seen a few times in the wild.
-Most of the time it happens quickly.
+En primer lugar, no podrás leer muy bien en absoluto hasta que realmente practiques la lectura y le dediques tiempo. El SRS solo puede ayudar un poco. En segundo lugar, eso no ocurre con frecuencia. Sí, a veces formarás memorias dependientes del contexto. Para adquirir completamente una palabra y transferir el conocimiento de depender del contexto a ser independiente del contexto, tienes que verla varias veces en la vida real. La mayoría de las veces eso ocurre rápidamente.
 
-The reality is that the SRS doesn't guarantee that you will remember a word 100% anyway.
-You could make a **word card** for it
-only to find yourself not being able to recall it in the right time
-because of the flaw in the algorithm
-or because the memory of the word is still context-dependent.
-This can even happen to the cards that you nail every time in the SRS.
+La realidad es que el SRS no garantiza que recuerdes una palabra al 100% de todos modos. Podrías hacer una **tarjeta de palabras** para ella y luego no poder recordarla en el momento adecuado debido a un defecto en el algoritmo o porque la memoria de la palabra todavía depende del contexto. Esto incluso puede ocurrir con las tarjetas que aciertas siempre en el SRS.
 
-Thankfully, most words according to Krashen are encountered in **friendly contexts**.
-It is actually less likely that you will fail to understand the meaning of a word
-when you read Japanese content
-so don't worry about being unable to recall what you've learned in the SRS.
+Afortunadamente, la mayoría de las palabras según Krashen se encuentran en **contextos amigables**. En realidad, es menos probable que no puedas entender el significado de una palabra cuando lees contenido en japonés, así que no te preocupes por no poder recordar lo que has aprendido en el SRS.
 
-Lastly, the biggest problem Japanese learners face when learning how to read
-is remembering kanji readings.
-For most people failed attempts to recall readings comprise the majority of lapses in Anki,
-but meanings often come for free
-thanks to friendly contexts and **semantic hints** that kanji provide.
+Por último, el mayor problema al aprender a leer en japonés es recordar las lecturas de los kanjis. Para la mayoría de las personas, los intentos fallidos de recordar las lecturas constituyen la mayoría de las fallas en Anki, pero los significados a menudo se obtienen de forma gratuita gracias a los contextos amigables y las **pistas semánticas** que proporcionan los kanjis.
 
-### Performance gains
+### Mejoras en el rendimiento
 
-Time-wise you can expect the following gains:
+En cuanto al tiempo, puedes esperar las siguientes mejoras:
 
-* When you read the full sentence,
-  you can rep TSCs up to 2 times faster compared to sentence cards.
-  This is achieved by using
-  [Speed Focus Mode](useful-anki-add-ons-for-japanese.html#speed-focus-mode)
-  Anki add-on.
-  You might as well only test yourself on the target word
-  to speed up reviews a bit more.
-* When you rep TSCs by only reading the target word,
-  you are able to do it up to 4 times faster compared to sentence cards.
-  This is achieved simply by skipping everything but the target word.
-  You're still going to hear the sentence's audio (if provided)
-  or read the sentence once the back of the card is revealed,
-  but it's totally optional.
+- Cuando leas la oración completa, puedes repasar las TOE hasta 2 veces más rápido en comparación con las tarjetas de oraciones. Esto se logra utilizando el complemento de Anki llamado [Speed Focus Mode](useful-anki-add-ons-for-japanese.html#speed-focus-mode). Incluso puedes evaluar tu conocimiento solo en la palabra objetivo para acelerar aún más las revisiones.
+- Cuando repasas las TOE leyendo únicamente la palabra objetivo, puedes hacerlo hasta 4 veces más rápido en comparación con las tarjetas de oraciones. Esto se logra simplemente omitiendo todo excepto la palabra objetivo. Aún escucharás el audio de la oración (si está disponible) o leerás la oración una vez que se revele el reverso de la tarjeta, pero es totalmente opcional.
 
-For many years I studied with sentence cards.
-Although I achieved great results,
-my time investments were far from optimal.
-After you've seen a card enough times
-you don't need to continue reading the whole sentence
-every time it comes up.
-You can skip to the target word if you want.
-But with regular sentence cards **you don't know what the target word was**
-until you reveal the answer.
-With TSCs you highlight the target word when you create a card.
-Then, when the card comes up for review,
-you always have a choice to read just the target word.
+Durante muchos años estudié con tarjetas de oraciones. Aunque obtuve buenos resultados, invertía mucho tiempo que no era óptimo. Una vez que has visto una tarjeta suficientes veces, no necesitas seguir leyendo la oración completa cada vez que aparece. Puedes saltar a la palabra objetivo si así lo deseas. Sin embargo, con las tarjetas de oraciones regulares, **no sabes cuál es la palabra objetivo hasta que reveles la respuesta**. Con las TOE, resaltas la palabra objetivo cuando creas la tarjeta. Luego, cuando la tarjeta se muestra para repasar, siempre tienes la opción de leer solo la palabra objetivo.
 
-Keep in mind that any time you spend in the SRS is time you can't spend on immersion.
-So the purpose of these tips is to reduce the time spent reviewing
-and leverage the mental load of SRSing.
-By applying them you slightly reduce the benefits of using sentence cards,
-but I think that ultimately any technique that helps you stay in the game is a good trade-off.
-If you keep unhealthy relations with the SRS
-it is easy to start hating it and quit completely,
-which is the worst outcome compared to forgetting some words here and there.
+Ten en cuenta que cualquier tiempo que dediques al SRS es tiempo que no puedes dedicar a la inmersión. Por lo tanto, el propósito de estos consejos es reducir el tiempo invertido en las revisiones y aprovechar la carga mental del SRS. Al aplicarlos, reducirás ligeramente los beneficios de las tarjetas de oraciones, pero creo que en última instancia cualquier técnica que te ayude a mantener el ritmo es un buen equilibrio. Si mantienes una relación poco saludable con el SRS, es fácil comenzar a odiarlo y dejarlo por completo, lo cual es el peor resultado en comparación con olvidar algunas palabras de vez en cuando.
 
-You can review TSCs really quickly,
-and you can either learn more cards in the same amount of time
-or just learn the same number of cards in less time and then have more time for immersion.
+Puedes repasar las TOE rápidamente y puedes aprender más tarjetas en la misma cantidad de tiempo o simplemente aprender la misma cantidad de tarjetas en menos tiempo y luego tener más tiempo para la inmersión.
 
-It is also important to note that
-the SRS helps you keep mental dictionary entries for the words you put in.
-Even if you don't remember the exact meaning of a word,
-having a mental dictionary entry allows your brain to
-more successfully notice it in your immersion
-and store any new information about that word.
+También es importante tener en cuenta que el SRS te ayuda a mantener entradas de diccionario mental para las palabras que incluyes. Incluso si no recuerdas el significado exacto de una palabra, tener una entrada de diccionario mental permite que tu cerebro la note más fácilmente en la inmersión y almacene cualquier información nueva sobre esa palabra.
 
-### Can the hint field save the day?
+### ¿Puede el campo de pista salvar el día?
 
-Users of WCCs employ a 'hint' field to disambiguate the correct readings
-and pinpoint one of the possible meanings in some words.
-I don't think it's a good idea.
-The need to create a separate field is far from the best solution, and it feels like a crutch.
-First for any card you review you have to identify
-that you're unable to grasp the meaning without a hint.
-Then you have to copy a part of the sentence to the hint field.
-Finally, when you review the card you have to read the target word
-and then jump to the hint and read it too.
+Los usuarios de las TCP emplean un campo de "pista" para desambiguar las lecturas correctas y señalar uno de los posibles significados en algunas palabras. No creo que sea una buena idea. La necesidad de crear un campo separado está lejos de ser la mejor solución y parece ser un apoyo. Primero, cada vez que revises una tarjeta, debes identificar que no puedes comprender el significado sin una pista. Luego, debes copiar una parte de la oración al campo de pista. Finalmente, cuando revises la tarjeta, debes leer la palabra objetivo y luego saltar a la pista y leerla también.
 
-Because TSCs put sentences first, you are given all the tools to disambiguate
-both kanji readings and multiple meanings for free, and you don't need to invent anything.
-Reading phrases is easier than reading separate words with some text at the bottom,
-and it more closely resembles the way we read actual books.
+Debido a que las TOE colocan las oraciones en primer lugar, se te brindan todas las herramientas para desambiguar tanto las lecturas de los kanji como los múltiples significados de forma gratuita, y no necesitas inventar nada. Leer frases es más fácil que leer palabras separadas con algo de texto al final, y se asemeja más a la forma en que leemos libros reales.
 
-#### Distinguishing meanings
+#### Distinguiendo significados
 
-Some words only appear in certain expressions.
-Some can have multiple meanings.
-The good news is that you don't have to worry about it when reviewing TSCs.
-The context on the front helps you identify the right meaning.
-You can also make a second card for another meaning if you want.
+Algunas palabras solo aparecen en ciertas expresiones. Algunas pueden tener múltiples significados. La buena noticia es que no tienes que preocuparte por ello al revisar las TOE. El contexto en el frente te ayuda a identificar el significado correcto. También puedes crear una segunda tarjeta para otro significado si lo deseas.
 
 <p align="center"><img alt="hint-field-replacement" class="shadow" src="img/hint-field-replacement.png"></p>
 
-<p align="center"><i>TSCs provide a natural alternative to the hint field.</i></p>
+<p align="center"><i>Las TOE ofrecen una alternativa natural al campo de pista.</i></p>
 
-> What if an expression does not have an entry in a Japanese to Japanese dictionary?
+> ¿Qué pasa si una expresión no tiene una entrada en un diccionario japonés-japonés?
 
-It most certainly has. If you can't find it in a Yomichan dictionary,
-look it up on
-[www.weblio.jp](https://www.weblio.jp/)
-or use the web search.
-For example, [here](https://www.weblio.jp/content/%E9%A0%AD%E8%A7%92%28%E3%81%A8%E3%81%86%E3%81%8B%E3%81%8F%29%E3%82%92%E7%8F%BE%28%E3%81%82%E3%82%89%E3%82%8F%29%E3%83%BB%E3%81%99)
-you can find a definition for 「頭角を現す」.
+Seguramente la tiene. Si no la encuentras en un diccionario de Yomichan, búscala en [www.weblio.jp](https://www.weblio.jp/) o utiliza la búsqueda en la web. Por ejemplo, [aquí](https://www.weblio.jp/content/%E9%A0%AD%E8%A7%92%28%E3%81%A8%E3%81%86%E3%81%8B%E3%81%8F%29%E3%82%92%E7%8F%BE%28%E3%81%82%E3%82%89%E3%82%8F%29%E3%83%BB%E3%81%99) puedes encontrar una definición para 「頭角を現す」.
 
-> What if it's not voiced in the Yomichan audio?
+> ¿Y si no tiene audio en Yomichan?
 
-It's not a big deal,
-but you can try searching on
-[Forvo](https://forvo.com/word/%E9%A0%AD%E8%A7%92%E3%82%92%E7%8F%BE%E3%81%99/#ja).
-If you have added audio for the sentence,
-adding audio for the target expression is not necessary.
+No es un gran problema, pero puedes intentar buscarlo en [Forvo](https://forvo.com/word/%E9%A0%AD%E8%A7%92%E3%82%92%E7%8F%BE%E3%81%99/#ja). Si has agregado audio para la oración, no es necesario añadir audio para la expresión objetivo.
 
-#### Distinguishing readings
+#### Distinguiendo lecturas
 
-If a word has many readings,
-there are two words that are written with the same kanji but pronounced differently,
-or if you want to avoid failing a card due to a common reading mistake you tend to make,
-TSCs let you use furigana on top to pinpoint the correct one.
+Si una palabra tiene muchas lecturas, hay dos palabras que se escriben con los mismos kanji pero se pronuncian de manera diferente, o si quieres evitar fracasar en una tarjeta debido a un error común de lectura que tiendes a cometer, las TOE te permiten usar furigana en la parte superior para señalar la correcta.
 
-Make sure that your front template allows displaying furigana:
+Asegúrate de que tu plantilla del frente permita mostrar el furigana:
 ```
 {{furigana:SentKanji}}
 ```
-And to add furigana on the front you simply specify it in square brackets as usual:
+Y para agregar el furigana en el frente, simplemente lo especificas entre corchetes como de costumbre:
 ```
 稀に日蝕の 最中[×さいちゅう]に姿を消す者がある
 ```
 <p align="center"><img alt="reading-1" class="shadow" src="img/doukatsu.png"></p>
 
-<p align="center"><i>A way to prevent yourself from repeating the same mistake.</i></p>
+<p align="center"><i>Una forma de evitar repetir el mismo error.</i></p>
 
 <p align="center"><img alt="reading-2" class="shadow" src="img/sanaka.png"></p>
 
-<p align="center"><i>Point to the right reading.</i></p>
+<p align="center"><i>Señala la lectura correcta.</i></p>
 
-### Fallback cards
+### Las tarjetas de respaldo
 
-The idea behind fallback cards is similar to that of targeted sentence cards
-but the front side is different.
-When a fallback card comes up for review, it looks like a regular **word card**,
-but you can hover over the target word to reveal the full sentence.
-Fallback cards basically give their users all the benefits of targeted sentence cards
-but are designed for people who worry about forming context-dependent memories.
+La idea detrás de las tarjetas de respaldo es similar a la de las tarjetas de oraciones específicas, pero el frente es diferente. Cuando una tarjeta de respaldo aparece para su revisión, se ve como una **tarjeta de palabra** común, pero puedes pasar el cursor sobre la palabra objetivo para revelar la oración completa. Las tarjetas de respaldo básicamente ofrecen a los usuarios todos los beneficios de las tarjetas de oraciones específicas, pero están diseñadas para personas que se preocupan por formar memorias dependientes del contexto.
 
-<p align="center"><img alt="fallback card" class="shadow" src="img/fallback_card.webp"></p>
-<p align="center"><i>Front side of a fallback card.</i></p>
+<p align="center"><img alt="tarjeta de respaldo" class="shadow" src="img/fallback_card.webp"></p>
+<p align="center"><i>Frente de una tarjeta de respaldo.</i></p>
 
-One disadvantage is that this card template is somewhat tricky to make yourself.
-You have to play around with css and html of your cards
-to make the context appear when you hover over the word.
+Una desventaja es que esta plantilla de tarjeta es algo complicada de hacer por tu cuenta. Tendrás que jugar con el CSS y HTML de tus tarjetas para hacer que aparezca el contexto al pasar el cursor sobre la palabra.
 
-A DJT user shared his card template on [Pastebin](https://pastebin.com/pAVvqLPd),
-take a look if you need help setting up fallback cards.
-The template configures the **shift** key to toggle sentence visibility,
-you may want to install the
-[Refocus Card when Reviewing](https://ankiweb.net/shared/info/1642550423)
-Anki add-on to be able to use it.
+Un usuario de DJT compartió su plantilla de tarjeta en [Pastebin](https://pastebin.com/pAVvqLPd), échale un vistazo si necesitas ayuda para configurar las tarjetas de respaldo. La plantilla configura la tecla **Shift** para alternar la visibilidad de la oración, es posible que desees instalar la extensión de Anki [Refocus Card when Reviewing](https://ankiweb.net/shared/info/1642550423) para poder utilizarla.
 
-From
-[here](https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20fallback)
-you can download the Japanese fallback Note Type made by ﾌｪﾘﾍﾟ.
+Desde [aquí](https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20fallback) puedes descargar el Japanese fallback Note Type (Tipo de Nota de Respaldo Japonés) creado por ﾌｪﾘﾍﾟ.
 
-## Conclusion
+### Conclusión
 
-The lack of context makes word cards harder to learn,
-but they are quick to review and are effective for concrete nouns.
+La falta de contexto hace que las tarjetas de palabras sean más difíciles de aprender, pero se revisan rápidamente y son efectivas para los sustantivos concretos.
 
-Sentence cards take longer to complete your daily reviews
-but because the target word has context it makes meaning and usage of the word clear.
+Las tarjetas de oraciones requieren más tiempo para que completes tus revisiones diarias, pero debido a que la palabra objetivo tiene contexto, aclara el significado y el uso de la palabra.
 
-Targeted sentence cards take the speed of word cards
-and combine it with the effectiveness of in-context learning with sentence cards,
-which makes them the best card template.
+Las tarjetas de oraciones específicas combinan la rapidez de las tarjetas de palabras con la efectividad del aprendizaje en contexto de las tarjetas de oraciones, lo que las convierte en la mejor plantilla de tarjeta.
