@@ -1,78 +1,78 @@
 ---
-title: Active immersion
+title: Inmersión activa
 date: 1679001190
 tags: ['guide']
 ---
 
-Active immersion is a crucial part of language learning
-and requires full attention to the content you are consuming.
-In this article,
-we will look in more detail at what active immersion is and how to practice it.
-We will also discuss the different types of active immersion,
-and how to deal with the ambiguity that can arise when immersing.
+La inmersión activa es una parte crucial del aprendizaje de idiomas
+y requiere una atención plena respecto al contenido que se está consumiendo.
+En este artículo
+veremos con más detalle qué es la inmersión activa y cómo practicarla.
+También hablaremos de los distintos tipos de inmersión activa,
+y cómo hacer frente a la ambigüedad que puede surgir al sumergirse.
 
 ****
 
-## What is active immersion
+## ¿Qué es la inmersión activa?
 
-Active immersion is the most crucial element in language learning.
-During active immersion,
-you are paying your full attention to the material you are consuming,
-be it audio, video, or text.
+La inmersión activa es el elemento más crucial en el aprendizaje de idiomas.
+Durante la inmersión activa
+prestas toda tu atención al material que estás consumiendo,
+ya sea audio, vídeo o texto.
 
-It is where language acquisition really takes place.
-Your attention alerts the brain, allowing it to start detecting patterns and make guesses.
-Even if the material is mostly incomprehensible,
-your mind is still working hard trying to find language patterns,
-become accustomed to the sounds,
-constructing a model of the language.
+Es el espacio donde realmente tiene lugar la adquisición del lenguaje.
+Tu atención alerta al cerebro, lo que le permite empezar a detectar patrones y hacer conjeturas.
+Incluso si el material es en su mayoría incomprensible,
+tu mente sigue trabajando duro para encontrar patrones lingüísticos,
+acostumbrarse a los sonidos,
+construyendo un modelo de la propia lengua.
 
-It can even be argued that doing active immersion alone is sufficient to become fluent.
-Of course, passive immersion helps, but it is not imperative.
-One can also stop using the SRS and still reach fluency, although it will take longer.
-But without active immersion everything falls apart.
-As we know very well from experiences of other people,
-just memorizing words and grammar is not going to lead anywhere.
+Incluso se puede argumentar que la inmersión activa por sí sola es suficiente para adquirir fluidez.
+Por supuesto, la inmersión pasiva ayuda, pero no es imprescindible.
+También se puede dejar de utilizar el SRS y aun así alcanzar la fluidez, aunque llevará más tiempo.
+Pero sin inmersión activa todo se viene abajo.
+Como sabemos muy bien por las experiencias de otras personas,
+limitarse a memorizar palabras y gramática no lleva a ninguna parte.
 
-## Starting to immerse
+## Cómo comenzar a sumergirse
 
-It is vital to discover content that captures your interest.
-Explore the available content in your target language,
-experiment with different media, different genres.
-To be able to immerse for hours and hours every day,
-the content must be "compelling",
-as Steven Krashen often calls it.
-You have a long journey of learning ahead of you,
-so it's essential to have a strong passion and enthusiasm
-for something in the language.
-Only compelling content will be able to captivate you and hold your attention.
+Es fundamental descubrir contenidos que capten su interés.
+Explora los contenidos disponibles en tu lengua objetivo,
+experimenta con distintos contenidos y géneros.
+Para poder sumergirte durante horas y horas cada día,
+el contenido debe ser "cautivador",
+como suele decir Steven Krashen.
+Te espera un largo viaje de aprendizaje,
+por lo que es esencial tener una fuerte pasión y entusiasmo
+por algo en el idioma.
+Sólo un contenido cautivador podrá atraparte y mantener tu atención.
 
-Most people before they start AJATT already have a passion for otaku content,
-such as anime, manga, ranobe, or other types of Japanese media.
-For them,
-learning Japanese provides an opportunity to further enjoy and appreciate the media they love.
+La mayoría de la gente antes de empezar AJATT ya tiene una pasión por el contenido otaku,
+como el anime, el manga, el ranobe u otros tipos de contenidos japoneses.
+Para ellos
+aprender japonés les brinda la oportunidad de disfrutar y apreciar aún más los contenidos que les gustan.
 
-It takes **thousands of hours** of watching, listening, and reading in the target language to become fluent.
-The more you immerse, the faster you progress.
-To maximize progress,
-exposure to the target language should be maximized
-while exposure to other languages should be minimized.
-In AJATT, we advise that you start immersing as much as possible from the beginning.
-Active and passive immersion combined [should take up](mass-immersion.html) more than 12 hours a day
-in order to make rapid progress.
+Se necesitan **miles de horas** viendo, escuchando y leyendo en el idioma objetivo para adquirir fluidez.
+Cuanto más te sumerjas, más rápido progresarás.
+Para progresar al máximo
+la exposición a la lengua objetivo debe ser máxima
+mientras que la exposición a otros idiomas debe reducirse al mínimo.
+En AJATT, te aconsejamos que empieces a sumergirte lo máximo posible desde el principio.
+La inmersión activa y pasiva combinadas [deben ocupar](mass-immersion.html) más de 12 horas al día
+para progresar rápidamente.
 
-If a chosen immersion medium becomes boring,
-then let it go and move on to something more stimulating,
-something else that seems fun.
-A new anime, a new manga.
-To maintain motivation to learn your target language,
-keep engaging with interesting content.
+Si el soporte de inmersión elegido se vuelve aburrido,
+entonces déjalo y pasa a algo más estimulante,
+otra cosa que parezca divertida.
+Un nuevo anime, un nuevo manga.
+Para mantener la motivación para aprender el idioma objetivo
+mantente en contacto con contenidos interesantes.
 
-We have compiled a list of places where one can find immersion content
-to make it easy for beginners to get started.
-[Click here](resources.html#immersion-material) to explore it.
+Hemos recopilado una lista de lugares donde se pueden encontrar contenidos de inmersión
+para que los principiantes puedan empezar fácilmente.
+[Haz clic aquí](resources.html#immersion-material) para explorarlo.
 
-## Dealing with ambiguity
+## Cómo afrontar la ambigüedad
 
 When beginning to learn a new language,
 you're going to consume unfamiliar content that may seem impossible to understand at first.
