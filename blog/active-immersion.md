@@ -36,7 +36,7 @@ limitarse a memorizar palabras y gramática no lleva a ninguna parte.
 
 ## Cómo comenzar a sumergirse
 
-Es fundamental descubrir contenidos que capten su interés.
+Es fundamental descubrir contenidos que capten tu interés.
 Explora los contenidos disponibles en tu lengua objetivo,
 experimenta con distintos contenidos y géneros.
 Para poder sumergirte durante horas y horas cada día,
@@ -74,197 +74,197 @@ para que los principiantes puedan empezar fácilmente.
 
 ## Cómo afrontar la ambigüedad
 
-When beginning to learn a new language,
-you're going to consume unfamiliar content that may seem impossible to understand at first.
-For a while, you're going to have to deal with not understanding or not understanding everything.
-However, it is important to acknowledge that this is a natural part of the language
-acquisition process and to remind yourself that it is only temporary.
+Al empezar a aprender un nuevo idioma
+vas a consumir contenidos desconocidos que pueden parecer imposibles de entender al principio.
+Durante un tiempo, vas a tener que lidiar con no entender o no entenderlo todo.
+Sin embargo, es importante reconocer que se trata de una parte natural del proceso de adquisición de un idioma
+y recordarse a uno mismo que es sólo temporal.
 
-Accept that for a while you won't be understanding much.
-While immersing, you're actually learning all the time.
-Your brain does most of the work **subconsciously**.
-It learns to parse the sounds, notice and recognize words, infer meaning from the context.
-Additionally, analyzing the material and doing dictionary lookups can further aid in the learning process.
+Acepta que durante un tiempo no entenderás gran cosa.
+Durante la inmersión, en realidad estás aprendiendo todo el tiempo.
+Tu cerebro hace la mayor parte del trabajo **subconscientemente**.
+Éste aprende a analizar los sonidos, a fijarse en las palabras y reconocerlas, y a deducir su significado a partir del contexto.
+Además, el análisis del material y las búsquedas en diccionarios pueden ser de gran ayuda en el proceso de aprendizaje.
 
-To quickly expand your vocabulary and overcome the initial challenges,
-for the first few months we recommend learning from our **pre-made Anki deck**.
-This deck is thoroughly explained [later](basic-vocabulary.html),
-and will help you reach a comprehension rate of 75%,
-making immersion easier and more enjoyable down the road.
+Para ampliar rápidamente tu vocabulario y superar los retos iniciales,
+durante los primeros meses, te recomendamos que aprendas de nuestro **mazo Anki preelaborado**.
+Este mazo se explica detalladamente [más adelante](basic-vocabulary.html),
+y te ayudará a alcanzar una tasa de comprensión del 75%,
+haciendo la inmersión más fácil y más agradable en el camino.
 
-To help yourself during the early stages of language learning,
-you can watch **TV shows and movies**
-with <abbr title="subtitles in Japanese, if you are learning Japanese">subtitles in the target language</abbr>,
-although [not all the time](should-i-watch-with-japanese-subtitles-while-going-through-the-kanji-phase.html),
-as developing your listening ability is also important.
+Para ayudarte durante las primeras etapas del aprendizaje de idiomas,
+puedes ver **programas de televisión y películas**
+con <abbr title="subtítulos en japonés, si estás aprendiendo japonés">subtítulos en el idioma objetivo</abbr>,
+aunque [no todo el tiempo](should-i-watch-with-japanese-subtitles-while-through-the-kanji-phase.html),
+ya que desarrollar la capacidad auditiva también es importante.
 
-There are several reasons why TV and movies
-with <abbr title="target language">TL</abbr> subtitles are an excellent choice.
-The visuals can provide additional context which aids comprehension.
-Additionally, you can hear the proper pronunciation of the words you are reading.
-As you hear the subtitles spoken aloud,
-through pauses and intonation,
-you can better interpret the sentence structure and parse the clauses.
-Finally, the language in TV and movies is generally simpler than books, blogs, or news articles.
+Hay varias razones por las que la televisión y las películas
+con subtítulos <abbr title="idioma objetivo">IO</abbr> son una excelente opción.
+Los elementos visuales pueden proporcionar un contexto adicional que ayuda a la comprensión.
+Además, puedes oír la pronunciación correcta de las palabras que estás leyendo.
+Al oír los subtítulos en voz alta,
+a través de las pausas y la entonación,
+puedes interpretar mejor la estructura de las frases y analizar las oraciones.
+Por último, el lenguaje de la televisión y las películas suele ser más sencillo que el de los libros, los blogs o los artículos de noticias.
 
-The lack of understanding can lead to a feeling of despondency.
-You may want to turn on English subtitles or subtitles in your native language.
-Don't do it because [watching with English subs doesn't work](should-i-watch-anime-with-english-subtitles.html).
-Trust the process of immersion.
+La falta de comprensión puede provocar un sentimiento de abatimiento.
+Es posible que quieras activar los subtítulos en inglés o en tu lengua materna.
+No lo hagas porque [ver con subtítulos en inglés no funciona](should-i-watch-anime-with-english-subtitles.html).
+Confía en el proceso de inmersión.
 
-You can also immerse in content you have consumed before in another language.
-For example,
-if you have watched a lot of translated anime before starting to learn Japanese,
-now you can **rewatch** them in Japanese.
-Since you already know the plot,
-it will help you understand the shows in another language.
-For shows that you have not watched yet,
-reading synopsis before or after watching
-will help you understand the story better.
+También puedes sumergirte en contenidos que hayas consumido antes en otro idioma.
+Por ejemplo,
+si has visto un montón de anime traducido antes de empezar a aprender japonés,
+ahora puedes volver a verlos en japonés.
+Como ya conoces el argumento
+te ayudará a entender las series en otro idioma.
+Para las series que aún no has visto,
+leer la sinopsis antes o después
+te ayudará a entender mejor la historia.
 
-In order to remain engaged and maintain motivation,
-it is probably not a good idea to watch content twice.
-Doing so can increase one's comprehension due to prior knowledge of the plot,
-however,
-it can also be quite boring and tedious.
-Rather,
-consider re-listening to what you have already actively watched **during passive immersion**.
-This way you don't waste your active immersion hours on repetition.
+Para mantener el interés y la motivación,
+probablemente no sea una buena idea ver el contenido dos veces.
+Hacerlo puede aumentar la comprensión debido al conocimiento previo de la trama,
+Sin embargo,
+pero también puede resultar aburrido y tedioso.
+Más bien
+considera la posibilidad de volver a escuchar lo que ya has visto activamente **durante la inmersión pasiva**.
+De este modo, no malgastarás tus horas de inmersión activa en repeticiones.
 
-When first getting started,
-things like science fiction or fantasy novels will be too difficult to read.
-Choosing content that has **simpler language** is another great technique for beginners.
-For example, slice of life shows or romantic comedies can be a good choice.
-However, avoid content made for children
-as it is often not enjoyable for adults.
-The language is too simple even for a beginner language learner.
-The plot is too silly and dumbed down.
-After learning your first 1,000 words from a pre-made Anki deck,
-you won't need to restrict yourself so much,
-as *frontloading* vocabulary in the beginning greatly improves comprehension.
+Al empezar,
+cosas como novelas de ciencia ficción o fantasía serán demasiado difíciles de leer.
+Elegir contenidos con un lenguaje más sencillo es otra buena técnica para los principiantes.
+Por ejemplo, las series de humor o las comedias románticas pueden ser una buena elección.
+Sin embargo, hay que evitar los contenidos infantiles
+ya que no suelen resultar entretenidos para los adultos.
+El lenguaje es demasiado sencillo, incluso para un principiante.
+El argumento es demasiado tonto y simplón.
+Después de aprender tus primeras 1.000 palabras de una baraja Anki preelaborada,
+no necesitarás restringirte tanto,
+ya que *cargar* vocabulario al principio mejora mucho la comprensión.
 
-## Types of active immersion
+## Tipos de inmersión activa
 
-Learners often wonder [how often they should look up words while actively immersing](pausing-how-often-should-i-look-things-up.html).
-You can
-look up every word and strive to comprehend 100% of the material,
-look up nothing and just let your brain slowly absorb the language,
-or try to balance the two.
-In practice,
-trying to decide when to look up and when not to look up can be tiresome
-and lead to decision fatigue.
-Do you look up every Nth unknown word? Or do you look up every N minutes?
-Do you have to measure the time?
-There are many uncertainties.
-Rather than trying to find a center point between the two extremes,
-it is recommended that you carry them out as separate exercises,
-*intensive* and *free-flow* immersion.
+A menudo, los alumnos se preguntan [con qué frecuencia deben buscar palabras durante la inmersión activa](pausing-how-often-should-i-look-things-up.html).
+Se puede
+buscar cada palabra y esforzarte por comprender el 100% del material,
+no buscar nada y dejar que tu cerebro absorba lentamente el idioma,
+o intentar equilibrar ambas opciones.
+En la práctica,
+intentar decidir cuándo buscar y cuándo no puede ser agotador
+y provocar fatiga en la toma de decisiones.
+¿Buscas cada N palabras desconocidas? ¿O cada N minutos?
+¿Hay que medir el tiempo?
+Hay muchas incertidumbres.
+En lugar de intentar encontrar un punto central entre los dos extremos,
+se recomienda realizarlos como ejercicios separados,
+*inmersión intensiva* e *inmersión libre*.
 
-## Intensive immersion
+## Inmersión intensiva
 
-When you look up everything trying to comprehend 100%, it is known as intensive immersion.
-During intensive immersion you're in a more conscious mode
-where you're thoroughly analyzing the language as you're going.
-As you immerse,
-you are carefully examining the language,
-utilizing dictionary lookups to decipher the meaning of each sentence,
-and creating SRS cards to ensure that you don't forget what you have learned.
+Cuando buscas todo intentando comprenderlo al 100%, es lo que se conoce como inmersión intensiva.
+Durante la inmersión intensiva estás en un modo más consciente
+en el que analizas a fondo el idioma a medida que avanzas.
+Mientras te sumerges,
+examinas cuidadosamente el idioma,
+utilizando diccionarios para descifrar el significado de cada frase,
+y creando tarjetas SRS para asegurarte de que no olvidas lo que has aprendido.
 
-Intensive immersion is the most effective way to notice, save, and memorize new words.
-It is, however, a mentally demanding activity.
-Our daily cognitive resources are finite,
-and staying focused requires lots of energy.
-To maximize the benefits of immersion,
-it is advisable to engage in intensive immersion when you are feeling more refreshed and alert,
-switching to free-flow immersion when your cognitive capacities are depleted.
+La inmersión intensiva es la forma más eficaz de fijarse, guardar y memorizar palabras nuevas.
+Sin embargo, es una actividad mentalmente exigente.
+Nuestros recursos cognitivos diarios son finitos
+y mantener la concentración requiere mucha energía.
+Para maximizar los beneficios de la inmersión
+es aconsejable dedicarse a la inmersión intensiva cuando uno se siente más fresco y alerta,
+y pasar a la inmersión libre cuando se agoten las capacidades cognitivas.
 
-A plethora of tools exist to facilitate intensive immersion,
-There are dictionary apps, browser extensions, mpv plugins, etc.
-They make it effortless to look up words and create SRS cards during immersion.
+Existe una plétora de herramientas para facilitar la inmersión intensiva,
+Hay aplicaciones en forma de diccionario, extensiones de navegador, plugins de mpv, etc.
+Gracias a ellas, es muy fácil buscar palabras y crear tarjetas SRS durante la inmersión.
 
-In the beginning,
-you won't always be able to fully understand every single sentence during intensive immersion.
-You may not be able to understand some sentences even with the aid of a dictionary.
-This is to be expected.
-If a sentence is too difficult to understand
-or there are too many unfamiliar words,
-it is best to save it for later in Anki and come back to it in a few weeks, or even months.
-It is better to focus on the simpler phrases first, the things your mind is ready to absorb.
-As your comprehension grows, the formerly challenging language will become easier and easier.
+Al principio,
+no siempre serás capaz de entender completamente cada frase durante la inmersión intensiva.
+Es posible que no puedas entender algunas frases ni siquiera con la ayuda de un diccionario.
+Es normal.
+Si una frase es demasiado difícil de entender
+o hay demasiadas palabras desconocidas,
+es mejor guardarla para más tarde en Anki y volver a ella en unas semanas, o incluso meses.
+Es mejor centrarse primero en las frases más sencillas, en las que tu mente está preparada para asimilar.
+A medida que aumente tu comprensión, el idioma que antes te resultaba difícil te resultará cada vez más fácil.
 
-## Free flow immersion
+## Inmersión de flujo libre
 
-If you sit all day and mine sentences, you're going to lose your mind, or die from exhaustion.
-Free-flow immersion is when you allow yourself to relax without having to mine or look up words,
-while still paying attention to the content.
-You don't disrupt the flow with pausing and lookups.
-Instead, you're embracing ambiguity
-and letting your subconscious take the lead
-and interpret what is being said on its own.
-Free-flow immersion is a mid-ground between passive immersion and intensive immersion.
+Si te pasas el día minando frases, te volverás loco o morirás de agotamiento.
+La inmersión libre es cuando te permites relajarte sin tener que minar o buscar palabras,
+sin dejar de prestar atención al contenido.
+No interrumpes el flujo con pausas y búsquedas.
+En lugar de eso, abrazas la ambigüedad
+y dejas que tu subconsciente tome la iniciativa
+e interprete por sí mismo lo que se dice.
+La inmersión libre es un término medio entre la inmersión pasiva y la inmersión intensiva.
 
-Free-flow immersion may seem relatively ineffective, but this is far from the truth.
-Your comprehension will continue to improve as you infer meanings from the context.
-Even minor details can improve your understanding.
-As your level of comprehension further grows,
-this form of immersion becomes increasingly important and helps you make faster progress.
+La inmersión libre puede parecer relativamente ineficaz, pero no es así.
+Tu comprensión seguirá mejorando a medida que infieras significados del contexto.
+Incluso los detalles más insignificantes pueden mejorar su comprensión.
+A medida que aumente tu nivel de comprensión,
+esta forma de inmersión se vuelve cada vez más importante y te ayuda a progresar más rápidamente.
 
-The more things you can do in free-flow,
-the closer you are in a way to a native.
-So it's necessary to cultivate this skill.
-As you know, natives don't spend time analyzing every sentence,
-and they don't sit with a dictionary checking new words,
-they absorb the language gradually.
+Cuantas más cosas puedas hacer en flujo libre,
+más cerca estás en cierto modo de un nativo.
+Así que es necesario cultivar esta habilidad.
+Como sabes, los nativos no pasan tiempo analizando cada frase,
+y no se sientan con un diccionario comprobando nuevas palabras,
+absorben el idioma poco a poco.
 
-When I was learning Japanese,
-I did a lot of free-flow immersion,
-even during my early stages as a beginner and lower intermediate learner.
-One of my preferred methods was watching ongoing anime.
-As is common with such shows,
-they are often not readily available with Japanese subtitles,
-and so I opted to watch them in their raw, unsubbed form
-rather than waiting for the subtitles.
+Cuando estaba aprendiendo japonés,
+hice mucha inmersión libre,
+incluso durante mis primeras etapas como principiante y estudiante de nivel intermedio bajo.
+Uno de mis métodos preferidos era ver anime.
+Como suele ocurrir con este tipo de programas,
+a menudo no están disponibles con subtítulos en japonés,
+así que opté por verlos en su forma original, sin subtítulos,
+en lugar de esperar a tener los subtítulos.
 
-Remember,
-we all learned our native language entirely through free-flow immersion,
-so I believe that free-flow immersion is more important
-than intensive immersion in the grand scheme of things.
-Intensive immersion, on the other hide,
-is great for expanding your vocabulary.
+Recuerda,
+todos aprendimos nuestra lengua materna totalmente a través de la inmersión de flujo libre,
+así que creo que la inmersión de flujo libre es más importante
+que la inmersión intensiva en el gran esquema de las cosas.
+La inmersión intensiva, por otro lado,
+es genial para ampliar tu vocabulario.
 
-During free-flow immersion,
-it is a good idea to try to understand without relying on TL subtitles.
-Listening practice is imperative for achieving all around fluency.
+Durante la inmersión de flujo libre,
+es una buena idea intentar comprender sin depender de los subtítulos del IO.
+La práctica de la comprensión oral es imprescindible para lograr una fluidez total.
 
-## Finding the ratio
+## Cómo hallar la proporción cierta
 
-Every day,
-you are supposed to be engaging in passive, free-flow, and intensive immersion.
-All three play a role in the process of language acquisition.
-It is easy to determine when to do each one;
-passive immersion is best when you are occupied with something,
-intensive immersion is the best option when you have the energy and motivation to look up words,
-and free-flow immersion is the best choice when you are too tired for intensive immersion.
+Todos los días,
+debes practicar la inmersión pasiva, la inmersión libre y la inmersión intensiva.
+Las tres desempeñan un papel en el proceso de adquisición de la lengua.
+Es fácil determinar cuándo hacer cada una de ellas;
+la inmersión pasiva es la mejor opción cuando estás ocupado en algo,
+la inmersión intensiva es la mejor opción cuando tienes energía y motivación para buscar palabras,
+y la inmersión libre es la mejor opción cuando estás demasiado cansado para la inmersión intensiva.
 
-As mentioned briefly above,
-we recommend selecting some content for free-flow immersion
-and other content for intensive immersion.
-For instance, if you're watching an anime series,
-you could watch one episode in free-flow,
-and then switch to intensive mode for the following episode.
-Alternately, you could watch one series in free-flow,
-and another in intensive mode.
-It is best if the genres are alike,
-so that the language in both shows is similar,
-and you gain more exposure to the same vocabulary.
+Como ya se ha mencionado brevemente
+recomendamos seleccionar algunos contenidos para la inmersión libre
+y otros contenidos para una inmersión intensiva.
+Por ejemplo, si estás viendo una serie de anime,
+podrías ver un episodio en flujo libre,
+y luego cambiar al modo intensivo para el siguiente episodio.
+Alternativamente, podrías ver una serie en flujo libre
+y otra en modo intensivo.
+Lo mejor es que los géneros sean parecidos,
+para que el lenguaje en ambas series sea similar,
+y así estarás más expuesto al mismo vocabulario.
 
-One thing about free flow immersion
-is that a lot of times
-some words that don't show up extremely frequently
-will go unnoticed, and you won't pick them up.
-Thus, it is vital to practice intensive immersion
-to close the gap between our lexicon and that of a native speaker.
-As we don't have 20 years of time to acquire all the vocabulary naturally,
-through free-flow immersion alone.
-We have to use dictionaries and create SRS cards in order to really expand our vocabulary.
-The best way to do this is to read extensively.
+Una cosa sobre la inmersión de flujo libre
+es que muchas veces
+algunas palabras que no aparecen con mucha frecuencia
+pasarán desapercibidas y no las captarás.
+Por eso es fundamental practicar la inmersión intensiva
+para cerrar la brecha entre nuestro léxico y el de un hablante nativo.
+Como no disponemos de 20 años de tiempo para adquirir todo el vocabulario de forma natural
+sólo a través de la inmersión libre.
+Tenemos que utilizar diccionarios y crear fichas SRS para ampliar realmente nuestro vocabulario.
+La mejor manera de hacerlo es leer mucho.
