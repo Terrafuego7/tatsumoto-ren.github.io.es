@@ -1,5 +1,5 @@
 ---
-title: Discusión sobre las distintas plantillas de tarjetas
+title: Discución sobre las distintas plantillas de tarjetas
 date: 1610646660
 tags: [anki]
 ---
@@ -265,7 +265,7 @@ Como resultado, en cada repetición tienes que leer toda la oración
 y básicamente evaluarte a ti mismo en cada palabra de la misma.
 En promedio, se tarda 20 segundos en responder una tarjeta de oración.
 Esto es mucho tiempo en comparación con leer y recordar solo la palabra objetivo.
-Afortunadamente, existen algunos trucos para hacer repasos más rápidos, que se describen en la sección de TOE.
+Afortunadamente, existen algunos trucos para hacer repasos más rápidos, que se describen en la sección de TOO.
 
 Las tarjetas de oraciones reciben muchas críticas
 porque pueden crear memorias dependientes del contexto.
@@ -304,18 +304,18 @@ pero casi seguramente no las memorizarás todas.
 Debo señalar que es simplemente un efecto secundario
 y no debe considerarse una ventaja del uso de tarjetas de oraciones.
 
-## Tarjetas de oraciones específicas
+## Tarjetas de oraciones objetivo
 
-Las TOE son similares a las [tarjetas de oraciones](#tarjetas-de-oraciones),
+Las TOO son similares a las [tarjetas de oraciones](#tarjetas-de-oraciones),
 pero siempre te aseguras de resaltar la palabra objetivo.
 Esto se hace seleccionando la palabra y presionando <kbd>Ctrl</kbd>+<kbd>B</kbd> en Anki, fácil y sencillo.
 Yomichan también puede hacerlo si se ajusta su configuración de cierta manera.
 
-<p align="center"><img alt="ejemplo-tarjeta-de-oracion-especifica" class="shadow" src="img/example-mpvacious-card.webp"></p>
+<p align="center"><img alt="ejemplo-tarjeta-de-oracion-objetivo" class="shadow" src="img/example-mpvacious-card.webp"></p>
 
 <p align="center"><i>Una tarjeta de oración específica.</i></p>
 
-Las TOE son muy flexibles y brindan a los usuarios muchas opciones para revisarlas.
+Las TOO son muy flexibles y brindan a los usuarios muchas opciones para revisarlas.
 Dependiendo de tus preferencias, puedes:
 
 * Repasarlas como tarjetas de oraciones regulares.
@@ -325,7 +325,7 @@ Dependiendo de tus preferencias, puedes:
   Esto tiene el efecto positivo de aliviar la carga mental de evaluarte
   en demasiadas cosas al mismo tiempo.
 * Leer solo la palabra objetivo y, probablemente, unas pocas palabras que la rodean.
-  Esta forma de revisar las TOE se asemeja a las TCO y las TPS y puede ahorrar mucho tiempo de repaso.
+  Esta forma de revisar las TOO se asemeja a las TCO y las TPS y puede ahorrar mucho tiempo de repaso.
   Si una oración es demasiado larga,
   generalmente comienzo a leer unas pocas palabras detrás de la palabra objetivo
   y paro tan pronto como entiendo la oración.
@@ -342,7 +342,7 @@ Este concepto se llama "oraciones con un objetivo" y se discute más adelante en
 en los artículos sobre cómo crear tus propias tarjetas.
 
 Sigue [este enlace](setting-up-anki.html#import-an-example-mining-deck) para descargar
-un mazo con ejemplos de Tarjetas de Oraciones Específicas.
+un mazo con ejemplos de Tarjetas de Oraciones Objetivo.
 
 ### Haz que Yomichan resalte la palabra objetivo por ti
 
@@ -360,16 +360,16 @@ Ve a Configuración de Yomichan > "Anki" > "Configurar formato de tarjeta de Ank
 
 **Nota:** Todas las configuraciones de Yomichan se explican en detalle en [Configuración de Yomichan](setting-up-yomichan.html#anki-settings) más adelante.
 
-### ¿Por qué las TOE?
+### ¿Por qué las TOO?
 
-* **Las TOE son libres de estrés.**
+* **Las TOO son libres de estrés.**
   Debido a que no tienes que leer la oración completa en cada tarjeta,
-  puedes repasar las TOE mucho más rápido.
+  puedes repasar las TOO mucho más rápido.
   Pero al mismo tiempo, siempre tienes acceso a la oración completa en el frente,
   por lo que puedes leerla si quieres,
   o saltar la lectura si no tienes tiempo para dedicar a tus repasos.
   Libérate rápidamente y vuelve a las cosas divertidas.
-* **Las TOE son fáciles de hacer.**
+* **Las TOO son fáciles de hacer.**
   Puedes usar scripts de mpv como [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
   para crear cada tarjeta en solo unos segundos.
   Cuando estás leyendo una novela, solo Yomichan puede encargarse de todo.
@@ -385,30 +385,30 @@ Ve a Configuración de Yomichan > "Anki" > "Configurar formato de tarjeta de Ank
   Si crees que las tarjetas de oraciones te evalúan en demasiados elementos al mismo tiempo,
   lo que te agota mentalmente,
   entonces evalúate solo en la palabra objetivo.
-  Las TOE te dan libertad de elección.
-* **Las TOE son amigables para los principiantes.**
+  Las TOO te dan libertad de elección.
+* **Las TOO son amigables para los principiantes.**
   Cuando recién comencé a aprender elementos de oraciones,
   la capacidad de evaluarme solo en la palabra objetivo me ahorró muchos dolores de cabeza
   porque no tenía que recordar los significados y las lecturas de todas las demás palabras en una oración
   que aún conocía mal o que aún no conocía en absoluto.
 * **Ahorra decisiones al crear tarjetas.**
-  No necesitas elegir entre varias plantillas de tarjetas porque las TOE
+  No necesitas elegir entre varias plantillas de tarjetas porque las TOO
   fusionan las *tarjetas de palabras* y las *tarjetas de oraciones* de una manera única.
 * **Cualquier longitud funciona.**
-  Las TOE te liberan de la necesidad de extraer oraciones más cortas.
+  Las TOO te liberan de la necesidad de extraer oraciones más cortas.
   A menudo, las oraciones cortas carecen de suficiente contexto.
   Los usuarios de tarjetas de oraciones deben buscar oraciones más cortas para acortar los repasos.
   No tienes que mantener las cosas cortas solo para hacer repasos más rápidos.
   Al mismo tiempo, las oraciones largas no te abrumarán porque no estás obligado a leerlas.
 * **Mantén el enfoque.**
   Debido al formato de la plantilla de tarjeta y la combinación de los campos de la nota,
-  las TOE siempre tienen solo una palabra objetivo por tarjeta,
+  las TOO siempre tienen solo una palabra objetivo por tarjeta,
   pero pueden contener más de una palabra desconocida en total.
   Agregar solo oraciones con un objetivo al SRS es una buena práctica,
   garantiza que todas las tarjetas en la colección tengan dificultades intrínsecas similares,
   lo que facilita los repasos.
   Por otro lado,
-  si tienes que hacer una TOE con muchas palabras desconocidas,
+  si tienes que hacer una TOO con muchas palabras desconocidas,
   no se convierte en una carga
   —al evaluarte, omites todo excepto el objetivo principal.
 * **Conserva tus tarjetas.**
@@ -417,12 +417,12 @@ Ve a Configuración de Yomichan > "Anki" > "Configurar formato de tarjeta de Ank
   La idea se justifica por la suposición de que la inmersión por sí sola es suficiente
   para mantener cualquier palabra en la memoria después de haberla adquirido.
   Creo que es solo una forma de lidiar con el hecho de que las tarjetas de oraciones retardan una eternidad el terminar los repasos diarios.
-  Si eres usuario de TOE, tus repasos son rápidos,
+  Si eres usuario de TOO, tus repasos son rápidos,
   así que no te deshagas de todas tus tarjetas antiguas.
 
-### ¿Las TOE son demasiado fáciles?
+### ¿Las TOO son demasiado fáciles?
 
-Dado que las TOE te permiten ver el contexto, son más fáciles que las tarjetas de palabras, pero eso es algo bueno.
+Dado que las TOO te permiten ver el contexto, son más fáciles que las tarjetas de palabras, pero eso es algo bueno.
 
 Por el contrario, al repasar palabras de forma aislada, básicamente te creas dificultades innecesarias. También vas en contra del principio de  *practica con calidad para lograr un buen desempeño* al evaluarte en algo que rara vez se ve en la vida real.
 
@@ -440,14 +440,14 @@ Por último, el mayor problema al aprender a leer en japonés es recordar las le
 
 En cuanto al tiempo, puedes esperar las siguientes mejoras:
 
-- Cuando leas la oración completa, puedes repasar las TOE hasta 2 veces más rápido en comparación con las tarjetas de oraciones. Esto se logra utilizando el complemento de Anki llamado [Speed Focus Mode](useful-anki-add-ons-for-japanese.html#speed-focus-mode). Incluso puedes evaluar tu conocimiento solo en la palabra objetivo para acelerar aún más las revisiones.
-- Cuando repasas las TOE leyendo únicamente la palabra objetivo, puedes hacerlo hasta 4 veces más rápido en comparación con las tarjetas de oraciones. Esto se logra simplemente omitiendo todo excepto la palabra objetivo. Aún escucharás el audio de la oración (si está disponible) o leerás la oración una vez que se revele el reverso de la tarjeta, pero es totalmente opcional.
+- Cuando leas la oración completa, puedes repasar las TOO hasta 2 veces más rápido en comparación con las tarjetas de oraciones. Esto se logra utilizando el complemento de Anki llamado [Speed Focus Mode](useful-anki-add-ons-for-japanese.html#speed-focus-mode). Incluso puedes evaluar tu conocimiento solo en la palabra objetivo para acelerar aún más las revisiones.
+- Cuando repasas las TOO leyendo únicamente la palabra objetivo, puedes hacerlo hasta 4 veces más rápido en comparación con las tarjetas de oraciones. Esto se logra simplemente omitiendo todo excepto la palabra objetivo. Aún escucharás el audio de la oración (si está disponible) o leerás la oración una vez que se revele el reverso de la tarjeta, pero es totalmente opcional.
 
-Durante muchos años estudié con tarjetas de oraciones. Aunque obtuve buenos resultados, invertía mucho tiempo que no era óptimo. Una vez que has visto una tarjeta suficientes veces, no necesitas seguir leyendo la oración completa cada vez que aparece. Puedes saltar a la palabra objetivo si así lo deseas. Sin embargo, con las tarjetas de oraciones regulares, **no sabes cuál es la palabra objetivo hasta que reveles la respuesta**. Con las TOE, resaltas la palabra objetivo cuando creas la tarjeta. Luego, cuando la tarjeta se muestra para repasar, siempre tienes la opción de leer solo la palabra objetivo.
+Durante muchos años estudié con tarjetas de oraciones. Aunque obtuve buenos resultados, invertía mucho tiempo que no era óptimo. Una vez que has visto una tarjeta suficientes veces, no necesitas seguir leyendo la oración completa cada vez que aparece. Puedes saltar a la palabra objetivo si así lo deseas. Sin embargo, con las tarjetas de oraciones regulares, **no sabes cuál es la palabra objetivo hasta que reveles la respuesta**. Con las TOO, resaltas la palabra objetivo cuando creas la tarjeta. Luego, cuando la tarjeta se muestra para repasar, siempre tienes la opción de leer solo la palabra objetivo.
 
 Ten en cuenta que cualquier tiempo que dediques al SRS es tiempo que no puedes dedicar a la inmersión. Por lo tanto, el propósito de estos consejos es reducir el tiempo invertido en las revisiones y aprovechar la carga mental del SRS. Al aplicarlos, reducirás ligeramente los beneficios de las tarjetas de oraciones, pero creo que en última instancia cualquier técnica que te ayude a mantener el ritmo es un buen equilibrio. Si mantienes una relación poco saludable con el SRS, es fácil comenzar a odiarlo y dejarlo por completo, lo cual es el peor resultado en comparación con olvidar algunas palabras de vez en cuando.
 
-Puedes repasar las TOE rápidamente y puedes aprender más tarjetas en la misma cantidad de tiempo o simplemente aprender la misma cantidad de tarjetas en menos tiempo y luego tener más tiempo para la inmersión.
+Puedes repasar las TOO rápidamente y puedes aprender más tarjetas en la misma cantidad de tiempo o simplemente aprender la misma cantidad de tarjetas en menos tiempo y luego tener más tiempo para la inmersión.
 
 También es importante tener en cuenta que el SRS te ayuda a mantener entradas de diccionario mental para las palabras que incluyes. Incluso si no recuerdas el significado exacto de una palabra, tener una entrada de diccionario mental permite que tu cerebro la note más fácilmente en la inmersión y almacene cualquier información nueva sobre esa palabra.
 
@@ -455,15 +455,15 @@ También es importante tener en cuenta que el SRS te ayuda a mantener entradas d
 
 Los usuarios de las TCP emplean un campo de "pista" para desambiguar las lecturas correctas y señalar uno de los posibles significados en algunas palabras. No creo que sea una buena idea. La necesidad de crear un campo separado está lejos de ser la mejor solución y parece ser un apoyo. Primero, cada vez que revises una tarjeta, debes identificar que no puedes comprender el significado sin una pista. Luego, debes copiar una parte de la oración al campo de pista. Finalmente, cuando revises la tarjeta, debes leer la palabra objetivo y luego saltar a la pista y leerla también.
 
-Debido a que las TOE colocan las oraciones en primer lugar, se te brindan todas las herramientas para desambiguar tanto las lecturas de los kanji como los múltiples significados de forma gratuita, y no necesitas inventar nada. Leer frases es más fácil que leer palabras separadas con algo de texto al final, y se asemeja más a la forma en que leemos libros reales.
+Debido a que las TOO colocan las oraciones en primer lugar, se te brindan todas las herramientas para desambiguar tanto las lecturas de los kanji como los múltiples significados de forma gratuita, y no necesitas inventar nada. Leer frases es más fácil que leer palabras separadas con algo de texto al final, y se asemeja más a la forma en que leemos libros reales.
 
 #### Distinguiendo significados
 
-Algunas palabras solo aparecen en ciertas expresiones. Algunas pueden tener múltiples significados. La buena noticia es que no tienes que preocuparte por ello al revisar las TOE. El contexto en el frente te ayuda a identificar el significado correcto. También puedes crear una segunda tarjeta para otro significado si lo deseas.
+Algunas palabras solo aparecen en ciertas expresiones. Algunas pueden tener múltiples significados. La buena noticia es que no tienes que preocuparte por ello al revisar las TOO. El contexto en el frente te ayuda a identificar el significado correcto. También puedes crear una segunda tarjeta para otro significado si lo deseas.
 
 <p align="center"><img alt="hint-field-replacement" class="shadow" src="img/hint-field-replacement.png"></p>
 
-<p align="center"><i>Las TOE ofrecen una alternativa natural al campo de pista.</i></p>
+<p align="center"><i>Las TOO ofrecen una alternativa natural al campo de pista.</i></p>
 
 > ¿Qué pasa si una expresión no tiene una entrada en un diccionario japonés-japonés?
 
@@ -475,7 +475,7 @@ No es un gran problema, pero puedes intentar buscarlo en [Forvo](https://forvo.c
 
 #### Distinguiendo lecturas
 
-Si una palabra tiene muchas lecturas, hay dos palabras que se escriben con los mismos kanji pero se pronuncian de manera diferente, o si quieres evitar fracasar en una tarjeta debido a un error común de lectura que tiendes a cometer, las TOE te permiten usar furigana en la parte superior para señalar la correcta.
+Si una palabra tiene muchas lecturas, hay dos palabras que se escriben con los mismos kanji pero se pronuncian de manera diferente, o si quieres evitar fracasar en una tarjeta debido a un error común de lectura que tiendes a cometer, las TOO te permiten usar furigana en la parte superior para señalar la correcta.
 
 Asegúrate de que tu plantilla del frente permita mostrar el furigana:
 ```
@@ -495,7 +495,7 @@ Y para agregar el furigana en el frente, simplemente lo especificas entre corche
 
 ### Las tarjetas de respaldo
 
-La idea detrás de las tarjetas de respaldo es similar a la de las tarjetas de oraciones específicas, pero el frente es diferente. Cuando una tarjeta de respaldo aparece para su revisión, se ve como una **tarjeta de palabra** común, pero puedes pasar el cursor sobre la palabra objetivo para revelar la oración completa. Las tarjetas de respaldo básicamente ofrecen a los usuarios todos los beneficios de las tarjetas de oraciones específicas, pero están diseñadas para personas que se preocupan por formar memorias dependientes del contexto.
+La idea detrás de las tarjetas de respaldo es similar a la de las tarjetas de oraciones objetivo, pero el frente es diferente. Cuando una tarjeta de respaldo aparece para su revisión, se ve como una **tarjeta de palabra** común, pero puedes pasar el cursor sobre la palabra objetivo para revelar la oración completa. Las tarjetas de respaldo básicamente ofrecen a los usuarios todos los beneficios de las tarjetas de oraciones objetivo, pero están diseñadas para personas que se preocupan por formar memorias dependientes del contexto.
 
 <p align="center"><img alt="tarjeta de respaldo" class="shadow" src="img/fallback_card.webp"></p>
 <p align="center"><i>Frente de una tarjeta de respaldo.</i></p>
@@ -512,4 +512,4 @@ La falta de contexto hace que las tarjetas de palabras sean más difíciles de a
 
 Las tarjetas de oraciones requieren más tiempo para que completes tus revisiones diarias, pero debido a que la palabra objetivo tiene contexto, aclara el significado y el uso de la palabra.
 
-Las tarjetas de oraciones específicas combinan la rapidez de las tarjetas de palabras con la efectividad del aprendizaje en contexto de las tarjetas de oraciones, lo que las convierte en la mejor plantilla de tarjeta.
+Las tarjetas de oraciones objetivo combinan la rapidez de las tarjetas de palabras con la efectividad del aprendizaje en contexto de las tarjetas de oraciones, lo que las convierte en la mejor plantilla de tarjeta.
