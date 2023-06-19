@@ -34,7 +34,7 @@ Puedes tener varias tarjetas por nota, dependiendo de las plantillas de tarjeta 
 Por ejemplo, cada elemento de oración
 tendría una tarjeta para evaluar la lectura y otra tarjeta para evaluar la escritura a mano.
 
-## Varios tipos de plantillas de tarjetas
+## Los varios tipos de plantillas de tarjetas
 
 La división de las plantillas de tarjetas es arbitraria.
 La incluimos porque, desde la perspectiva del aprendizaje de idiomas,
@@ -53,7 +53,7 @@ Su propósito es ayudar a aumentar tu comprensión de lo que está en el frente.
 
 Abordamos las plantillas de tarjetas con base en la idea de que
 tu práctica en Anki debería imitar situaciones del mundo real.
-En otras palabras, debes *practicar como juegas*.
+En otras palabras, debes *practicar de la manera en que se hará en la vida real*.
 Y en el mundo real leemos oraciones y escribimos oraciones.
 Por lo tanto, se da preferencia a los formatos de tarjetas que contienen oraciones.
 Dicho esto, las tarjetas de palabras tienen su lugar en tu RE.
@@ -424,7 +424,7 @@ Ve a Configuración de Yomichan > "Anki" > "Configurar formato de tarjeta de Ank
 
 Dado que las TOO te permiten ver el contexto, son más fáciles que las tarjetas de palabras, pero eso es algo bueno.
 
-Por el contrario, al repasar palabras de forma aislada, básicamente te creas dificultades innecesarias. También vas en contra del principio de  *practica con calidad para lograr un buen desempeño* al evaluarte en algo que rara vez se ve en la vida real.
+Por el contrario, al repasar palabras de forma aislada, básicamente te creas dificultades innecesarias. También vas en contra del principio de  *practica de la manera en que se hará en la vida real* al evaluarte en algo que rara vez se ve en la vida real.
 
 > Pero, ¿qué pasa si memorizo el significado de la oración en su conjunto y luego no soy capaz de reconocer o entender la palabra objetivo en otros contextos?
 
