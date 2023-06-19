@@ -7,7 +7,7 @@ tags: [anki]
 <p align="center"><img alt="flashcards" class="shadow" src="img/bluepilled-flashcards.webp"></p>
 
 Muchos estudiantes coinciden en que la forma más efectiva de adquirir el japonés
-es combinar el repaso espaciado (SRS, por su sigla en inglés) con la inmersión.
+es combinar el repaso espaciado (RE) con la inmersión.
 Después de terminar de aprender
 los [kana](learning-kana-in-two-days.html) y los [kanji](jp1k-anki-deck.html),
 seguirás utilizando Anki
@@ -56,7 +56,7 @@ tu práctica en Anki debería imitar situaciones del mundo real.
 En otras palabras, debes *practicar como juegas*.
 Y en el mundo real leemos oraciones y escribimos oraciones.
 Por lo tanto, se da preferencia a los formatos de tarjetas que contienen oraciones.
-Dicho esto, las tarjetas de palabras tienen su lugar en tu SRS.
+Dicho esto, las tarjetas de palabras tienen su lugar en tu RE.
 Son muy efectivas para estudiar sustantivos concretos.
 
 Independientemente de la plantilla de tarjeta,
@@ -208,7 +208,7 @@ pero no recomendaría usarlas como tu plantilla principal de tarjeta.
 ## Tarjetas de oraciones
 
 Una [tarjeta de oración](http://www.antimoon.com/how/usingsm-makeitems-sentence.htm)
-es una tarjeta de SRS con una oración en el campo de pregunta.
+es una tarjeta de RE con una oración en el campo de pregunta.
 La oración tiene **una** palabra o frase desconocida.
 
 Algunas personas podrían hacer tarjetas con múltiples elementos desconocidos,
@@ -289,11 +289,11 @@ construirás la gramática interna y recordarás el uso de las palabras,
 lo cual es útil para tu producción.
 Creo que esto proviene de una falta de comprensión del sitio de AJATT.
 Hay una suposición subyacente de que
-el SRS se puede utilizar para aprender a producir.
-En realidad, el papel del SRS es ayudar a la comprensión
+el RE se puede utilizar para aprender a producir.
+En realidad, el papel del RE es ayudar a la comprensión
 ayudándote a memorizar los significados y las lecturas de las palabras.
 La producción solo puede surgir de una exposición abundante y ver palabras en diferentes contextos.
-La lectura de oraciones en el SRS solo puede desempeñar un papel menor.
+La lectura de oraciones en el RE solo puede desempeñar un papel menor.
 
 No obstante, hay algo de verdad en esta afirmación.
 Aunque según Wozniak, el reconocimiento pasivo no garantiza el recuerdo activo,
@@ -404,7 +404,7 @@ Ve a Configuración de Yomichan > "Anki" > "Configurar formato de tarjeta de Ank
   Debido al formato de la plantilla de tarjeta y la combinación de los campos de la nota,
   las TOO siempre tienen solo una palabra objetivo por tarjeta,
   pero pueden contener más de una palabra desconocida en total.
-  Agregar solo oraciones con un objetivo al SRS es una buena práctica,
+  Agregar solo oraciones con un objetivo al RE es una buena práctica,
   garantiza que todas las tarjetas en la colección tengan dificultades intrínsecas similares,
   lo que facilita los repasos.
   Por otro lado,
@@ -428,11 +428,11 @@ Por el contrario, al repasar palabras de forma aislada, básicamente te creas di
 
 > Pero, ¿qué pasa si memorizo el significado de la oración en su conjunto y luego no soy capaz de reconocer o entender la palabra objetivo en otros contextos?
 
-En primer lugar, no podrás leer muy bien en absoluto hasta que realmente practiques la lectura y le dediques tiempo. El SRS solo puede ayudar un poco. En segundo lugar, eso no ocurre con frecuencia. Sí, a veces formarás memorias dependientes del contexto. Para adquirir completamente una palabra y transferir el conocimiento de depender del contexto a ser independiente del contexto, tienes que verla varias veces en la vida real. La mayoría de las veces eso ocurre rápidamente.
+En primer lugar, no podrás leer muy bien en absoluto hasta que realmente practiques la lectura y le dediques tiempo. El RE solo puede ayudar un poco. En segundo lugar, eso no ocurre con frecuencia. Sí, a veces formarás memorias dependientes del contexto. Para adquirir completamente una palabra y transferir el conocimiento de depender del contexto a ser independiente del contexto, tienes que verla varias veces en la vida real. La mayoría de las veces eso ocurre rápidamente.
 
-La realidad es que el SRS no garantiza que recuerdes una palabra al 100% de todos modos. Podrías hacer una **tarjeta de palabras** para ella y luego no poder recordarla en el momento adecuado debido a un defecto en el algoritmo o porque la memoria de la palabra todavía depende del contexto. Esto incluso puede ocurrir con las tarjetas que aciertas siempre en el SRS.
+La realidad es que el RE no garantiza que recuerdes una palabra al 100% de todos modos. Podrías hacer una **tarjeta de palabras** para ella y luego no poder recordarla en el momento adecuado debido a un defecto en el algoritmo o porque la memoria de la palabra todavía depende del contexto. Esto incluso puede ocurrir con las tarjetas que aciertas siempre en el RE.
 
-Afortunadamente, la mayoría de las palabras según Krashen se encuentran en **contextos amigables**. En realidad, es menos probable que no puedas entender el significado de una palabra cuando lees contenido en japonés, así que no te preocupes por no poder recordar lo que has aprendido en el SRS.
+Afortunadamente, la mayoría de las palabras según Krashen se encuentran en **contextos amigables**. En realidad, es menos probable que no puedas entender el significado de una palabra cuando lees contenido en japonés, así que no te preocupes por no poder recordar lo que has aprendido en el RE.
 
 Por último, el mayor problema al aprender a leer en japonés es recordar las lecturas de los kanjis. Para la mayoría de las personas, los intentos fallidos de recordar las lecturas constituyen la mayoría de las fallas en Anki, pero los significados a menudo se obtienen de forma gratuita gracias a los contextos amigables y las **pistas semánticas** que proporcionan los kanjis.
 
@@ -445,11 +445,11 @@ En cuanto al tiempo, puedes esperar las siguientes mejoras:
 
 Durante muchos años estudié con tarjetas de oraciones. Aunque obtuve buenos resultados, invertía mucho tiempo que no era óptimo. Una vez que has visto una tarjeta suficientes veces, no necesitas seguir leyendo la oración completa cada vez que aparece. Puedes saltar a la palabra objetivo si así lo deseas. Sin embargo, con las tarjetas de oraciones regulares, **no sabes cuál es la palabra objetivo hasta que reveles la respuesta**. Con las TOO, resaltas la palabra objetivo cuando creas la tarjeta. Luego, cuando la tarjeta se muestra para repasar, siempre tienes la opción de leer solo la palabra objetivo.
 
-Ten en cuenta que cualquier tiempo que dediques al SRS es tiempo que no puedes dedicar a la inmersión. Por lo tanto, el propósito de estos consejos es reducir el tiempo invertido en las revisiones y aprovechar la carga mental del SRS. Al aplicarlos, reducirás ligeramente los beneficios de las tarjetas de oraciones, pero creo que en última instancia cualquier técnica que te ayude a mantener el ritmo es un buen equilibrio. Si mantienes una relación poco saludable con el SRS, es fácil comenzar a odiarlo y dejarlo por completo, lo cual es el peor resultado en comparación con olvidar algunas palabras de vez en cuando.
+Ten en cuenta que cualquier tiempo que dediques al RE es tiempo que no puedes dedicar a la inmersión. Por lo tanto, el propósito de estos consejos es reducir el tiempo invertido en las revisiones y aprovechar la carga mental del RE. Al aplicarlos, reducirás ligeramente los beneficios de las tarjetas de oraciones, pero creo que en última instancia cualquier técnica que te ayude a mantener el ritmo es un buen equilibrio. Si mantienes una relación poco saludable con el RE, es fácil comenzar a odiarlo y dejarlo por completo, lo cual es el peor resultado en comparación con olvidar algunas palabras de vez en cuando.
 
 Puedes repasar las TOO rápidamente y puedes aprender más tarjetas en la misma cantidad de tiempo o simplemente aprender la misma cantidad de tarjetas en menos tiempo y luego tener más tiempo para la inmersión.
 
-También es importante tener en cuenta que el SRS te ayuda a mantener entradas de diccionario mental para las palabras que incluyes. Incluso si no recuerdas el significado exacto de una palabra, tener una entrada de diccionario mental permite que tu cerebro la note más fácilmente en la inmersión y almacene cualquier información nueva sobre esa palabra.
+También es importante tener en cuenta que el RE te ayuda a mantener entradas de diccionario mental para las palabras que incluyes. Incluso si no recuerdas el significado exacto de una palabra, tener una entrada de diccionario mental permite que tu cerebro la note más fácilmente en la inmersión y almacene cualquier información nueva sobre esa palabra.
 
 ### ¿Puede el campo de pista salvar el día?
 
