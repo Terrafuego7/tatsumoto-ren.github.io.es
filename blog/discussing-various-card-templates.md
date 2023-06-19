@@ -71,7 +71,7 @@ para agilizar y facilitar la creación de tarjetas.
 
 ## Tarjetas de palabras simples
 
-Por tarjetas de palabras simples me refiero a una palabra en el idioma objetivo en el frente de la tarjeta
+Por TPS me refiero a una palabra en el idioma objetivo en el frente de la tarjeta
 y una definición y, por lo general, audio e imagen en el dorso.
 En este tipo de tarjetas no se presenta contexto.
 
@@ -127,7 +127,7 @@ que desambiguan ciertos aspectos de la palabra objetivo.
 
 El dorso de la tarjeta contiene todo lo que necesitas para entender la palabra objetivo:
 
-* Lecturas y acentos de tono
+* Lecturas y acentos tonales
 * Oración de ejemplo
 * Definiciones
 * Audio
@@ -140,7 +140,7 @@ El dorso de la tarjeta contiene todo lo que necesitas para entender la palabra o
 ### Cómo revisar las tarjetas de contexto de palabras
 
 Las TCP evalúan tu comprensión de lectura de una sola palabra.
-De manera similar a las TP, 
+De manera similar a las TPS, 
 presiona `Bien` solo si entiendes cómo se lee la palabra y qué significa.
 
 La primera vez que aprendes una nueva tarjeta,
@@ -162,17 +162,17 @@ Simplemente puedes omitir la oración y pasar a la siguiente tarjeta.
 
 ### Ventajas y desventajas de las TCP
 
-Al igual que las TP, las TCP deberían funcionar muy bien para sustantivos concretos.
+Al igual que las TPS, las TCP deberían funcionar muy bien para sustantivos concretos.
 Si te encuentras con un sustantivo concreto en contexto,
 crear una TCP sería una elección natural.
 Las desventajas se presentan al aprender otros tipos de palabras.
 
-Las TCP llevan más tiempo crearlas que las TP.
+Las TCP llevan más tiempo crearlas que las TPS.
 Se necesita tiempo adicional para agregar el contexto (oración, imagen, audio) a la tarjeta.
 Sin embargo, existen herramientas que pueden automatizar este proceso.
 Por ejemplo, scripts de mpv.
 
-Las TCP deberían ser tan rápidas de revisar como las TP.
+Las TCP deberían ser tan rápidas de revisar como las TPS.
 Lo único que necesitas hacer es recordar qué significa la palabra objetivo.
 Para palabras que no sean sustantivos concretos, las TCP podrían llevar más tiempo recordar el significado.
 Si la palabra es abstracta,
