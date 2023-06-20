@@ -275,7 +275,7 @@ Esto significa especificar un intervalo en segundos en lugar de minutos.
 Para el nuevo menú de configuración, simplemente escribe `30s` para 30 segundos.
 Para el menú antiguo, necesitas especificar un decimal de esta manera: `0.5`.
 
-#### Tarjetas nuevas por día
+#### Tarjetas nuevas/día
 
 Controla la cantidad de tarjetas que aprendes cada día en general,
 aunque siempre puedes aprender más si quieres.
@@ -299,7 +299,7 @@ Más información al respecto [más adelante](#infierno-de-dificultad).
 
 ### Repasos
 
-#### Máximo de repasos al día
+#### Máximo de repasos/día
 
 Este valor establece un límite arbitrario en la cantidad de repasos que puedes hacer cada día.
 Si el límite es bajo, tus tarjetas pendientes no desaparecerán mágicamente después de hacer los repasos.
@@ -353,10 +353,10 @@ Sin embargo, puedes disminuir este número si deseas asegurar una retención a l
 
 ### Olvidos
 
-#### Pasos (en minutos)
+#### Pasos de reaprendizaje (en minutos)
 
 Funciona de manera similar a la configuración en la pestaña "Tarjetas Nuevas",
-excepto que se aplica a las tarjetas en las que has presionado "Volver a mostrar".
+excepto que se aplica a las tarjetas en las que has presionado "Otra vez".
 Esto afecta la forma en que volverás a aprender tus tarjetas olvidadas.
 Los principiantes deben establecer un único paso de aprendizaje y observar su experiencia.
 El valor predeterminado de `10` minutos está bien, pero yo prefiero uno ligeramente mayor.
@@ -378,16 +378,16 @@ Para una baraja de `tarjetas de palabras`, puedes establecerlo en aproximadament
 ya que las tarjetas de palabras son notablemente más difíciles que las `tarjetas de oraciones`.
 Explicaré las diferencias entre las plantillas de tarjetas más adelante.
 
-#### Umbral de repeticiones fallidas y Acción para repeticiones fallidas
+#### Umbral de sanguijuelas y Acción para sanguijuelas
 
-*Leeches* son tarjetas que sigues olvidando y volviendo a aprender una y otra vez.
-Mantén el umbral de repeticiones fallidas bajo (4-6 olvidos) y suspende las tarjetas cuando se conviertan en leeches.
-Debes ocuparte adecuadamente de las leeches en lugar de permitir que se sigan rotando en tu baraja y te ralenticen.
+Las *sanguijuelas* son tarjetas que sigues olvidando y volviendo a aprender una y otra vez.
+Mantén el umbral de repeticiones fallidas bajo (4-6 olvidos) y suspende las tarjetas cuando se conviertan en sanguijuelas.
+Debes ocuparte adecuadamente de las sanguijuelas en lugar de permitir que se sigan rotando en tu baraja y te ralenticen.
 
-Formas posibles de lidiar con las leeches:
+Formas posibles de lidiar con las sanguijuelas:
 
 * **Eliminarlas:** Para esa pequeña minoría de tarjetas que simplemente no se quedan en tu memoria,
-  es mejor deshacerte de ellas. En lugar de perder mucho tiempo en una única leech,
+  es mejor deshacerte de ellas. En lugar de perder mucho tiempo en una única sanguijuelas,
   es más productivo aprender 5 tarjetas normales en su lugar.
 
 * **Dejarlas para más tarde:** Si no puedes recordar una palabra después de 4-5 olvidos,
