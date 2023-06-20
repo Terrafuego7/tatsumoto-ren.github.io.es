@@ -1,9 +1,12 @@
-
-# Configuración de Anki
+---
+title: Configuración de Anki
+date: 1609127492
+tags: [anki]
+---
 
 <img alt="anki logo" src="img/anki_logo.webp" float="right">
 
-[Anki](https://wiki.archlinux.org/index.php/Anki) es un sistema de [repaso espaciado](https://es.wikipedia.org/wiki/Repaso_espaciado) RE que te permite crear, gestionar y repasar [tarjetas de estudio](https://es.wikipedia.org/wiki/Tarjeta_de_aprendizaje).
+[Anki](https://wiki.archlinux.org/index.php/Anki) es un sistema de [repaso espaciado](https://es.wikipedia.org/wiki/Repaso_espaciado) (RE) que te permite crear, gestionar y repasar [tarjetas de estudio](https://es.wikipedia.org/wiki/Tarjeta_de_aprendizaje).
 
 Muchos estudiantes de idiomas encuentran útil Anki para memorizar rápidamente el vocabulario básico del idioma objetivo (IO), así como para ayudarles a recordar nuevo material más adelante.
 
@@ -177,7 +180,7 @@ Las preferencias controlan el comportamiento de tu colección de Anki.
 Se aplican a todos los mazos.
 Puedes acceder a las preferencias yendo a `Herramientas > Preferencias...` en la ventana principal de Anki.
 
-* **Límite de aprendizaje anticipado.**
+* **Límite de estudio por adelantado.**
   Recomiendo mantener el valor cerca del valor predeterminado de 20 minutos.
   El mío es de `35` minutos.
   Cuando termines tus repasos diarios y las tarjetas nuevas,
@@ -185,15 +188,15 @@ Puedes acceder a las preferencias yendo a `Herramientas > Preferencias...` en la
   este valor y te mostrará las tarjetas de inmediato.
   Esto es bueno para las tarjetas con intervalos pequeños porque te permite terminar tus repasos
   sin interrupciones y esperar a que tus tarjetas estén listas para ser revisadas.
-  Pero si estableces un `Límite de aprendizaje anticipado` demasiado alto,
+  Pero si estableces un `Límite de estudio por adelantado` demasiado alto,
   las tarjetas con pasos de aprendizaje más largos se mostrarán demasiado pronto.
   Mantener el valor en el lado más bajo refuerza el tiempo de espera de tus pasos.
   Si estableces esto en `0`, Anki siempre esperará el retraso completo, por lo que tampoco es óptimo.
-* **Mostrar tarjetas nuevas después de las revisiones.**
-  Siempre quieres terminar tus revisiones primero,
+* **Mostrar tarjetas nuevas antes de los repasos.**
+  Siempre quieres terminar tus repasos primero,
   y no quieres que las tarjetas nuevas te retrasen.
-  Puedes elegir `Mostrar tarjetas nuevas antes de las revisiones`
-  si eres constante y te sientes seguro de que nunca tendrás un retraso en las revisiones de Anki.
+  Puedes elegir `Mostrar tarjetas nuevas antes de los repasos`
+  si eres constante y te sientes seguro de que nunca tendrás un retraso en las repasos de Anki.
   Mezclarlas es probablemente la peor opción y te confundirá cuando
   aparezca una tarjeta nueva después de una racha de tarjetas maduras.
 
@@ -210,7 +213,7 @@ Puedes acceder a las preferencias yendo a `Herramientas > Preferencias...` en la
   Características principales:
 
   * Puedes tener submazos y revisarlos todos juntos,
-    las tarjetas se mezclarán correctamente durante la revisión.
+    las tarjetas se mezclarán correctamente durante el repaso.
   * Puedes aprender tarjetas nuevas en mazos filtrados.
     Los mazos filtrados ya no reinician los pasos de aprendizaje cuando se reconstruyen o vacían.
 * **Modo minimalista.**
