@@ -1,7 +1,7 @@
 ---
 título: Introducción al aprendizaje del japonés
 fecha: 1615372627
-etiquetas: [guía]
+etiquetas: [guide]
 ---
 
 A continuación, te ofrecemos un rápido resumen de un viaje típico de aprendizaje de japonés que debería llevarte a un nivel de fluidez básico en menos de dos años. Hemos diseñado el método para las personas que desean aprender japonés de manera eficiente a través del autoestudio y que están interesadas en los contenidos japoneses como películas, programas de televisión o novelas.
