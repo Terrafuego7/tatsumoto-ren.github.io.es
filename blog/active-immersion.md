@@ -99,7 +99,7 @@ aunque [no todo el tiempo](should-i-watch-with-japanese-subtitles-while-through-
 ya que desarrollar la capacidad auditiva también es importante.
 
 Hay varias razones por las que la televisión y las películas
-con subtítulos <abbr title="idioma objetivo">IO</abbr> son una excelente opción.
+con los subtítulos del <abbr title="idioma objetivo">IO</abbr> son una excelente opción.
 Los elementos visuales pueden proporcionar un contexto adicional que ayuda a la comprensión.
 Además, puedes oír la pronunciación correcta de las palabras que estás leyendo.
 Al oír los subtítulos en voz alta,
@@ -108,8 +108,8 @@ puedes interpretar mejor la estructura de las frases y analizar las oraciones.
 Por último, el lenguaje de la televisión y las películas suele ser más sencillo que el de los libros, los blogs o los artículos de noticias.
 
 La falta de comprensión puede provocar un sentimiento de abatimiento.
-Es posible que quieras activar los subtítulos en inglés o en tu lengua materna.
-No lo hagas porque [ver con subtítulos en inglés no funciona](should-i-watch-anime-with-english-subtitles.html).
+Es posible que quieras activar los subtítulos en español o en tu lengua materna.
+No lo hagas porque [ver con subtítulos en español no funciona](should-i-watch-anime-with-english-subtitles.html).
 Confía en el proceso de inmersión.
 
 También puedes sumergirte en contenidos que hayas consumido antes en otro idioma.
@@ -124,9 +124,8 @@ te ayudará a entender mejor la historia.
 
 Para mantener el interés y la motivación,
 probablemente no sea una buena idea ver el contenido dos veces.
-Hacerlo puede aumentar la comprensión debido al conocimiento previo de la trama,
-Sin embargo,
-pero también puede resultar aburrido y tedioso.
+Hacerlo puede aumentar la comprensión debido al conocimiento previo de la trama.
+Sin embargo, también puede resultar aburrido y tedioso.
 Más bien
 considera la posibilidad de volver a escuchar lo que ya has visto activamente **durante la inmersión pasiva**.
 De este modo, no malgastarás tus horas de inmersión activa en repeticiones.
@@ -168,7 +167,7 @@ en el que analizas a fondo el idioma a medida que avanzas.
 Mientras te sumerges,
 examinas cuidadosamente el idioma,
 utilizando diccionarios para descifrar el significado de cada frase,
-y creando tarjetas SRS para asegurarte de que no olvidas lo que has aprendido.
+y creando tarjetas de repetición espaciada (RE) para asegurarte de que no olvidas lo que has aprendido.
 
 La inmersión intensiva es la forma más eficaz de fijarse, guardar y memorizar palabras nuevas.
 Sin embargo, es una actividad mentalmente exigente.
@@ -178,9 +177,9 @@ Para maximizar los beneficios de la inmersión
 es aconsejable dedicarse a la inmersión intensiva cuando uno se siente más fresco y alerta,
 y pasar a la inmersión libre cuando se agoten las capacidades cognitivas.
 
-Existe una plétora de herramientas para facilitar la inmersión intensiva,
+Existe una plétora de herramientas para facilitar la inmersión intensiva.
 Hay aplicaciones en forma de diccionario, extensiones de navegador, plugins de mpv, etc.
-Gracias a ellas, es muy fácil buscar palabras y crear tarjetas SRS durante la inmersión.
+Gracias a ellas, es muy fácil buscar palabras y crear tarjetas RE durante la inmersión.
 
 Al principio,
 no siempre serás capaz de entender completamente cada frase durante la inmersión intensiva.
@@ -266,5 +265,5 @@ Por eso es fundamental practicar la inmersión intensiva
 para cerrar la brecha entre nuestro léxico y el de un hablante nativo.
 Como no disponemos de 20 años de tiempo para adquirir todo el vocabulario de forma natural
 sólo a través de la inmersión libre.
-Tenemos que utilizar diccionarios y crear fichas SRS para ampliar realmente nuestro vocabulario.
+Tenemos que utilizar diccionarios y crear tarjetas RE para ampliar realmente nuestro vocabulario.
 La mejor manera de hacerlo es leer mucho.
