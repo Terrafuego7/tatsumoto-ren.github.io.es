@@ -340,7 +340,7 @@ El proceso no es diferente de hacer tarjetas para palabras regulares.
 
 El proceso de hacer tarjetas de oraciones (o tarjetas de oraciones objetivo)
 para las palabras que no conoces
-se llama [extracción de oraciones](sentence-mining.html) (o selección de frases).
+se llama [extracción de oraciones](sentence-mining.html) (minar o selección de frases).
 
 Los mazos de Anki prehechos pueden parecer convenientes, pero no pueden enseñarte todo,
 por lo que hacer tus propias tarjetas es esencial para el éxito a largo plazo con el japonés.
