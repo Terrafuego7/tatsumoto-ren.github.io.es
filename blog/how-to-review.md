@@ -1,488 +1,259 @@
 ---
-title: How to review
+title: Cómo hacer repasos
 date: 1626142570
 tags: [anki]
 ---
 
-Though Anki is an excellent piece of software,
-you can learn languages more effectively if you tweak some settings and know how to review.
-Even if you're using Anki for something other than studying human languages,
-this article may still help you.
+Aunque Anki es un excelente software, puedes aprender idiomas de manera más efectiva si ajustas algunas configuraciones y sabes cómo repasar. Incluso si estás usando Anki para algo distinto al estudio de idiomas humanos, este artículo aún puede ayudarte.
 
 ****
 
-## Anki settings
+## Configuraciones de Anki
 
-Make sure you've applied the settings from the
-[Setting up Anki](setting-up-anki.html#anki-settings)
-article.
-Below is a quick overview.
+Asegúrate de haber aplicado las configuraciones del artículo [Configurando Anki](configurando-anki.html#configuraciones-de-anki). A continuación, se presenta un resumen rápido.
 
-* Set starting ease to 131%.
-It's kind of a magic number.
-130% is the lowest possible ease, but Anki **doesn't** allow you to reliably use it.
-By bumping it up 1% you avoid the limitation.
-Because the Ease effectively becomes locked between 131% and 130%, it can't decrease further.
-This way you hijack Anki's default behavior which otherwise would lead to falling into Ease Hell.
-* Set Interval Modifier to not less than 190%.
-This initial increase counteracts the low Starting Ease.
-You can increase it further if your retention is high enough.
-I think up to 300% should be fine.
-* Enable Anki 2.1 scheduler (`V3` scheduler).
-It's a little less limiting, less buggy and more convenient.
-In newer Anki versions it's the default.
+* Establece la facilidad inicial en 131%.
+Es una especie de número mágico.
+130% es la facilidad más baja posible, pero Anki **no** te permite usarla de manera confiable.
+Al aumentarlo en un 1%, evitas la limitación.
+Debido a que la facilidad efectivamente queda bloqueada entre 131% y 130%, no puede disminuir más.
+De esta manera, puedes alterar el comportamiento predeterminado de Anki que, de lo contrario, te llevaría a caer en el Infierno de la Facilidad.
+* Establece el Modificador de Intervalo en no menos del 190%.
+Este aumento inicial contrarresta la baja Facilidad Inicial.
+Puedes aumentarlo aún más si tu retención es lo suficientemente alta.
+Creo que hasta un 300% estaría bien.
+* Habilita el planificador de Anki 2.1 (`V3` scheduler).
+Es un poco menos limitante, menos propenso a errores y más conveniente.
+En las versiones más recientes de Anki, es el predeterminado.
 
-## Grading
+## Calificación
 
-When you're ready to grade a card,
-you're asked to choose from 4 different options:
-"again", "hard", "good" and "easy".
-Use **only** "again" and "good".
-Do not press "hard" and "easy" unless you're aware of the consequences.
+Cuando estés listo para calificar una tarjeta, se te pedirá que elijas entre 4 opciones diferentes: "otra vez", "difícil", "bien" y "fácil". Usa **solo** "otra vez" y "bien". No presiones "difícil" y "fácil" a menos que estés consciente de las consecuencias.
 
-When you press "hard" or "easy",
-the card's Ease factor changes.
-As a result,
-the speed at which the card's interval is going to grow from that point onward also changes.
-Pressing "hard" makes the card's interval grow slower,
-and the card comes up for review more often.
-The new Ease factor *stays in effect indefinitely*
-until you do something that resets it back to the default value.
-When a card comes up for review more often than needed,
-you spend unnecessary time reviewing.
-Likewise, pressing "easy" makes the card appear for review less frequently
-causing you to be more likely to forget it at some point.
-Setting Starting Ease to 131% can mitigate some consequences, but not all.
+Cuando presionas "difícil" o "fácil", el factor de Facilidad de la tarjeta cambia. Como resultado, la velocidad a la que el intervalo de la tarjeta va a crecer a partir de ese punto también cambia. Presionar "difícil" hace que el intervalo de la tarjeta crezca más lentamente, y la tarjeta aparece para repaso más a menudo. El nuevo factor de Facilidad *permanece en efecto indefinidamente* hasta que haces algo que lo restablece al valor predeterminado. Cuando una tarjeta aparece para repaso más a menudo de lo necesario, pasas tiempo innecesario revisando. Del mismo modo, presionar "fácil" hace que la tarjeta aparezca para repaso menos frecuentemente, lo que te hace más propenso a olvidarla en algún momento. Establecer la Facilidad Inicial en 131% puede mitigar algunas consecuencias, pero no todas.
 
-There is an Anki add-on that removes some or all answer buttons.
-I cover it a few sections below.
+Existe un complemento de Anki que elimina algunos o todos los botones de respuesta. Lo cubro en algunas secciones más abajo.
 
-When you see a card,
-grade it "good" if you understand the target word.
-To grade the card "good", you should be able to:
+Cuando veas una tarjeta, califícala como "bien" si entiendes la palabra objetivo. Para calificar la tarjeta como "bien", deberías poder:
 
-* Understand what it means in context, if there's context on the card.
-* Read it phonetically, if the word contains kanji.
+* Entender lo que significa en contexto, si hay contexto en la tarjeta.
+* Leerla fonéticamente, si la palabra contiene kanji.
 
-If not, select "again" and relearn the card.
+Si no, selecciona "otra vez" y vuelve a aprender la tarjeta.
 
-Sometimes you need to press "again" multiple times until you memorize the card.
-But as soon as you understand the word, hit "good".
-Don't hit "again" over and over because you're not sufficiently confident in your memory.
+A veces necesitas presionar "otra vez" varias veces hasta que memorizas la tarjeta. Pero tan pronto como entiendas la palabra, presiona "bien". No presiones "otra vez" una y otra vez porque no tienes suficiente confianza en tu memoria.
 
-Anki never guarantees that you will remember every single item you put into it.
-It can only guarantee a certain retention rate, usually about 70-90% depending on the settings.
-Each review session, expect to forget a number of cards.
-It's a natural part of using the program.
+Anki nunca garantiza que recordarás cada elemento que introduzcas en él. Solo puede garantizar una cierta tasa de retención, generalmente alrededor del 70-90% dependiendo de las configuraciones. En cada sesión de repaso, espera olvidar un número de tarjetas. Es una parte natural de usar el programa.
 
-If you forget too many cards,
-it is possible that your cards are not optimally formatted or your Interval Modifier is too large.
-Decrease the Interval Modifier,
-remove excessive or redundant information from the cards,
-use different example sentences,
-add examples if you don't have any.
-If you rarely forget any cards, you're seeing them too often.
-This means you need to increase you Interval Modifier.
+Si olvidas demasiadas tarjetas, es posible que tus tarjetas no estén formateadas de manera óptima o que tu Modificador de Intervalo sea demasiado grande. Disminuye el Modificador de Intervalo, elimina información excesiva o redundante de las tarjetas, usa diferentes ejemplos de oraciones, agrega ejemplos si no tienes ninguno. Si raramente olvidas alguna tarjeta, las estás viendo demasiado a menudo. Esto significa que necesitas aumentar tu Modificador de Intervalo.
 
-## Showing up
+## Presentarse a los repasos
 
-Khatz's blog has an article about [Showing up](https://web.archive.org/web/20071028011612/http://www.alljapaneseallthetime.com/blog/showing-up).
-100% of winning is showing up.
-Dedicate the time, and you'll see the results.
-Not only this concept is important when using Anki to learn languages,
-it is mandatory.
-One of the objectives of using an SRS is to achieve long-term retention.
-Long-term retention is impossible without being consistent.
-The only way to benefit from using an SRS is to use it regularly.
-Anki expects you to do your reviews **every single day**.
-If you fail to do so, due cards quickly pile up.
+El blog de Khatz tiene un artículo sobre [Presentarse a los repasos](https://web.archive.org/web/20071028011612/http://www.alljapaneseallthetime.com/blog/showing-up). El 100% del éxito es presentarse. Dedica el tiempo y verás los resultados. Este concepto no solo es importante al usar Anki para aprender idiomas, es obligatorio. Uno de los objetivos de usar repaso espaciado (RE) es lograr la retención a largo plazo. La retención a largo plazo es imposible sin ser consistente. La única forma de beneficiarte de usar RE es usarlo regularmente. Anki espera que hagas tus repasos **todos los días**. Si no lo haces, las tarjetas pendientes se acumulan rápidamente.
 
-If you do a consistent number of new cards each day,
-the number of reviews tends to be consistent as well.
-So, if you miss a day, expect your review load to double the next day.
-If you miss two days, you'll have to do roughly 3 times as many reviews.
-Anki's algorithm schedules cards so that ideally they should come up for review
-just before you forget their content.
-If you don't do your reviews on time, expect to forget more cards.
+Si haces un número consistente de nuevas tarjetas cada día, el número de repasos tiende a ser también consistente. Entonces, si te saltas un día, espera que tu carga de repaso se duplique al día siguiente. Si te saltas dos días, tendrás que hacer aproximadamente 3 veces más repasos. El algoritmo de Anki programa las tarjetas para que idealmente aparezcan para repaso justo antes de que olvides su contenido. Si no haces tus repasos a tiempo, espera olvidar más tarjetas.
 
-There are two distinct approaches to dealing with SRS reviews.
-Many people find that they are
-able to form a consistent habit if they do their reviews at the same time each day,
-such as first thing in the morning.
-Others prefer to fit in reviews between activities in their day.
-For example, they may use their [phone](our-immersion-learning-toolset.html#android)
-to complete a few reviews while standing in line, taking a bus, or waiting for something.
+Hay dos enfoques distintos para lidiar con los repasos espaciados (RE). Muchas personas descubren que pueden formar un hábito consistente si hacen sus repasos a la misma hora cada día, como lo primero en la mañana. Otros prefieren encajar las repasos entre las actividades de su día. Por ejemplo, pueden usar su [teléfono](nuestro-conjunto-de-herramientas-de-aprendizaje-de-inmersión.html#android) para completar algunas repasos mientras hacen fila, toman un autobús o esperan algo.
 
-Your goal is to experiment and find an approach that works for you
-and enables you to consistently complete your reviews.
-Or you can choose a combination of the two approaches.
-Personally, I find that the first approach works for me well.
-I have a laptop dedicated to doing my Anki reps.
-Besides Anki, the laptop has almost no other software installed
-to prevent all possible distractions.
-But if for some reason I don't have time in the morning,
-I fall back to the second approach
-and try to finish my reviews on a phone in moments when I'm not doing anything in particular.
+Tu objetivo es experimentar y encontrar un enfoque que funcione para ti y te permita completar tus repasos de manera consistente. O puedes elegir una combinación de los dos enfoques. Personalmente, descubro que el primer enfoque funciona bien para mí. Tengo una laptop dedicada a hacer mis repeticiones de Anki. Además de Anki, la laptop casi no tiene otro software instalado para prevenir todas las posibles distracciones. Pero si por alguna razón no tengo tiempo en la mañana, recurro al segundo enfoque e intento terminar mis repasos en un teléfono en momentos en los que no estoy haciendo nada en particular.
 
-## Reading sentences aloud
+## Leyendo oraciones en voz alta
 
-Should you read sentences aloud when doing Anki reps?
-Khatz [recommends](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/)
-that you should.
-I personally don't think it's necessary, and I rarely do it.
-If a sentence looks cool I usually pronounce it just for the fun of it.
+¿Deberías leer las oraciones en voz alta cuando haces repeticiones en Anki? Khatz [recomienda](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/) que deberías hacerlo. Personalmente, no creo que sea necesario y rara vez lo hago. Si una oración me parece interesante, generalmente la pronuncio solo por diversión.
 
-Reading out loud can definitely help you remember the sentences better
-because you're actively using your muscles.
-It's harder to skim when you're engaged.
+Leer en voz alta definitivamente puede ayudarte a recordar mejor las oraciones porque estás utilizando activamente tus músculos. Es más difícil pasar por alto algo cuando estás comprometido.
 
-Another thing to consider is whether you are going to build bad pronunciation habits
-by pronouncing Japanese out loud.
-In this regard, I would definitely recommend avoiding doing it if you're a beginner.
-Any type of pronunciation practice requires you to have acquired large aspects of the language
-and have built strong phonetic awareness.
-If you lack these competences,
-you set yourself to repeat pronunciation mistakes over and over.
-Ideally, you should also actively think about pitch accent when you're practicing speaking,
-which requires you to know the rules and the accents of individual words.
+Otra cosa a considerar es si vas a desarrollar malos hábitos de pronunciación al pronunciar japonés en voz alta. En este sentido, definitivamente recomendaría evitar hacerlo si eres principiante. Cualquier tipo de práctica de pronunciación requiere que hayas adquirido grandes aspectos del idioma y hayas desarrollado una fuerte conciencia fonética. Si careces de estas competencias, te predispones a repetir errores de pronunciación una y otra vez. Idealmente, también deberías pensar activamente en el acento tonal cuando estás practicando hablar, lo que requiere que conozcas las reglas y los acentos de las palabras individuales.
 
-With this in mind, reading sentences aloud can be helpful,
-but only if you're already intermediate or above.
+Con esto en mente, leer oraciones en voz alta puede ser útil, pero solo si ya eres intermedio o avanzado.
 
-## Check your retention
+## Verifica tu retención
 
-I recommend periodically checking your monthly
-[True Retention](useful-anki-add-ons-for-japanese.html#true-retention).
-Shift-click on the "Stats" button at the top of the Anki window.
-The recommended retention is 75%-90%.
-If you see that your retention stays out of these boundaries,
-act accordingly.
-Decrease your
-[Interval Modifier](setting-up-anki.html#interval-modifier)
-if your retention is too low, increase if it's high.
+Recomiendo verificar periódicamente tu [Retención real](complementos-útiles-de-anki-para-japonés.html#retención-verdadera) mensual. Haz clic en el botón "Estadísticas" en la parte superior de la ventana de Anki mientras mantienes presionada la tecla Shift. La retención recomendada es del 75% al 90%. Si ves que tu retención se mantiene fuera de estos límites, actúa en consecuencia. Disminuye tu [Modificador de Intervalo](configurando-anki.html#modificador-de-intervalo) si tu retención es demasiado baja, aumenta si es alta.
 
-If your retention is below 70%, that's a call to action.
-Low retention rate renders Anki useless,
-can make you hate your reviews or even stop using Anki completely.
-Change your Anki settings, reformat your notes, delete problematic cards.
+Si tu retención está por debajo del 70%, eso es una llamada a la acción. Una tasa de retención baja hace que Anki sea inútil, puede hacer que odies tus repasos o incluso que dejes de usar Anki por completo. Cambia tus configuraciones de Anki, reformatea tus notas, elimina las tarjetas problemáticas.
 
-Retention rate above 90% is considered sub-optimal.
-It means you review your cards too often.
+Se considera que una tasa de retención superior al 90% es subóptima. Significa que revisas tus tarjetas con demasiada frecuencia.
 
-## Filtered decks
+## Mazos filtrados
 
-Don't review in filtered decks.
-After experimenting with filtered decks for multiple years
-I've come to the conclusion that they're too buggy and too unreliable.
-They're only good for temporarily storing cards (in case of backlogs, for example).
-Some bugs I've run into completely messed up intervals of my cards.
+No revises en mazos filtrados. Después de experimentar con mazos filtrados durante varios años, he llegado a la conclusión de que son demasiado propensas a errores y poco confiables. Solo son buenas para almacenar temporalmente tarjetas (en caso de acumulaciones, por ejemplo). Algunos errores que encontré desordenaron completamente los intervalos de mis tarjetas.
 
-## Fighting backlogs
+## Luchando contra las acumulaciones
 
-This is where filtered decks come handy.
+Aquí es donde los mazos filtrados resultan útiles.
 
-Ideally you want to finish your reviews every day.
-In practice, it's not always possible.
-There are going to be days when you accumulate backlogs.
-A backlog is an amount of cards that you should already have reviewed.
-Anki calls such cards `overdue`.
+Idealmente, quieres terminar tus repasos todos los días. En la práctica, no siempre es posible. Habrá días en los que acumules retrasos. Un retraso es una cantidad de tarjetas que ya deberías haber revisado. Anki llama a estas tarjetas `vencidas`.
 
-If you miss your reviews,
-your review queue becomes divided between cards that are due today,
-most of which you still remember,
-and the cards that were due on the previous days,
-which you've likely forgotten a great number of.
-You can view a list of the overdue cards by typing `is:due -prop:due=0` in the Anki Browser.
+Si te saltas tus repasos, tu cola de repaso se divide entre las tarjetas que vencen hoy, de las cuales aún recuerdas la mayoría, y las tarjetas que vencieron en los días anteriores, de las cuales probablemente has olvidado un gran número. Puedes ver una lista de las tarjetas vencidas escribiendo `is:due -prop:due=0` en Explorar.
 
-If you were to try to eliminate the backlog
-by simply reviewing the cards until no more due cards remain,
-Anki would show you the overdue cards first.
-Anki is programmed in a way that makes it prioritize cards
-with older due dates over the cards that became due recently.
-If the backlog is large enough,
-this would put you in a long-lasting state of needless forgetting.
-If you go along with Anki's algorithm and prioritize relearning forgotten cards,
-then you will end up forgetting the cards that are due today,
-unless you manage to clear your entire backlog in one sitting.
+Si intentaras eliminar el retraso simplemente revisando las tarjetas hasta que no queden más tarjetas pendientes, Anki te mostraría primero las tarjetas vencidas. Anki está programado de tal manera que prioriza las tarjetas con fechas de vencimiento más antiguas sobre las tarjetas que se vencieron recientemente. Si el retraso es lo suficientemente grande, esto te pondría en un estado de olvido innecesario de larga duración. Si sigues el algoritmo de Anki y priorizas el reaprendizaje de las tarjetas olvidadas, terminarás olvidando las tarjetas que vencen hoy, a menos que logres eliminar todo tu retraso de una sola vez.
 
-The solution is to create a filtered deck
-and use it to store the overdue cards.
-To do this, press "F" or go to "Tools" > "Create filtered deck...".
+La solución es crear un mazo filtrado y usarlo para almacenar las tarjetas vencidas. Para hacer esto, presiona "F" o ve a "Herramientas" > "Crear mazo filtrado...".
 
-Let's say my Japanese deck is called "Japanese".
-The Search field is going to look like this:
+Supongamos que mi mazo de japonés se llama "Japonés". El campo de búsqueda se verá así:
 
 ```
-deck:Japanese is:due -prop:due>-1 -rated:1 -is:learn
+deck:Japonés is:due -prop:due>-1 -rated:1 -is:learn
 ```
 
-* `deck:Japanese` limits search to my Japanese deck.
-* `is:due` tells Anki to select only due cards.
-* `-prop:due>-1` excludes cards due today.
-* `-rated:1` excludes cards that were already reviewed today.
-* `-is:learn` excludes cards in the learning or relearning queues.
+* `deck:Japonés` limita la búsqueda a mi mazo de japonés.
+* `is:due` le dice a Anki que seleccione solo las tarjetas vencidas.
+* `-prop:due>-1` excluye las tarjetas que vencen hoy.
+* `-rated:1` excluye las tarjetas que ya fueron revisadas hoy.
+* `-is:learn` excluye las tarjetas en las colas de aprendizaje o reaprendizaje.
 
-Once you have the filtered deck set up, you've *stopped the bleeding*.
-Every day after you've finished your normal reviews come back to the filtered deck
-and *decrease* the number of cards it can store.
-The cards will be returned to your Japanese deck.
-Review those cards.
+Una vez que tienes el mazo filtrado configurado, has *detenido el sangrado*. Cada día, después de terminar tus repasos normales, vuelve al mazo filtrado y *disminuye* el número de tarjetas que puede almacenar. Las tarjetas serán devueltas a tu mazo de japonés. Revisa esas tarjetas.
 
-<p align="center"><img alt="filtered deck" class="shadow" src="img/anki-backlog.webp"></p>
-<p align="center"><i>Deck settings.</i></p>
+<p align="center"><img alt="mazo filtrado" class="shadow" src="img/anki-backlog.webp"></p>
+<p align="center"><i>Configuración del mazo.</i></p>
 
-Take a look at the "cards selected by" setting.
-It presents a number of options you can choose from to fight the backlog the way suits you.
-If you want to review cards that you're most likely to still remember,
-change it to "Increasing intervals".
-This way when you reduce the number of cards the filtered deck can store,
-the cards with the largest intervals will be pulled out first.
-On the other hand,
-if you choose "Decreasing intervals",
-the cards with the smallest intervals will be the first to go.
+Echa un vistazo a la configuración "tarjetas seleccionadas por". Presenta una serie de opciones que puedes elegir para luchar contra el retraso de la manera que te convenga. Si quieres revisar las tarjetas que es más probable que aún recuerdes, cámbialo a "Intervalos crecientes". De esta manera, cuando reduces el número de tarjetas que el mazo filtrado puede almacenar, las tarjetas con los intervalos más grandes serán las primeras en salir. Por otro lado, si eliges "Intervalos decrecientes", las tarjetas con los intervalos más pequeños serán las primeras en irse.
 
-The benefit of using filtered decks for fighting backlogs is that
-you don't move any cards yourself.
-Once they leave the filtered deck,
-they automatically return to the decks they were pulled out from.
-If this approach doesn't work for you, try suspending overdue cards instead.
-To do so, open the Anki Browser, type `is:due -prop:due=0` and suspend the cards that will show up.
-Unsuspend the cards in chunks once you have time to review them.
+El beneficio de usar mazos filtrados para luchar contra los retrasos es que no mueves ninguna tarjeta tú mismo. Una vez que salen del mazo filtrado, automáticamente regresan a los mazos filtrados de las que fueron extraídas. Si este enfoque no funciona para ti, intenta suspender las tarjetas vencidas en su lugar. Para hacerlo, presiona Explorar, escribe `is:due -prop:due=0` y suspende las tarjetas que aparecerán. Reactiva las tarjetas en bloques una vez que tengas tiempo para revisarlas.
 
-Accumulating a backlog and being unable to properly manage it
-is the number one reason people quit Anki altogether.
-Keep your backlog isolated in a filtered deck so that it doesn't overwhelm you.
+Acumular un retraso y ser incapaz de manejarlo adecuadamente es la razón número uno por la que las personas dejan Anki por completo. Mantén tu retraso aislado en un mazo filtrado para que no te abrume.
 
-## Fighting flooded learning queue
+## Luchando contra la cola de aprendizaje inundada
 
-It is not uncommon to find yourself in this situation.
+No es raro encontrarte en esta situación.
 
-<p align="center"><img alt="new cards flood" src="img/too-many-learn-cards.webp"></p>
-<p align="center"><i>Anki window.</i></p>
+<p align="center"><img alt="inundación de nuevas tarjetas" src="img/too-many-learn-cards.webp"></p>
+<p align="center"><i>Ventana de Anki.</i></p>
 
-Anki is terrible at queuing more than 30 cards from the learning queue.
-It is going to show you them over and over until they graduate.
-If the cards are not particularly easy, you may never get to the review queue.
-What I recommend you to do in this case is similar to the trick used to fight backlogs.
+Anki es terrible para encolar más de 30 tarjetas de la cola de aprendizaje. Te las mostrará una y otra vez hasta que se gradúen. Si las tarjetas no son particularmente fáciles, es posible que nunca llegues a la cola de repaso. Lo que te recomiendo hacer en este caso es similar al truco utilizado para luchar contra los retrasos.
 
-Create a filtered deck with these settings.
+Crea un mazo filtrado con estas configuraciones.
 
 ```
-deck:Japanese is:due is:learn -rated:1 -is:new
+deck:Japonés is:due is:learn -rated:1 -is:new
 ```
 
-Send all your learning cards to this deck, then pull out 10~20 at a time and graduate them.
+Envía todas tus tarjetas de aprendizaje a este mazo, luego saca de 10 a 20 a la vez y haz que se gradúen.
 
-## New cards
+## Nuevas tarjetas
 
-Choose how many new cards you want to do each day and stick to that number.
-We recommend learning between 10~30 cards a day.
-Don't learn too many new cards.
-The amount of new cards together with retention determine
-how many reviews you will have to complete.
-If you feel overwhelmed by the number of daily reviews,
-you can *influence* the number of future reviews by decreasing the number of new cards
-or stopping learning new cards completely for a period of time.
-If you feel like you have headroom, raise the amount of new cards.
+Elige cuántas tarjetas nuevas quieres hacer cada día y mantén ese número. Recomendamos aprender entre 10 y 30 tarjetas al día. No aprendas demasiadas tarjetas nuevas. La cantidad de tarjetas nuevas junto con la retención determinan cuántas repasos tendrás que completar. Si te sientes abrumado por el número de repasos diarios, puedes *influir* en el número de repasos futuros disminuyendo el número de tarjetas nuevas o deteniendo completamente el aprendizaje de tarjetas nuevas por un período de tiempo. Si sientes que tienes margen, aumenta la cantidad de tarjetas nuevas.
 
-You can get away with learning more new cards if you increase your [Interval Modifier](setting-up-anki.html#interval-modifier),
-but in return expect your retention to go down.
+Puedes salirte con la tuya aprendiendo más tarjetas nuevas si aumentas tu [Modificador de Intervalo](configurando-anki.html#modificador-de-intervalo), pero a cambio espera que tu retención disminuya.
 
-Do not cap your reviews by decreasing the
-[Maximum reviews/day](setting-up-anki.html#maximum-reviews-day)
-setting in order to do more new cards.
-It will only *hide* the due cards from you.
-Failing to do all of your reviews on schedule will form a backlog.
-What's worse, the backlog will be invisible because Anki will hide it from you.
+No limites tus repasos disminuyendo la configuración de [Revisiones máximas/día](configurando-anki.html#repasos-máximas-día) para hacer más tarjetas nuevas. Solo *ocultará* las tarjetas vencidas de ti. No hacer todas tus repasos a tiempo formará un retraso. Lo que es peor, el retraso será invisible porque Anki lo ocultará de ti.
 
-## Leeches
+## Sanguijuelas
 
-Anki has a setting that controls how many times you can fail a card before it becomes a leech,
-[Leech threshold](setting-up-anki.html#lapses).
-It doesn't mean the number of times you simply press "Again" on a card,
-but rather the number of times you fail a card that has previously graduated to the review queue.
-In other words, hitting "Again" on a card over an over on the same day
-doesn't make it a leech.
+Anki tiene una configuración que controla cuántas veces puedes fallar una tarjeta antes de que se convierta en una sanguijuela, [Umbral para Sanguijuelas](configurando-anki.html#recaídas). No significa el número de veces que simplemente presionas "Otra vez" en una tarjeta, sino más bien el número de veces que fallas una tarjeta que previamente se había graduado a la cola de repaso. En otras palabras, presionar "Otra vez" en una tarjeta una y otra vez en el mismo día no la convierte en una sanguijuela.
 
-When Anki marks a card as a "leech",
-the card receives a "leech" tag.
-You can later find leeches by opening the Anki Browser and typing `tag:leech` in the search field.
-If `Leech Action` is set to "Suspend card", the card won't come up for review anymore.
-It's important to quickly pull leeches out of rotation by suspending them
-so that they don't waste your review time.
+Cuando Anki marca una tarjeta como "sanguijuela", la tarjeta recibe una etiqueta de "sanguijuela". Puedes encontrar las sanguijuelas más tarde presionando Explorar y escribiendo `tag:leech` en el campo de búsqueda. Si la `Acción de Sanguijuela` está configurada en "Suspender tarjeta", la tarjeta ya no aparecerá para repaso. Es importante sacar rápidamente las sanguijuelas de la rotación suspendiéndolas para que no desperdicien tu tiempo de repaso.
 
-After you've neutralized a leech, decide what to do with it.
-Change the content of the card to make it easier to memorize
-or just wait until your brain is ready to learn it again.
-Before you re-learn the card, you have to
-[reset it](useful-anki-add-ons-for-japanese.html#reset-card-scheduling).
+Después de haber neutralizado una sanguijuela, decide qué hacer con ella. Cambia el contenido de la tarjeta para que sea más fácil de memorizar o simplemente espera hasta que tu cerebro esté listo para aprenderla de nuevo. Antes de volver a aprender la tarjeta, tienes que [reiniciarla](complementos-útiles-de-anki-para-japonés.html#reiniciar-programación-de-tarjeta).
 
-In my experience, most leeches pop up as a result of failed attempts to memorize kanji readings.
-The best way to force a particular reading into your memory
-is to memorize multiple words that use the same reading.
-For example, if you can't remember how to read `印璽`,
-make cards for words such as `御璽` or `国璽`
-and learn all of them at the same time.
+En mi experiencia, la mayoría de las sanguijuelas aparecen como resultado de intentos fallidos de memorizar las lecturas de kanji. La mejor manera de forzar una lectura particular en tu memoria es memorizar varias palabras que usan la misma lectura. Por ejemplo, si no puedes recordar cómo leer `印璽`, haz tarjetas para palabras como `御璽` o `国璽` y aprende todas ellas al mismo tiempo.
 
-If you can't remember a card due to a kanji reading not sticking,
-people also recommend putting furigana for the difficult word on the front of the card.
-Personally I wouldn't do this myself, but it's a cheap way out.
+Si no puedes recordar una tarjeta debido a que una lectura de kanji no se te queda, también se recomienda poner furigana para la palabra difícil en el frente de la tarjeta. Personalmente, yo no haría esto, pero es una salida fácil.
 
-[Mortician](https://ankiweb.net/shared/info/1255924302)
-automatically buries cars that you fail too many times.
-Use it to prevent potential leeches from wasting your time.
+[Mortician](https://ankiweb.net/shared/info/1255924302) entierra automáticamente las tarjetas que fallas demasiadas veces. Úsalo para prevenir que las posibles sanguijuelas desperdicien tu tiempo.
 
-## Deleting and suspending cards
+## Eliminando y suspendiendo tarjetas
 
-There are several articles on the AJATT site
-where Khatz fiercely recommends deleting cards.
+Hay varios artículos en el sitio de AJATT donde Khatz recomienda fervientemente eliminar tarjetas.
 
-> Delete. For happiness, for hygiene, for the smell, for sanity, for fun.
+> Elimina. Por la felicidad, por la higiene, por el olor, por la cordura, por diversión.
 
-> Get rid of anything even remotely sucky.
-> Delete. Delete. Delete. Don’t worry. You obviously don’t need them.
+> Deshazte de cualquier cosa que sea remotamente molesta.
+> Elimina. Elimina. Elimina. No te preocupes. Obviamente no las necesitas.
 
-Later many methods derived from AJATT copied this advice.
+Más tarde, muchos métodos derivados de AJATT copiaron este consejo.
 
-There are situations when it makes sense to *pull a card out of the review queue*:
+Hay situaciones en las que tiene sentido *sacar una tarjeta de la cola de repaso*:
 
-* You can't seem to remember a card.
-* A card is too hard or too easy.
-* It takes too much time to rep.
-* You mined it thinking it was a
-[1T](one-target-sentences.html)
-card and turns out it's not.
+* No pareces poder recordar una tarjeta.
+* Una tarjeta es demasiado difícil o demasiado fácil.
+* Toma demasiado tiempo repasarla.
+* La seleccionaste pensando que era una tarjeta [1T](frases-de-un-objetivo.html) y resulta que no lo es.
 
-Preemptively getting rid of cards that have a potential to become leeches
-or cards that are too complicated and waste your time is a valuable technique.
-It is going to help you avoid getting overwhelmed with the SRS in the long run.
+Eliminar de manera preventiva las tarjetas que tienen el potencial de convertirse en sanguijuelas o las tarjetas que son demasiado complicadas y te hacen perder tiempo es una técnica valiosa. Te ayudará a evitar sentirte abrumado con el RE a largo plazo.
 
-However, I advise you to **be careful** with deletions.
-It's way harder to restore a deleted card than bring back a suspended one.
-**Suspend** cards instead.
-If you change your mind, put the card back into the rotation and try to learn it again.
+Sin embargo, te aconsejo que **tengas cuidado** con las eliminaciones. Es mucho más difícil restaurar una tarjeta eliminada que recuperar una suspendida. **Suspende** las tarjetas en su lugar. Si cambias de opinión, vuelve a poner la tarjeta en rotación e intenta aprenderla de nuevo.
 
-## Card retirement
+## Retiro de tarjetas
 
-Let's say you have 100 reviews each day,
-you learn 10 new cards a day,
-and your retention is 90%.
-If you continue your current Anki routine for an additional 15 years,
-your daily amount of reviews will be 200.
+Digamos que tienes 100 repasos cada día, aprendes 10 nuevas tarjetas al día y tu retención es del 90%. Si continúas con tu rutina actual de Anki durante 15 años más, tu cantidad diaria de repasos será de 200.
 
-This calculation indicates two things.
+Este cálculo indica dos cosas.
 
-1) You have to start suspending cards once they reach a certain interval,
-otherwise your review load will be increasing forever.
-2) This only becomes a problem once you've used Anki for many years.
+1) Tienes que empezar a suspender tarjetas una vez que alcanzan un cierto intervalo, de lo contrario, tu carga de repaso aumentará para siempre.
+2) Esto solo se convierte en un problema una vez que has usado Anki durante muchos años.
 
-It's okay to suspend or even delete cards when they reach obscene intervals,
-like 5, 10 or even 15 years.
-To find such cards, open the Anki Browser and type `prop:ivl>3650`.
-The number `3650` corresponds to a card's interval in days,
-the search expression finds all cards that have intervals larger than this value.
-Now you can suspend the cards by pressing `Ctrl+J`.
-Next time when you search cards eligible for retirement,
-add `-is:suspended` to the search expression to filter out the cards you've already suspended.
+Está bien suspender o incluso eliminar tarjetas cuando alcanzan intervalos obscenos, como 5, 10 o incluso 15 años. Para encontrar dichas tarjetas, presiona Explorar y escribe `prop:ivl>3650`. El número `3650` corresponde al intervalo de una tarjeta en días, la expresión de búsqueda encuentra todas las tarjetas que tienen intervalos mayores que este valor. Ahora puedes suspender las tarjetas presionando `Ctrl+J`. La próxima vez que busques tarjetas elegibles para el retiro, agrega `-is:suspended` a la expresión de búsqueda para filtrar las tarjetas que ya has suspendido.
 
-You can bookmark the current search expression
-by right-clicking `Saved Searches` and choosing `Save Current Search`.
+Puedes marcar la expresión de búsqueda actual haciendo clic derecho en `Búsquedas Guardadas` y eligiendo `Guardar Búsqueda Actual`.
 
-<p align="center"><img src="img/retirement.webp" alt="screenshot"></p>
-<p align="center"><i>Anki Browser Search.</i></p>
+<p align="center"><img src="img/retirement.webp" alt="captura de pantalla"></p>
+<p align="center"><i>Búsqueda en Explorar.</i></p>
 
-**Note:** There are some add-ons on AnkiWeb that offer automatic retirement.
-They modify the scheduler unpredictably
-and have earned negative reputation among Japanese learners.
-Don't use any add-ons that mess with the scheduler.
-They often have bugs and may corrupt your collection.
+**Nota:** Hay algunos complementos en AnkiWeb que ofrecen retiro automático. Modifican el planificador de manera impredecible y han ganado reputación negativa entre los estudiantes de japonés. No uses ningún complemento que interfiera con el planificador. A menudo tienen errores y pueden corromper tu colección.
 
-## Get the AJT Flexible Grading add-on
+## Obtén el complemento AJT Flexible Grading
 
-AJT Flexible Grading comes with three important features:
+AJT Flexible Grading viene con tres características importantes:
 
-* Pass-Fail mode
-* Grading from the front side
-* The ability to hide some or all answer buttons.
+* Modo Aprobado-Reprobado
+* Calificación desde el lado frontal
+* La capacidad de ocultar algunos o todos los botones de respuesta.
 
-To install the add-on, follow the instructions on AnkiWeb.
+Para instalar el complemento, sigue las instrucciones en AnkiWeb.
 
 <p align="center"><img src="https://raw.githubusercontent.com/Ajatt-Tools/FlexibleGrading/main/img/flexible_grading.webp"></p>
 
-<p align="center"><a class="download_button" href="https://ankiweb.net/shared/info/1715096333">Download</a></p>
+<p align="center"><a class="download_button" href="https://ankiweb.net/shared/info/1715096333">Descargar</a></p>
 
-### Pass-Fail mode
+### Modo Aprobado-Reprobado
 
-The Pass-Fail mode essentially doesn't let you press "Hard" and "Easy" buttons.
-There are two benefits associated with this.
+El modo Aprobado-Reprobado esencialmente no te permite presionar los botones "Difícil" y "Fácil". Esto tiene dos beneficios.
 
-One being that having to decide between various options
-can actually make your Anki study less efficient.
-When you're deciding how to grade a card, you're wasting your mental resources.
-Do it a hundred times, and you'll experience something called decision fatigue.
-Instead of deciding how well you know something simply decide whether you know it or not.
+Uno de ellos es que tener que decidir entre varias opciones puede hacer que tu estudio con Anki sea menos eficiente. Cuando estás decidiendo cómo calificar una tarjeta, estás desperdiciando tus recursos mentales. Hazlo cien veces y experimentarás algo llamado fatiga de decisión. En lugar de decidir cuánto sabes algo, simplemente decide si lo sabes o no.
 
-Another being that most Anki users don't understand
-what Anki's "Hard" and "Easy" buttons actually do.
-Both buttons affect the cards' Ease factor.
-Using the "Hard" button can penalize you and greatly add to your review count over time.
-Using the "Easy" button can artificially inflate your card scheduling intervals
-and lead to forgetting and lower retention in the future.
-For the vast majority of us the best option is to simply use Anki's "Good" and "Again" buttons.
+Otro es que la mayoría de los usuarios de Anki no entienden qué hacen realmente los botones "Difícil" y "Fácil" de Anki. Ambos botones afectan el factor de facilidad de las tarjetas. Usar el botón "Difícil" puede penalizarte y aumentar considerablemente tu conteo de repasos con el tiempo. Usar el botón "Fácil" puede inflar artificialmente los intervalos de programación de tus tarjetas y llevar al olvido y a una menor retención en el futuro. Para la gran mayoría de nosotros, la mejor opción es simplemente usar los botones "Bueno" y "Otra vez" de Anki.
 
-### Flexible grading
+### Calificación flexible
 
-Flexible grading refers to the ability to pass an Anki card without having to reveal the answer.
-If you believe that you really know the content of a flashcard,
-you may decide to skip its reverse side and immediately grade the card.
-It should speed up review time and save you some keypresses.
+La calificación flexible se refiere a la capacidad de aprobar una tarjeta de Anki sin tener que revelar la respuesta. Si crees que realmente conoces el contenido de una tarjeta, puedes decidir saltarte su reverso e inmediatamente calificar la tarjeta. Esto debería acelerar el tiempo de repaso y ahorrarte algunas pulsaciones de teclas.
 
-Flexible grading is enabled by default in the add-on's options.
-You can grade the cards by pressing Vim-keys on your keyboard or by using the default Anki hotkeys.
+La calificación flexible está habilitada por defecto en las opciones del complemento. Puedes calificar las tarjetas presionando las teclas Vim en tu teclado o utilizando los atajos de teclado predeterminados de Anki.
 
-| Vim bindings | Default bindings | Description |
+| Atajos Vim | Atajos predeterminados | Descripción |
 | ------------ | ---------------- | ----------- |
-| `h`          | `1`              | Again, Fail |
-| `j`          | `2`              | Hard        |
-| `k`          | `3`              | Good, Pass  |
-| `l`          | `4`              | Easy        |
+| `h`          | `1`              | Otra vez, Reprobar |
+| `j`          | `2`              | Difícil        |
+| `k`          | `3`              | Bueno, Aprobar  |
+| `l`          | `4`              | Fácil        |
 
-Pressing 1-4 to grade cards is convenient, but it's not as convenient.
-Vim-like bindings let you grade the cards
-with your fingers lying on the home row keys,
-much like when you navigate a document in Vim.
+Presionar del 1 al 4 para calificar las tarjetas es conveniente, pero no tanto. Los atajos tipo Vim te permiten calificar las tarjetas con tus dedos descansando en las teclas de la fila central, al igual que cuando navegas por un documento en Vim.
 
-<p align="center"><img alt="keyboard" src="https://raw.githubusercontent.com/Ajatt-Tools/FlexibleGrading/main/img/keyboard.webp"></p>
+<p align="center"><img alt="teclado" src="https://raw.githubusercontent.com/Ajatt-Tools/FlexibleGrading/main/img/keyboard.webp"></p>
 
-I'm sure you'll appreciate how much more quickly you'll be able to finish your reviews.
+Estoy seguro de que apreciarás cuánto más rápido podrás terminar tus repasos.
 
-### Getting rid of answer buttons
+### Eliminando los botones de respuesta
 
-Once you get used to blasting through your reps with Vim-like hotkeys,
-you realize that the answer buttons are completely redundant.
-AJT Flexible Grading has an option to remove those buttons,
-making the Anki UI less cluttered.
+Una vez que te acostumbras a pasar rápidamente por tus repasos con los atajos de teclado tipo Vim, te das cuenta de que los botones de respuesta son completamente redundantes. AJT Flexible Grading tiene una opción para eliminar esos botones, haciendo que la interfaz de usuario de Anki sea menos abarrotada.
 
-### Last review stats at the top
+### Estadísticas de la última repaso en la parte superior
 
-Have you ever had doubts like, "did I grade that card right?" after doing a rep?
-Maybe your finger slipped a bit, and you're not sure whether you've pressed the right button.
-AJT Flexible Grading shows the result of the last review at the top.
-It tells you what button you pressed and what interval the card has right now.
-By clicking on the stat you can bring up the card browser window showing the last answered card.
+¿Alguna vez has tenido dudas como "¿califiqué esa tarjeta correctamente?" después de hacer una repaso? Tal vez tu dedo resbaló un poco y no estás seguro de si presionaste el botón correcto. AJT Flexible Grading muestra el resultado de la última repaso en la parte superior. Te dice qué botón presionaste y qué intervalo tiene la tarjeta en este momento. Al hacer clic en la estadística, puedes abrir la ventana del navegador de tarjetas que muestra la última tarjeta respondida.
 
-## Summary
+## Resumen
 
-The SRS best practices:
+Las mejores prácticas del RE:
 
-1) Starting Ease 131%.
-1) Interval Modifier 192%, increase if needed.
-1) Enable the V3 scheduler.
-1) Show up every day to do your reps.
-1) Don't review in filtered decks.
-1) Use filtered decks for storing old due cards (backlog).
-1) Do no more than 30 new cards a day, unless you know what you're doing.
-1) Have Anki suspend your leeches. Deal with them as they come up.
-1) Install AJT Flexible Grading. Use the Vim hotkeys when reviewing.
-1) Use the **Pass-Fail** mode to avoid "Hard" and "Easy" buttons.
-1) Grade easy cards from their front side.
+1) Facilidad inicial del 131%.
+2) Modificador de intervalo del 192%, aumentar si es necesario.
+3) Habilitar el planificador V3.
+4) Presentarse todos los días para hacer tus repasos.
+5) No revisar en mazos filtrados.
+6) Usa mazos filtrados para almacenar tarjetas vencidas antiguas (retrasos).
+7) No hagas más de 30 tarjetas nuevas al día, a menos que sepas lo que estás haciendo.
+8) Haz que Anki suspenda tus sanguijuelas. Enfréntalas a medida que surjan.
+9) Instala AJT Flexible Grading. Usa los atajos de teclado Vim al revisar.
+10) Usa el modo **Aprobado-Reprobado** para evitar los botones "Difícil" y "Fácil".
+11) Califica las tarjetas fáciles desde su lado frontal.
