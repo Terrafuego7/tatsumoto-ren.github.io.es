@@ -1,5 +1,5 @@
 ---
-title: Cómo hacer repasos
+title: Cómo repasar
 date: 1626142570
 tags: [anki]
 ---
