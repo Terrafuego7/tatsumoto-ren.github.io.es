@@ -238,9 +238,9 @@ Estoy seguro de que apreciarás cuánto más rápido podrás terminar tus repaso
 
 Una vez que te acostumbras a pasar rápidamente por tus repasos con los atajos de teclado tipo Vim, te das cuenta de que los botones de respuesta son completamente redundantes. AJT Flexible Grading tiene una opción para eliminar esos botones, haciendo que la interfaz de usuario de Anki sea menos abarrotada.
 
-### Estadísticas de la última repaso en la parte superior
+### Estadísticas del último repaso en la parte superior
 
-¿Alguna vez has tenido dudas como "¿califiqué esa tarjeta correctamente?" después de hacer una repaso? Tal vez tu dedo resbaló un poco y no estás seguro de si presionaste el botón correcto. AJT Flexible Grading muestra el resultado de la última repaso en la parte superior. Te dice qué botón presionaste y qué intervalo tiene la tarjeta en este momento. Al hacer clic en la estadística, puedes abrir la ventana del navegador de tarjetas que muestra la última tarjeta respondida.
+¿Alguna vez has tenido dudas como "¿califiqué esa tarjeta correctamente?" después de hacer una repaso? Tal vez tu dedo resbaló un poco y no estás seguro de si presionaste el botón correcto. AJT Flexible Grading muestra el resultado del último repaso en la parte superior. Te dice qué botón presionaste y qué intervalo tiene la tarjeta en este momento. Al hacer clic en la estadística, puedes abrir la ventana del navegador de tarjetas que muestra la última tarjeta respondida.
 
 ## Resumen
 
