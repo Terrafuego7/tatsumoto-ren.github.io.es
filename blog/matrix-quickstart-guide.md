@@ -1,234 +1,233 @@
 ---
-title: Matrix quickstart guide
+title: Guía rápida de Matrix
 date: 1655322524
 tags: [matrix]
 ---
 
-This article is a user guide to Matrix.
-It also covers the most popular Matrix client program, Element.
+Este artículo es una guía de usuario de Matrix.
+También cubre el programa cliente de Matrix más popular, Element.
 
 ****
 
-## What is Matrix?
+## ¿Qué es Matrix?
 
-Matrix is an internet chat protocol.
-You can message people personally or in group chats,
-send files,
-and use end-to-end encryption to secure your communications.
-Unlike Discord or Telegram, Matrix is federated.
-It consists of many servers,
-each server hosts Matrix accounts and chats.
-You make an account on a Matrix server,
-it talks to other Matrix servers on your behalf and sends the data to you.
-Email is an example of a federated protocol.
+Matrix es un protocolo de chat en Internet.
+Puedes enviar mensajes a personas de manera personal o en chats grupales,
+enviar archivos
+y utilizar cifrado de extremo a extremo para asegurar tus comunicaciones.
+A diferencia de Discord o Telegram, Matrix es federado.
+Está compuesto por muchos servidores,
+cada servidor aloja cuentas y chats de Matrix.
+Creas una cuenta en un servidor de Matrix,
+este se comunica con otros servidores de Matrix en tu nombre y te envía los datos.
+El correo electrónico es un ejemplo de un protocolo federado.
 
-On Matrix, usernames are referred to as `MXID`s (Matrix IDs),
-chats as `room`s
-servers as `homeserver`s.
-You can also group rooms together to form `space`s.
-Matrix spaces behave like Discord "servers".
+En Matrix, los nombres de usuario se conocen como `MXID`s (Matrix IDs),
+los chats como `room`s
+y los servidores como `homeserver`s.
+También puedes agrupar salas para formar `space`s.
+Los espacios en Matrix se comportan como los "servidores" de Discord.
 
-## Why Matrix
+## Por qué usar Matrix
 
-There is a number of major advantages to Matrix that attract new users.
+Existen varias ventajas importantes en Matrix que atraen a nuevos usuarios.
 
-1) Protection against jannies.
-   If you pick a trusted homeserver or host one yourself,
-   you won't lose your account or your chats.
-   On Discord, it is not a rare thing for "servers" to get banned.
-   As a result, you have to create a new one and invite the old members back.
-   No one guarantees you won't be banned again.
+1) Protección contra moderadores.
+   Si eliges un `homeserver` confiable o alojas uno tú mismo,
+   no perderás tu cuenta ni tus chats.
+   En Discord, no es raro que se prohíban "servidores".
+   Como resultado, tienes que crear uno nuevo e invitar de nuevo a los antiguos miembros.
+   Nadie te garantiza que no serás prohibido nuevamente.
 
-   Although Matrix homeservers can ban rooms,
-   they can't command other homeservers to do the same.
-   A room exists as long as there's at least one homeserver that has not banned it.
-2) So much freedom.
-   Every piece of the Matrix ecosystem is
-   [Free/Libre software](https://www.gnu.org/philosophy/free-sw.html).
-   This guarantees that you're not running
-   [malware](https://www.gnu.org/proprietary/)
-   on your computer,
-   and you know what the software is doing.
-3) Encryption.
-   Encryption ensures that only you and the people you're talking to
-   can read the content of the messages.
-   Encryption is supported by many messengers,
-   but in Matrix it is trustworthy and made easy to use.
-   The message encryption system used by Matrix has been independently audited.
+   Aunque los `homeservers` de Matrix pueden prohibir salas,
+   no pueden ordenar a otros `homeservers` hacer lo mismo.
+   Una sala existe siempre y cuando haya al menos un `homeserver` que no la haya prohibido.
+2) Tanta libertad.
+   Cada componente del ecosistema de Matrix es
+   [software libre](https://www.gnu.org/philosophy/free-sw.html).
+   Esto garantiza que no estás ejecutando
+   [software malicioso](https://www.gnu.org/proprietary/)
+   en tu computadora,
+   y sabes lo que el software está haciendo.
+3) Cifrado.
+   El cifrado asegura que solo tú y las personas con las que estás hablando
+   puedan leer el contenido de los mensajes.
+   El cifrado es compatible con muchos servicios de mensajería,
+   pero en Matrix es confiable y fácil de usar.
+   El sistema de cifrado de mensajes utilizado en Matrix ha sido auditado de forma independiente.
 
-   Note that encryption may or may not be enabled by default
-   depending on the client application and the homeserver you use.
-   It is recommended to enable it when creating private rooms
-   but leaving it disabled when creating public rooms.
-   Public rooms can be read by anybody anyway.
-   Large rooms start lagging if they are encrypted.
-4) All the usual features of messaging software.
-   Group chats,
-   direct messages,
-   voice messages,
-   voice and video calls,
-   emoji and stickers,
-   file and media sharing,
-   etc.
+   Ten en cuenta que el cifrado puede estar activado o desactivado de forma predeterminada
+   según la aplicación cliente y el `homeserver` que utilices.
+   Se recomienda habilitarlo al crear salas privadas,
+   pero dejarlo desactivado al crear salas públicas.
+   Las salas públicas de todos modos pueden ser leídas por cualquier persona.
+   Las salas grandes comienzan a tener retrasos si están cifradas.
+4) Todas las funciones habituales de un software de mensajería.
+   Chats grupales,
+   mensajes directos,
+   mensajes de voz,
+   llamadas de voz y video,
+   emojis y stickers,
+   compartir archivos y medios, etc.
 
-## Matrix rooms
+## Salas en Matrix
 
-All communications on Matrix happen through Matrix rooms.
-When you message someone directly, you also create a room,
-except it is tagged as direct in your account settings.
+Todas las comunicaciones en Matrix ocurren a través de las salas de Matrix.
+Cuando le envías un mensaje a alguien directamente, también creas una sala,
+excepto que se etiqueta como directa en la configuración de tu cuenta.
 
-When a new user joins a room,
-the room is copied to their homeserver.
-This action might take some time to complete.
-If the server already has got a copy of the room,
-the user joins immediately.
+Cuando un nuevo usuario se une a una sala,
+la sala se copia en su `homeserver`.
+Esta acción puede tomar algo de tiempo en completarse.
+Si el servidor ya tiene una copia de la sala,
+el usuario se une de inmediato.
 
-Homeservers participate in rooms on behalf of their users.
-Since each server has a copy of the room, this creates redundancy.
-While at least two different homeservers participate in a room,
-the room stays alive even if one of the servers goes offline.
-When the last participant on a particular homeserver leaves a room,
-the room *is supposed to be deleted from the homeserver*.
-When the very last participant leaves the room,
-it becomes inaccessible and no one can join it ever again.
+Los `homeservers` participan en las salas en nombre de sus usuarios.
+Dado que cada servidor tiene una copia de la sala, esto crea redundancia.
+Mientras al menos dos `homeservers` diferentes participen en una sala,
+la sala se mantiene activa incluso si uno de los servidores se desconecta.
+Cuando el último participante en un `homeserver` en particular abandona una sala,
+*se supone que la sala será eliminada del `homeserver`*.
+Cuando el último participante abandona la sala,
+esta se vuelve inaccesible y nadie puede unirse a ella nuevamente.
 
-Homeservers can shut down (ban) rooms.
-If you try to join a banned room, you get an error saying,
-"This room has been blocked on this server."
-This indicates that you should ditch your current homeserver because it is run by control freaks.
+Los `homeservers` pueden cerrar (prohibir) salas.
+Si intentas unirte a una sala prohibida, recibirás un mensaje de error que dice:
+"Esta sala ha sido bloqueada en este servidor."
+Esto indica que deberías abandonar tu `homeserver` actual porque está controlado por fanáticos del control.
 
-Room admins can blocklist homeservers.
-If you try to join a room that has blocklisted your homeserver,
-you get an error saying,
-"Server is banned from room."
-This indicates that you need a new account on another homeserver to join the room.
+Los administradores de salas pueden bloquear `homeservers`.
+Si intentas unirte a una sala que ha bloqueado tu `homeserver`,
+recibirás un mensaje de error que dice:
+"El servidor está prohibido en esta sala."
+Esto indica que necesitas una nueva cuenta en otro `homeserver` para unirte a la sala.
 
-Rooms have [versions](https://spec.matrix.org/unstable/rooms/).
-When creating a new room, you want to pick the latest version to get all the possible features.
-The room's version can't be changed in the future,
-but the room can be upgraded to a newer version.
-Upgrading creates a new room with the same name and links the old room to the new room.
+Las salas tienen [versiones](https://spec.matrix.org/unstable/rooms/).
+Al crear una sala nueva, debes elegir la última versión para obtener todas las características posibles.
+La versión de la sala no se puede cambiar en el futuro,
+pero la sala se puede actualizar a una versión más reciente.
+La actualización crea una nueva sala con el mismo nombre y vincula la sala antigua a la nueva sala.
 
-## Matrix spaces
+## Espacios en Matrix
 
-A Matrix space is a special room that contains references to other rooms.
-When a user enters a space, they see its description and a list of rooms to join.
-Spaces may reside inside other spaces.
-A room can belong to more than one space.
+Un espacio en Matrix es una sala especial que contiene referencias a otras salas.
+Cuando un usuario ingresa a un espacio, ve su descripción y una lista de salas para unirse.
+Los espacios pueden residir dentro de otros espacios.
+Una sala puede pertenecer a más de un espacio.
 
-* Car parts (space)
-	* Wheels
-	* Engine
-	* Seats
-	* Windows
+* Piezas de automóviles (espacio)
+	* Ruedas
+	* Motor
+	* Asientos
+	* Ventanas
 
-Normally you don't send messages to a space.
-Spaces only act as collections of other rooms.
+Normalmente, no envías mensajes a un espacio.
+Los espacios solo actúan como colecciones de otras salas.
 
-## Matrix accounts
+## Cuentas en Matrix
 
-You create your account on a server.
-The server stores all the data about your account.
-It also stores all your rooms and their message history.
+Creas tu cuenta en un servidor.
+El servidor almacena todos los datos de tu cuenta.
+También almacena todas tus salas y el historial de mensajes.
 
-When you register a new account,
-a homeserver may ask your Email address and/or a phone number.
-The server's admin can see this data,
-for extra privacy you want to find a homeserver that doesn't ask for it.
+Cuando registras una cuenta nueva,
+un `homeserver` puede solicitar tu dirección de correo electrónico y/o número de teléfono.
+El administrador del servidor puede ver estos datos,
+por lo que si deseas tener mayor privacidad, debes encontrar un `homeserver` que no los solicite.
 
-Unlike Matrix rooms, there's no redundancy to Matrix accounts.
-If you think that your homeserver may go offline at some point or ban you,
-keep a second account (an alt) registered on a different homeserver.
+A diferencia de las salas en Matrix, las cuentas en Matrix no tienen redundancia.
+Si crees que tu `homeserver` podría desconectarse en algún momento o prohibirte,
+mantén una segunda cuenta (un alias) registrada en un `homeserver` diferente.
 
-At some point Matrix may become more independent of homeservers
-and allow the users to keep their account data locally.
-Until then keep in mind that homeservers can die unexpectedly and take accounts with them.
+En algún momento, Matrix puede volverse más independiente de los `homeservers`
+y permitir a los usuarios mantener sus datos de cuenta localmente.
+Hasta entonces, ten en cuenta que los `homeservers` pueden cerrar inesperadamente y llevarse las cuentas consigo.
 
-## Install a client program
+## Instalar un programa cliente
 
-To talk on Matrix you need any Matrix client.
+Para comunicarte en Matrix, necesitas cualquier cliente de Matrix.
 
-* All Matrix clients are listed on [Arch Wiki](https://wiki.archlinux.org/title/List_of_applications/Internet#Matrix_clients).
-* If you are a phone poster, open [F-droid](https://f-droid.org/) and search for Matrix clients.
-  Usually people install `Element` or `Fluffychat`.
+* Todos los clientes de Matrix están listados en [Arch Wiki](https://wiki.archlinux.org/title/List_of_applications/Internet#Matrix_clients).
+* Si utilizas un teléfono, abre [F-droid](https://f-droid.org/) y busca clientes de Matrix.
+  Por lo general, la gente instala `Element` o `Fluffychat`.
 * [Nheko](https://github.com/Nheko-Reborn/nheko)
-  often requires
-  [this fix](https://github.com/Nheko-Reborn/nheko/issues/1187#issuecomment-1255831124).
+  a menudo requiere
+  [esta solución](https://github.com/Nheko-Reborn/nheko/issues/1187#issuecomment-1255831124).
 
-## Choose homeserver
+## Elegir un homeserver
 
-See [List of Matrix servers](list-of-matrix-servers.html).
+Consulta la [Lista de servidores de Matrix](list-of-matrix-servers.html).
 
-If you have your own site,
-you can [host a Matrix server](https://redirect.invidious.io/watch?v=dDddKmdLEdg) on it.
-If not, pick a server that has open registration.
+Si tienes tu propio sitio,
+puedes [alojar un servidor de Matrix](https://redirect.invidious.io/watch?v=dDddKmdLEdg) en él.
+Si no, elige un servidor que tenga registro abierto.
 
-Never use `matrix.org` for anything other than trolling purposes,
-and be aware that `matrix.org` admins will sell your data to Israel.
+Nunca uses `matrix.org` para nada más que para molestar,
+y ten en cuenta que los administradores de `matrix.org` venderán tus datos a Israel.
 
-## Running Element locally
+## Ejecutar Element localmente
 
-Element-Desktop is built with Electron.
-You may not like it because it runs in a separate browser instance,
-takes too much time to start and consumes a lot of RAM.
-Unable to bear that, you could switch to
-[another popular client](https://write.midov.pl/midek/software-list#matrix-client).
-Alternatively, you can run Element in your browser.
-The easiest way to do it is to open [an instance someone else has set up](list-of-matrix-servers.html#with-element).
+Element-Desktop se construye con Electron.
+Es posible que no te guste porque se ejecuta en una instancia separada del navegador,
+tarda mucho en iniciarse y consume mucha memoria RAM.
+Si no puedes soportarlo, puedes cambiar a
+[otro cliente popular](https://write.midov.pl/midek/software-list#matrix-client).
+Como alternativa, puedes ejecutar Element en tu navegador.
+La forma más sencilla de hacerlo es abrir [una instancia que alguien más haya configurado](list-of-matrix-servers.html#with-element).
 
-However, you may not want to do that either, because:
+Sin embargo, es posible que tampoco quieras hacer eso, porque:
 
-* Your homeserver doesn't have in-house Element.
-* Connecting to a remote instance is slow.
-* You don't trust another third-party.
+* Tu `homeserver` no tiene Element integrado.
+* La conexión a una instancia remota es lenta.
+* No confías en otro tercero.
 
-The solution is to serve Element locally with a web-server and access it in a web browser.
+La solución es servir Element localmente con un servidor web y acceder a él en un navegador web.
 
-You'll need:
+Necesitarás:
 
-* Any web server, like `nginx`.
-  I use [darkhttpd](https://archlinux.org/packages/community/x86_64/darkhttpd/).
+* Cualquier servidor web, como `nginx`.
+  Yo uso [darkhttpd](https://archlinux.org/packages/community/x86_64/darkhttpd/).
 * [element-web](https://archlinux.org/packages/community/x86_64/element-web/).
-  If you already have `element-desktop` installed, you automatically have element-web.
+  Si ya tienes instalado `element-desktop`, automáticamente tienes `element-web`.
 
-The final part is to run the server and open Element in your web browser.
+La parte final es ejecutar el servidor y abrir Element en tu navegador web.
 
 ```
 darkhttpd /usr/share/webapps/element --port 8000 --addr 127.0.0.1 --daemon --log /dev/null
 ```
 
-Now go to http://127.0.0.1:8000/ and sign in to your account.
+Ahora ve a http://127.0.0.1:8000/ e inicia sesión en tu cuenta.
 
-I have written
-[a little script](https://aur.archlinux.org/cgit/aur.git/tree/element-web.sh?h=element-desktop-git-greentext)
-to quickly **start** and **stop** a local instance of element-web.
-It is a part of
-[my build of Element](https://aur.archlinux.org/packages/element-web-greentext/).
+He escrito
+[un pequeño script](https://aur.archlinux.org/cgit/aur.git/tree/element-web.sh?h=element-desktop-git-greentext)
+para **iniciar** y **detener** rápidamente una instancia local de element-web.
+Es parte de
+[mi versión de Element](https://aur.archlinux.org/packages/element-web-greentext/).
 
-**Caveats.**
+**Consideraciones.**
 
-* element-web doesn't work well with
+* element-web no funciona bien con
   [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/).
-  uMatrix blocks third-party connections,
-  so you have to unblock your homeserver's URL.
-  It won't even start unless you block the default homeserver (set in `/etc/element/config.json`).
-  If you like trying out different homeservers, this quickly becomes annoying.
-* Certain features of Element rely on the ability
-  to copy or paste content to the system clipboard with JavaScript.
-  If you use Firefox or its derivative,
-  you may have to set `dom.event.clipboardevents.enabled` to `true`
-  to upload images and media files stored in the clipboard
-  and `dom.allow_cut_copy` to `true` to copy room links to the clipboard.
+  uMatrix bloquea conexiones de terceros,
+  por lo que debes desbloquear la URL de tu `homeserver`.
+  Ni siquiera se iniciará a menos que bloquees el `homeserver` predeterminado (establecido en `/etc/element/config.json`).
+  Si te gusta probar diferentes `homeservers`, esto se vuelve molesto rápidamente.
+* Ciertas funciones de Element dependen de la capacidad
+  de copiar o pegar contenido en el portapapeles del sistema con JavaScript.
+  Si usas Firefox o una derivada,
+  es posible que debas establecer `dom.event.clipboardevents.enabled` en `true`
+  para cargar imágenes y archivos multimedia almacenados en el portapapeles
+  y `dom.allow_cut_copy` en `true` para copiar enlaces de salas al portapapeles.
 
-## Configuring Element
+## Configurando Element
 
-Element has a Settings menu.
-Unfortunately, there are some settings that can't be accessed without altering the config file.
-If you're running `element-web` locally, edit `/etc/element/config.json`.
-If you're running `element-desktop` (the electron app), create or edit `~/.config/Element/config.json`.
-Create the file if it doesn't exist yet.
+Element tiene un menú de Configuración.
+Desafortunadamente, hay algunas configuraciones a las que no se puede acceder sin modificar el archivo de configuración.
+Si estás ejecutando `element-web` localmente, edita `/etc/element/config.json`.
+Si estás ejecutando `element-desktop` (la aplicación electron), crea o edita `~/.config/Element/config.json`.
+Crea el archivo si aún no existe.
 
-In the config file, enable "Labs" to access the hidden settings.
+En el archivo de configuración, habilita "Labs" para acceder a las configuraciones ocultas.
 
 ```
 {
@@ -236,106 +235,106 @@ In the config file, enable "Labs" to access the hidden settings.
 }
 ```
 
-After you restart Element,
-the Labs will appear in Settings.
+Después de reiniciar Element,
+los Labs aparecerán en Configuración.
 
-<p align="center"><img alt="Settings" src="img/element-labs.webp"></p>
-<p align="center"><i>Labs in Settings.</i></p>
+<p align="center"><img alt="Configuración" src="img/element-labs.webp"></p>
+<p align="center"><i>Labs en Configuración.</i></p>
 
-Inside Labs,
-I recommend enabling the following.
+Dentro de Labs,
+recomiendo habilitar lo siguiente.
 
-1) Message Pinning. It lets you see pinned messages in rooms.
-2) Threaded messaging. Lets you access threads inside rooms.
-A thread is a sub-timeline where people can talk independently of the main timeline.
-3) Developer mode. Makes it easier to access certain things.
-4) Show hidden events in timeline.
+1) Anclar mensajes. Permite ver los mensajes anclados en las salas.
+2) Mensajes en hilos. Permite acceder a hilos dentro de las salas.
+Un hilo es una sublínea de tiempo donde las personas pueden conversar de forma independiente a la línea principal.
+3) Modo de desarrollador. Facilita el acceso a ciertas funciones.
+4) Mostrar eventos ocultos en la línea de tiempo.
 
-Further configuration.
+Configuración adicional.
 
-* A documentation for Labs features can be found
-  [here](https://github.com/vector-im/element-web/blob/develop/docs/labs.md).
-* There are way more things you can alter in `config.json`, see
-  [this page](https://github.com/vector-im/element-web/blob/develop/docs/config.md) for the list of settings.
+* Puedes encontrar una documentación de las características de Labs
+  [aquí](https://github.com/vector-im/element-web/blob/develop/docs/labs.md).
+* Hay muchas más cosas que puedes modificar en `config.json`, consulta
+  [esta página](https://github.com/vector-im/element-web/blob/develop/docs/config.md) para ver la lista de configuraciones.
 
-You can also snitch a config file from an existing instance.
-For example, like this.
+También puedes obtener un archivo de configuración de una instancia existente.
+Por ejemplo, de esta manera.
 
 ```
 # curl 'https://element.midov.pl/element/config.json' -o '/etc/element/config.json'
 ```
 
-Every public instance of Element has its own config file.
+Cada instancia pública de Element tiene su propio archivo de configuración.
 
-## Multi-accounting
+## Uso de múltiples cuentas
 
-If you want to use multiple different accounts at the same time,
-try the following options.
+Si deseas utilizar varias cuentas diferentes al mismo tiempo,
+puedes probar las siguientes opciones.
 
-* Element-desktop supports multiple profiles.
-  This is how you can start a new profile.
+* Element-desktop admite múltiples perfiles.
+  Así es como puedes iniciar un nuevo perfil.
 
   ```
-  $ element-desktop --profile "profile-name"
+  $ element-desktop --profile "nombre-de-perfil"
   ```
-* You can have multiple container tabs in Firefox each running Element.
+* Puedes tener múltiples pestañas de contenedor en Firefox, cada una ejecutando Element.
 * [Ferdium](https://aur.archlinux.org/packages?O=0&K=ferdium).
-  A desktop app that helps you combine various services into one application.
-  It is based on Chromium and is rather bloated (over 300 MiB after installation).
+  Una aplicación de escritorio que te ayuda a combinar varios servicios en una sola aplicación.
+  Está basado en Chromium y es bastante pesado (más de 300 MiB después de la instalación).
 
-## Joining rooms
+## Unirse a salas
 
-To join a room you can
-click on a room link if someone has shared it with you
-or accept an invitation if someone has invited you.
+Para unirte a una sala, puedes
+hacer clic en un enlace de sala si alguien te lo ha compartido
+o aceptar una invitación si alguien te ha invitado.
 
-## Finding rooms and spaces
+## Encontrar salas y espacios
 
-* There's a built-in way to find public rooms.
-  Open Element and press "Explore rooms".
-  Some spaces are listed there as well.
-* The public directory of matrix.org can be accessed without registration here
+* Existe una forma integrada de encontrar salas públicas.
+  Abre Element y presiona "Explorar salas".
+  Algunos espacios también se enumeran allí.
+* El directorio público de matrix.org se puede acceder sin registro aquí
   https://view.matrix.org/
-* To find more Matrix rooms, you can search `matrix.to/#/` links on 4chan.
+* Para encontrar más salas de Matrix, puedes buscar enlaces `matrix.to/#/` en 4chan.
   1) [4chan find](https://find.4chan.org/?q=matrix.to%2F)
   1) [archived.moe](https://archived.moe/_/search/text/%22https%3A%2F%2Fmatrix.to%2F%23%2F%22/)
   1) [desuarchive](https://desuarchive.org/_/search/text/%22https%3A%2F%2Fmatrix.to%2F%23%2F%22/)
   1) [arch.b4k.co](https://arch.b4k.co/_/search/text/%22https%3A%2F%2Fmatrix.to%2F%22/)
-  1) and other similar indexes.
+  1) y otros índices similares.
 
-## There was an error joining the room
+## Se produjo un error al unirse a la sala
 
-If you're trying to join a new room
-and keep constantly getting "There was an error joining the room",
-you have to wait until your server downloads the room.
-This error happens on garbage homeservers.
-Create a new account on another homeserver if the error doesn't go away.
+Si estás intentando unirte a una nueva sala
+y sigues obteniendo constantemente el mensaje "Se produjo un error al unirse a la sala",
+debes esperar hasta que tu servidor descargue la sala.
+Este error ocurre en `homeservers` de mala calidad.
+Crea una nueva cuenta en otro `homeserver` si el error no desaparece.
 
-## Privacy
+## Privacidad
 
-Your homeserver stores copies of all rooms you've joined.
-This leads to your homeserver operator knowing who you're talking to,
-even if they can't read the messages.
-Because we don't yet have peer-to-peer messaging on Matrix,
-this can be seen as a privacy concern.
-Choose a homeserver you can trust or set up your own.
+Tu `homeserver` almacena copias de todas las salas a las que te has unido.
+Esto significa que el operador de tu `homeserver` sabe con quién estás hablando,
+incluso si no puede leer los mensajes.
+Dado que aún no tenemos mensajería de igual a igual en Matrix,
+esto puede considerarse como una preocupación de privacidad.
+Elige un `homeserver` en el que puedas confiar o configura el tuyo propio.
 
-This is still not as bad as Telegram or Discord where you give away all your data.
+Aún así, esto no es tan malo como en Telegram o Discord donde entregas todos tus datos.
 
-## Create a room with the latest version
+## Crear una sala con la última versión
 
-In Element,
-you can create a new room by pressing the "Add" button.
+En Element,
+puedes crear una nueva sala presionando el botón "Agregar".
 
-When you create a new room via Element,
-it chooses the room's version for you.
-Often this is not what you want
-because the version it chooses is older than the latest version available.
-You can work around this by creating rooms with
+Cuando creas una nueva sala a través de Element,
+elige la versión de la sala por ti.
+A menudo esto no es lo que deseas
+porque la versión que elige es más antigua que la última versión disponible.
+Puedes solucionarlo creando salas con
 [curl](https://wiki.archlinux.org/title/CURL).
-The
-[client-server API](https://matrix.org/docs/spec/client_server/r0.6.1#creation)
-provides a way to do it.
+La
+[API cliente-servidor](https://matrix.org/docs/spec/client_server/r0.6.1#creation)
+proporciona una forma de hacerlo.
 
 ```
 #!/usr/bin/env bash
@@ -345,153 +344,151 @@ readonly TOKEN=my_access_token
 
 curl -X POST -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" "https://$SERVER/_matrix/client/r0/createRoom" --data-binary '{
 	"room_version": "10",
-	"name": "My chat",
+	"name": "Mi chat",
 	"preset": "public_chat",
-	"topic": "Welcome to my chat"
+	"topic": "Bienvenido a mi chat"
 }'
 ```
 
-At the time of writing `10` was the latest version.
-`SERVER` and `TOKEN` are your homeserver's URL and your account's access token.
-In Element, they can be obtained by going to "Settings" > "Help & About"l > "Advanced".
+En el momento de escribir esto, `10` era la última versión.
+`SERVER` y `TOKEN` son la URL de tu `homeserver` y el token de acceso de tu cuenta.
+En Element, puedes obtenerlos yendo a "Configuración" > "Ayuda y acerca de" > "Avanzado".
 
-## Upgrading to a new room version
+## Actualizar a una nueva versión de sala
 
-When there's a new room version available,
-you can choose to upgrade to the latest room version.
+Cuando hay una nueva versión de sala disponible,
+puedes optar por actualizar a la última versión de sala.
 
 ```
 #!/usr/bin/env bash
 
-readonly ID='!room_id:server.com'
-readonly SERVER=server.com
-readonly TOKEN=my_access_token
+readonly ID='!id_de_sala:servidor.com'
+readonly SERVER=servidor.com
+readonly TOKEN=mi_token_de_acceso
 
 curl -X POST -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" "https://$SERVER/_matrix/client/r0/rooms/$ID/upgrade" --data-binary '{
     "new_version": "10"
 }'
 ```
 
-If this doesn't work, you can try [upgrading manually](https://gist.github.com/turt2live/a99c8e794d6115d4ddfaadb72aabf063),
-step by step.
+Si esto no funciona, puedes intentar [actualizar manualmente](https://gist.github.com/turt2live/a99c8e794d6115d4ddfaadb72aabf063),
+paso a paso.
 
-When you upgrade a room, a new room is created and replaces the old one,
-thus the room's `ID` changes.
-In Element to obtain the old room's `ID`, go to "Room Settings" > "Advanced".
-Don't forget to obtain `TOKEN` and `SERVER` following the previous section.
+Cuando actualizas una sala, se crea una nueva sala que reemplaza a la anterior,
+por lo tanto, el `ID` de la sala cambia.
+En Element, para obtener el `ID` de la sala anterior, ve a "Configuración de sala" > "Avanzado".
+No olvides obtener `TOKEN` y `SERVER` siguiendo la sección anterior.
 
-During an upgrade, a [tombstone event](https://spec.matrix.org/v1.1/client-server-api/#mroomtombstone) is sent to the old room.
-The tombstone event closes the old room and links it to the new room.
+Durante una actualización, se envía un [evento de lápida](https://spec.matrix.org/v1.1/client-server-api/#mroomtombstone) a la sala anterior.
+El evento de lápida cierra la sala anterior y la enlaza a la nueva sala.
 
-## Publishing your room
+## Publicar tu sala
 
-If you choose to publish your room, it will appear in the public directory of your homeserver.
-Other users on your homeserver will be able to find it on the "Explore rooms" page.
+Si eliges publicar tu sala, esta aparecerá en el directorio público de tu `homeserver`.
+Otros usuarios en tu `homeserver` podrán encontrarla en la página "Explorar salas".
 
-To publish a room, go to the room's settings and click on
-"Publish this room to the public in server's room directory".
+Para publicar una sala, ve a la configuración de la sala y haz clic en
+"Publicar esta sala en el directorio público del servidor".
 
-## Publishing your space
+## Publicar tu espacio
 
-Element lets you publish regular rooms to the public directory of your homeserver,
-but for some reason there's no such option in the Space settings.
-To publish your space and make it easier to newcomers to find it, run the following script.
+Element te permite publicar salas regulares en el directorio público de tu `homeserver`,
+pero por alguna razón no hay una opción similar en la configuración de Espacios.
+Para publicar tu espacio y facilitar que los nuevos usuarios lo encuentren, ejecuta el siguiente script.
 
 ```
 #!/usr/bin/env bash
 
-readonly ID='!room_id:server.com'
-readonly SERVER=server.com
-readonly TOKEN=my_access_token
+readonly ID='!id_de_sala:servidor.com'
+readonly SERVER=servidor.com
+readonly TOKEN=mi_token_de_acceso
 
 curl -X PUT -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" "https://$SERVER/_matrix/client/r0/directory/list/room/$ID" --data-binary '{
   "visibility": "public"
 }'
 ```
 
-Alternatively you can enable developer tools,
-right-click the space,
-press "See room timeline",
-and then "Settings".
-It will open Settings for regular rooms.
+Alternativamente, puedes habilitar las herramientas para desarrolladores,
+hacer clic derecho en el espacio,
+presionar "Ver línea de tiempo de la sala",
+y luego "Configuración".
+Esto abrirá la configuración para salas regulares.
 
-## Enabling invites
+## Habilitar invitaciones
 
-For some reason, newly created rooms and spaces only allow admins to invite new users.
-Often that's not desirable.
-Change it by going to the room's Settings > "Roles and Permissions" > "Invite users".
+Por alguna razón, las salas y espacios recién creados solo permiten a los administradores invitar a nuevos usuarios.
+A menudo, esto no es deseable.
+Cámbialo yendo a Configuración de la sala > "Roles y permisos" > "Invitar usuarios".
 
-## Linking to your room
+## Enlazar a tu sala
 
-Normally you can share your room using a link that looks like this:
-`https://matrix.to/#/#room:server.domain`.
-The downside of using such links is that new users who haven't registered a Matrix account yet
-will be sent to `app.element.io` and suggested creating a `matrix.org` account.
-This is never what we want.
-To work around it, we can link a specific Element instance.
+Normalmente puedes compartir tu sala utilizando un enlace que se ve así:
+`https://matrix.to/#/#sala:servidor.dominio`.
+El inconveniente de usar esos enlaces es que los nuevos usuarios que aún no han registrado una cuenta de Matrix
+serán enviados a `app.element.io` y se les sugerirá crear una cuenta en `matrix.org`.
+Esto nunca es lo que queremos.
+Para solucionarlo, podemos enlazar una instancia específica de Element.
 
-If you're using an instance of the web version of Element,
-open the room and copy the URL in your web browser's address bar.
-Usually the link will look like this: `https://element.anontier.nl/#/room/#g-rust:matrix.org`.
-The URL may not work depending on Element settings set by the instance's operator,
-test it in a private browser tab first.
+Si estás utilizando una instancia de la versión web de Element,
+abre la sala y copia la URL de la barra de direcciones de tu navegador web.
+Por lo general, el enlace se verá así: `https://element.anontier.nl/#/room/#g-rust:matrix.org`.
+La URL puede no funcionar dependiendo de la configuración de Element establecida por el operador de la instancia,
+pruébala primero en una pestaña privada del navegador.
 
-See [Servers that support links to rooms](list-of-matrix-servers.html#servers-that-support-links-to-rooms)
-for a list of Element instances that can replace `app.element.io`.
+Consulta [Servidores que admiten enlaces a salas](list-of-matrix-servers.html#servers-that-support-links-to-rooms)
+para obtener una lista de instancias de Element que pueden reemplazar a `app.element.io`.
 
-## How do I greentext?
+## ¿Cómo puedo utilizar el formato de texto verde (greentext)?
 
-You can greentext [like this](https://glowers.club/wiki/doku.php?id=wiki:newfriends#how_do_i_greentext),
-or you can install [element-web-greentext](https://aur.archlinux.org/packages/element-web-greentext)
-with `/greentext` command built-in.
-[QuickMedia](https://git.dec05eba.com/QuickMedia/about/) supports greentext out of the box.
+Puedes utilizar el formato de texto verde [de esta manera](https://glowers.club/wiki/doku.php?id=wiki:newfriends#how_do_i_greentext),
+o puedes instalar [element-web-greentext](https://aur.archlinux.org/packages/element-web-greentext)
+con el comando `/greentext` incorporado.
+[QuickMedia](https://git.dec05eba.com/QuickMedia/about/) admite el formato de texto verde de forma predeterminada.
 
 <p align="center"><img src="img/element-greentext.webp"></p>
-<p align="center"><i>How people greentext.</i></p>
+<p align="center"><i>Cómo la gente utiliza el formato de texto verde.</i></p>
 
-## Tips for room admins
+## Consejos para administradores de salas
 
-If you decide to create and manage a large public room,
-it is very important that you don't lose access to it.
-Even big homeservers sometimes disappear never to return.
-Always keep at least two admin accounts in the room, each hosted on a **different** homeserver.
-If one homeserver goes offline or decides to ban you or *shutdown* your room,
-you will still be able to control the room via the other admin account.
+Si decides crear y gestionar una sala pública grande,
+es muy importante que no pierdas acceso a ella.
+Incluso los grandes homeservers a veces desaparecen sin regresar.
+Siempre mantén al menos dos cuentas de administrador en la sala, cada una alojada en un homeserver **diferente**.
+Si un homeserver se desconecta o decide bloquearte o *cerrar* tu sala,
+aún podrás controlar la sala a través de la otra cuenta de administrador.
 
-The number one thing you should be aware of as a room admin is
-[room shutdowns](https://github.com/matrix-org/synapse/blob/develop/docs/admin_api/rooms.md#delete-room-api).
-A room shutdown is when a homeserver admin
-forces all existing members registered on the homeserver
-out of your room
-and prevents all future joins.
-A room shutdown only affects users on the server that initiated the shutdown.
-To minimize possible damage that a shutdown would cause to your room
-always tell your members to use homeservers you trust.
+Lo más importante que debes tener en cuenta como administrador de una sala son las
+[clausuras de sala](https://github.com/matrix-org/synapse/blob/develop/docs/admin_api/rooms.md#delete-room-api).
+Una clausura de sala ocurre cuando un administrador de homeserver
+expulsa a todos los miembros registrados en el homeserver
+de tu sala
+y evita futuras incorporaciones.
+Una clausura de sala solo afecta a los usuarios en el servidor que inició la clausura.
+Para minimizar el posible daño que una clausura pueda causar a tu sala,
+siempre indica a tus miembros que utilicen homeservers en los que confíes.
 
-Choose a server which runs the latest version of
+Elige un servidor que ejecute la última versión de
 [Synapse](https://github.com/matrix-org/synapse).
-Newer versions give you access to higher
-[room versions](https://spec.matrix.org/unstable/rooms/).
-To check a server's Synapse version, run the following shell command.
-Replace `homeserver.name` with the URL of your homeserver, e.g. `midov.pl`.
+Las versiones más nuevas te dan acceso a versiones de sala más avanzadas.
+Para verificar la versión de Synapse de un servidor, ejecuta el siguiente comando en la terminal.
+Reemplaza `homeserver.name` con la URL de tu homeserver, por ejemplo, `midov.pl`.
 
 ```
 curl -s 'https://homeserver.name/_matrix/federation/v1/version'
 ```
 
-Alternatively, paste the server's URL to
-[federation tester](https://federationtester.matrix.org/).
+Alternativamente, puedes pegar la URL del servidor en
+[probador de federación](https://federationtester.matrix.org/).
 
-It's a good idea to ban certain servers from participating in your room completely, using
-[Server ACLs](https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls).
-Server <span title="access control lists">ACLs</span>
-let you block all accounts registered on unwanted homeservers
-from being able to join your room.
-The homeserver which gets blocked the most often is, you guessed it, `matrix.org`.
+Es una buena idea bloquear completamente la participación de ciertos servidores en tu sala, utilizando
+[ACLs del servidor](https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls).
+Las ACLs del servidor te permiten bloquear todas las cuentas registradas en homeservers no deseados
+para que no puedan unirse a tu sala.
+El homeserver que se bloquea con más frecuencia es, como ya te imaginarás, `matrix.org`.
 
-## Further reading
+## Lecturas adicionales
 
-* https://glowers.club/wiki/doku.php?id=wiki:newfriends
-* https://www.schotty.com/Services/Matrix/
-* https://community.kde.org/Matrix
-* https://calcuode.com/matrix/
+* [https://glowers.club/wiki/doku.php?id=wiki:newfriends](https://glowers.club/wiki/doku.php?id=wiki:newfriends)
+* [https://www.schotty.com/Services/Matrix/](https://www.schotty.com/Services/Matrix/)
+* [https://community.kde.org/Matrix](https://community.kde.org/Matrix)
+* [https://calcuode.com/matrix/](https://calcuode.com/matrix/)
