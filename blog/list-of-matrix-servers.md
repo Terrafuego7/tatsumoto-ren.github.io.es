@@ -31,100 +31,96 @@ Idealmente, alojarías tu propio servidor en tu propio hardware, pero no todos p
 
 No todos los servidores pueden estar abiertos para registrarse en cualquier momento. Es posible que debas enviar un correo electrónico a un administrador para obtener una cuenta.
 
-### Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
+### Servidores recomendados por [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
 
-| Server                  | Web client                                  | Extra                 |
-| :---                    | :---                                        | :---                  |
-| `community.rs`          | [element](https://element.community.rs)     |                       |
-| `matrix.im`             | [element](https://element.matrix.im)        |                       |
-| `sibnsk.net`            | [element](https://element.sibnsk.net)       |                       |
-| `matrix.unredacted.org` | [element](https://element.unredacted.org)   | last checked - closed |
-| `zelchat.de`            | [chat.zelchat.de](https://chat.zelchat.de/) |                       |
+| Servidor                | Cliente web                                      | Extra                 |
+| :---                    | :---                                             | :---                  |
+| `community.rs`          | [element](https://element.community.rs)          |                       |
+| `matrix.im`             | [element](https://element.matrix.im)             |                       |
+| `sibnsk.net`            | [element](https://element.sibnsk.net)            |                       |
+| `matrix.unredacted.org` | [element](https://element.unredacted.org)        | última verificación - cerrado |
+| `zelchat.de`            | [chat.zelchat.de](https://chat.zelchat.de/)      |                       |
 
-### My selection
+### Mi selección
 
-| Server            | Web client                                           | Extra                                                |
-| :---              | :---                                                 | :---                                                 |
-| `cutefunny.art`   | [cutefunny.art](https://matrixclient.cutefunny.art/) | 🏆                                                   |
-| `sakura.ci`       | [web.sakura.ci](https://web.sakura.ci/)              |                                                      |
-| `iddqd.chat`      | [iddqd.chat](https://iddqd.chat/)                    | last checked - closed                                |
-| `trygve.me`       | [trygve.me](https://element.trygve.me/)              |                                                      |
-| `nitro.chat`      | [nitro.chat](https://app.nitro.chat/)                |                                                      |
-| `midov.pl`        | [midov.pl](https://element.midov.pl/element/)        | [Register here](https://midov.pl/registerform.sh) 🏆 |
-| `koneko.chat`     | [element.koneko.chat](https://element.koneko.chat/)  |                                                      |
+| Servidor            | Cliente web                                                      | Extra                                                |
+| :---                | :---                                                             | :---                                                 |
+| `cutefunny.art`     | [cutefunny.art](https://matrixclient.cutefunny.art/)              | 🏆                                                   |
+| `sakura.ci`         | [web.sakura.ci](https://web.sakura.ci/)                            |                                                      |
+| `iddqd.chat`        | [iddqd.chat](https://iddqd.chat/)                                  | última verificación - cerrado                                |
+| `trygve.me`         | [trygve.me](https://element.trygve.me/)                            |                                                      |
+| `nitro.chat`        | [nitro.chat](https://app.nitro.chat/)                              |                                                      |
+| `midov.pl`          | [midov.pl](https://element.midov.pl/element/)                      | [Regístrate aquí](https://midov.pl/registerform.sh) 🏆 |
+| `koneko.chat`       | [element.koneko.chat](https://element.koneko.chat/)                |                                                      |
+### Selecciones inteligentes sobre confianza de cuentas, listadas
 
-### [Intelligent Selections Regarding Account Entrustment, Listed](https://plan9.rocks/israel/)
+Igual que algunos mencionados anteriormente.
 
-Same as some above.
+| Servidor        | Cliente web                                              | Extra |
+| :---            | :---                                                     | :---  |
+| `eientei.org`   | [matrix.eientei.org](https://matrix.eientei.org/)        |       |
 
-| Server        | Web client                                        | Extra |
-| :---          | :---                                              | :---  |
-| `eientei.org` | [matrix.eientei.org](https://matrix.eientei.org/) |       |
+### Servidores gestionados por personas japonesas
 
-### Servers run by Japanese people
+| Servidor              | Cliente web                                              | Extra |
+| :---                  | :---                                                     | :---  |
+| `matrix.fedibird.com` | [fedibird.com](https://element.fedibird.com/)             | 🏆    |
+| `matrix.juggler.jp`   | [juggler.jp](https://matrix-element.juggler.jp/)          |       |
 
-| Server                | Web client                                       | Extra |
-| :---                  | :---                                             | :---  |
-| `matrix.fedibird.com` | [fedibird.com](https://element.fedibird.com/)    | 🏆    |
-| `matrix.juggler.jp`   | [juggler.jp](https://matrix-element.juggler.jp/) |       |
+Fuente: [matrix-room-list-jp](https://matrix-room-list-jp.netlify.app/)
 
-Source: [matrix-room-list-jp](https://matrix-room-list-jp.netlify.app/)
+### Una lista de homeservers recomendados por [Glowers Club](https://web.archive.org/web/20221208070442/https://glowers.club/wiki/doku.php?id=start)
 
-### [A list of homeservers](https://web.archive.org/web/20230227042902/https://glowers.club/wiki/doku.php?id=wiki:homeservers) recommended by [Glowers Club](https://web.archive.org/web/20221208070442/https://glowers.club/wiki/doku.php?id=start)
-| Server                   | Web client                                          | Extra                    |
-| :---                     | :---                                                | :---                     |
-| `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/) | last checked - closed    |
-| `nerdsin.space`          | [nerdsin.space](https://nerdsin.space/)             | last checked - closed 🏆 |
+| Servidor                  | Cliente web                                              | Extra                    |
+| :---                      | :---                                                     | :---                     |
+| `matrix.thisisjoes.site`  | [thisisjoes.site](https://element.thisisjoes.site/)      | última verificación - cerrado    |
+| `nerdsin.space`           | [nerdsin.space](https://nerdsin.space/)                  | última verificación - cerrado 🏆 |
 
-## Do not use
+## No utilizar
 
-The list contains popular servers that have proven themselves unreliable.
-A server is added to this list if it has been caught banning user accounts
-or rooms without prior notice.
+Esta lista contiene servidores populares que han demostrado ser poco confiables. Se añade un servidor a esta lista si se ha descubierto que bloquea cuentas de usuario o salas sin previo aviso.
 
-| Server                         | Information                                                                                                                                   |
-| :---                           | :---                                                                                                                                          |
-| `waifuhunter.club`             | Admin deactivated users' accounts without prior notice.                                                                                       |
-| `matrix.org`                   | Explained above.                                                                                                                              |
-| `*.modular.im` or `*.ems.host` | Affiliated with matrix.org.                                                                                                                   |
-| `tchncs.de`                    | Admin blocked rooms in pursuit of censorship.                                                                                                 |
-| `asra.gr`                      | Admin deactivated users' accounts after receiving fake reports.                                                                               |
-| `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports.                                                                               |
-| `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason. Admin leaked IP addresses of some users.                                            |
-| `synod.im`                     | Admin deactivated users' accounts for no apparent reason.                                                                                     |
-| `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.                                                                                     |
-| `envs.net`                     | Admin blocked rooms in pursuit of censorship.                                                                                                 |
-| `halogen.city`                 | I used to recommend this server, but our members constantly complained about having trouble joining rooms. On top of that the server is slow. |
+| Servidor                         | Información                                                                                                                                   |
+| :---                             | :---                                                                                                                                          |
+| `waifuhunter.club`               | El administrador desactivó las cuentas de los usuarios sin previo aviso.                                                                       |
+| `matrix.org`                     | Se explicó anteriormente.                                                                                                                     |
+| `*.modular.im` o `*.ems.host`     | Afiliados a matrix.org.                                                                                                                       |
+| `tchncs.de`                      | El administrador bloqueó salas en busca de censura.                                                                                            |
+| `asra.gr`                        | El administrador desactivó las cuentas de los usuarios después de recibir informes falsos.                                                    |
+| `3000.chat`                      | El administrador desactivó las cuentas de los usuarios después de recibir informes falsos.                                                    |
+| `lolisho.chat`                   | El administrador desactivó las cuentas de los usuarios sin motivo aparente. El administrador filtró direcciones IP de algunos usuarios.         |
+| `synod.im`                       | El administrador desactivó las cuentas de los usuarios sin motivo aparente.                                                                   |
+| `utwente.io`                     | El administrador desactivó las cuentas de los usuarios sin motivo aparente.                                                                   |
+| `envs.net`                       | El administrador bloqueó salas en busca de censura.                                                                                            |
+| `halogen.city`                   | Solía recomendar este servidor, pero nuestros miembros se quejaban constantemente de tener problemas al unirse a salas. Además, el servidor es lento. |
 
-A full list that includes less popular servers is available
-[here](https://tatsumoto-ren.github.io/matrix/#blocklist).
+Una lista completa que incluye servidores menos populares está disponible [aquí](https://tatsumoto-ren.github.io/matrix/#blocklist).
 
-## Other servers
+## Otros servidores
 
-### Sorted list
+### Lista ordenada
 
-I have a sorted list that updates automatically every 12 hours
-[here](https://tatsumoto-ren.github.io/matrix/).
+Tengo una lista ordenada que se actualiza automáticamente cada 12 horas [aquí](https://tatsumoto-ren.github.io/matrix/).
 
-Selection criteria.
+Criterios de selección.
 
-* Open registration
-* Domain length
-* Up-to-date version of Synapse
+* Registro abierto
+* Longitud de dominio
+* Versión actualizada de Synapse
 
-The list is good for fetching new and updated servers,
-but there are no guarantees that the results are good.
+La lista es útil para obtener servidores nuevos y actualizados,
+pero no hay garantía de que los resultados sean buenos.
 
-### Servers that support links to rooms
+### Servidores que admiten enlaces a salas
 
-A separate list for servers that can be used to link rooms.
-This is very useful if you want to share a room with someone
-but don't want to use `element.io` or `matrix.to` because they are behind cloudflare
-or because your room can't be reached via `matrix.to`.
+Una lista separada de servidores que se pueden utilizar para enlazar salas.
+Esto es muy útil si deseas compartir una sala con alguien
+pero no quieres usar `element.io` o `matrix.to` porque están detrás de Cloudflare
+o porque tu sala no se puede alcanzar a través de `matrix.to`.
 
-To link a room append `#/room/#your_room:example.com`
-to the instance's Element address,
-like this: `https://c.wfr.moe/#/room/#djtspace.midov.pl`.
+Para enlazar una sala, agrega `#/room/#tu_sala:ejemplo.com`
+a la dirección de Element de la instancia,
+como esto: `https://c.wfr.moe/#/room/#djtspace.midov.pl`.
 
 * https://element.fablabchemnitz.de/
 * https://riot.ukvly.org/
@@ -137,12 +133,9 @@ like this: `https://c.wfr.moe/#/room/#djtspace.midov.pl`.
 * https://im.tetaneutral.net/
 * https://element.arcticfoxes.net/
 
-### With Element
+### Con Element
 
-These servers have
-[Element](https://web.archive.org/https://element.io/).
-It's a web application that you can use to chat
-without having to use a desktop client.
+Estos servidores tienen [Element](https://web.archive.org/https://element.io/). Es una aplicación web que puedes usar para chatear sin necesidad de utilizar un cliente de escritorio.
 
 * https://chat.darkcloud.ca/
 * https://element.georgefloyd.link/
@@ -247,14 +240,9 @@ without having to use a desktop client.
 * https://element.midov.pl/element/
 * https://grid.rrze.fau.de/riotweb/
 
-### Without Element
+### Sin Element
 
-These Matrix servers don't offer the web interface,
-but you can still register an account.
-Install one of the clients listed on
-[Arch Wiki](https://wiki.archlinux.org/index.php/List_of_applications#Matrix_clients),
-press "create account", then find advanced options
-and change the server from the default to the one you want.
+Estos servidores de Matrix no ofrecen la interfaz web, pero aún puedes registrar una cuenta. Instala uno de los clientes que se enumeran en [Arch Wiki](https://wiki.archlinux.org/index.php/List_of_applications#Matrix_clients), haz clic en "crear cuenta", luego busca opciones avanzadas y cambia el servidor por defecto por el que desees.
 
 * https://l12c.eu/ 🏆
 * https://fick.es/ 🏆
