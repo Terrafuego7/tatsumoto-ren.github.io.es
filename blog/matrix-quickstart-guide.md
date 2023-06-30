@@ -37,7 +37,7 @@ Existen varias ventajas importantes en Matrix que atraen a nuevos usuarios.
    no perderás tu cuenta ni tus chats.
    En Discord, no es raro que se prohíban "servidores".
    Como resultado, tienes que crear uno nuevo e invitar de nuevo a los antiguos miembros.
-   Nadie te garantiza que no serás prohibido nuevamente.
+   Nadie te garantiza que no te prohibirán el acceso nuevamente.
 
    Aunque los `homeservers` de Matrix pueden prohibir salas,
    no pueden ordenar a otros `homeservers` hacer lo mismo.
