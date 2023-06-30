@@ -68,7 +68,7 @@ Existen varias ventajas importantes en Matrix que atraen a nuevos usuarios.
    mensajes de voz,
    llamadas de voz y video,
    emojis y stickers,
-   compartir archivos y medios, etc.
+   compartir archivos y contenido audiovisual, etc.
 
 ## Salas en Matrix
 
@@ -92,9 +92,9 @@ Cuando el último participante abandona la sala,
 esta se vuelve inaccesible y nadie puede unirse a ella nuevamente.
 
 Los `homeservers` pueden cerrar (prohibir) salas.
-Si intentas unirte a una sala prohibida, recibirás un mensaje de error que dice:
+Si intentas unirte a una sala de acesso prohibido, recibirás un mensaje de error que dice:
 "Esta sala ha sido bloqueada en este servidor."
-Esto indica que deberías abandonar tu `homeserver` actual porque está controlado por fanáticos del control.
+Esto indica que deberías abandonar tu `homeserver` actual porque está controlado por maniáticos del control.
 
 Los administradores de salas pueden bloquear `homeservers`.
 Si intentas unirte a una sala que ha bloqueado tu `homeserver`,
