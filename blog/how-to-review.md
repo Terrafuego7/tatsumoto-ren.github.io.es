@@ -213,7 +213,7 @@ El modo Aprobado-Reprobado esencialmente no te permite presionar los botones "Di
 
 Uno de ellos es que tener que decidir entre varias opciones puede hacer que tu estudio con Anki sea menos eficiente. Cuando estás decidiendo cómo calificar una tarjeta, estás desperdiciando tus recursos mentales. Hazlo cien veces y experimentarás algo llamado fatiga de decisión. En lugar de decidir cuánto sabes algo, simplemente decide si lo sabes o no.
 
-Otro es que la mayoría de los usuarios de Anki no entienden qué hacen realmente los botones "Difícil" y "Fácil" de Anki. Ambos botones afectan el factor de facilidad de las tarjetas. Usar el botón "Difícil" puede penalizarte y aumentar considerablemente tu conteo de repasos con el tiempo. Usar el botón "Fácil" puede inflar artificialmente los intervalos de programación de tus tarjetas y llevar al olvido y a una menor retención en el futuro. Para la gran mayoría de nosotros, la mejor opción es simplemente usar los botones "Bueno" y "Otra vez" de Anki.
+Otro es que la mayoría de los usuarios de Anki no entienden qué hacen realmente los botones "Difícil" y "Fácil" de Anki. Ambos botones afectan el factor de facilidad de las tarjetas. Usar el botón "Difícil" puede penalizarte y aumentar considerablemente tu conteo de repasos con el tiempo. Usar el botón "Fácil" puede inflar artificialmente los intervalos de programación de tus tarjetas y llevar al olvido y a una menor retención en el futuro. Para la gran mayoría de nosotros, la mejor opción es simplemente usar los botones "Bien" y "Otra vez" de Anki.
 
 ### Calificación flexible
 
@@ -225,7 +225,7 @@ La calificación flexible está habilitada por defecto en las opciones del compl
 | ------------ | ---------------- | ----------- |
 | `h`          | `1`              | Otra vez, Reprobar |
 | `j`          | `2`              | Difícil        |
-| `k`          | `3`              | Bueno, Aprobar  |
+| `k`          | `3`              | Bien, Aprobar  |
 | `l`          | `4`              | Fácil        |
 
 Presionar del 1 al 4 para calificar las tarjetas es conveniente, pero no tanto. Los atajos tipo Vim te permiten calificar las tarjetas con tus dedos descansando en las teclas de la fila central, al igual que cuando navegas por un documento en Vim.
