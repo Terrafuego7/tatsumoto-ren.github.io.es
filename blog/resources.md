@@ -927,9 +927,7 @@ Artículos destacados:
 * [Cornucopia de recursos](https://djtguide.neocities.org/cor) del antiguo sitio DJT.
 * [Japanese Mega Learning Pack](https://nyaa.si/view/1372367)
 * [Marcadores japoneses](https://pachimon.github.io/tools/JapBookmarks.html) por pachimon
-* [Guía de inicio rápido de japonés de Mia](https://web.archive.org/web/20201202234519
-
-/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/).
+* [Guía de inicio rápido de japonés de Mia](https://web.archive.org/web/20201202234519/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/).
   Su guía está un poco desactualizada, pero aún puede ser útil.
 * [Proyecto JM](https://linuxjm.osdn.jp/index.html). Manuales traducidos al japonés.
 * [四字熟語人気ランキング](https://idiom-encyclopedia.com/ninki/)
