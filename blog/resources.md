@@ -849,9 +849,7 @@ Has sido advertido.
   que explican la teoría, reglas y patrones.
 * [NHK日本語発音アクセント辞典](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/12671999/adb8bd).
   Un PDF del diccionario de acento tonal de NHK, edición de 1998.
-* [新明解日本語アクセント辞典 第2版・付録](https://www.mediafire.com/file/mwzighd9dnvo63w/%25E6%2596%25B0%25E6%2598%258E%25E8%25A7%25A3%25E6%2597%25A
-
-5%25E6%259C%25AC%25E8%25AA%259E%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2583%25B3%25E3%2583%2588%25E8%25BE%259E%25E5%2585%25B8_%25E7%25AC%25AC2%25E7%2589%2588%25E3%2583%25BB%25E4%25BB%2598%25E9%258C%25B2.pdf/file).
+* [新明解日本語アクセント辞典 第2版・付録](https://www.mediafire.com/file/mwzighd9dnvo63w/%25E6%2596%25B0%25E6%2598%258E%25E8%25A7%25A3%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2583%25B3%25E3%2583%2588%25E8%25BE%259E%25E5%2585%25B8_%25E7%25AC%25AC2%25E7%2589%2588%25E3%2583%25BB%25E4%25BB%2598%25E9%258C%25B2.pdf/file).
   Un escaneo del diccionario de acento tonal de Shinmeikai,
   específicamente las secciones al final
   que explican la teoría, reglas y patrones.
