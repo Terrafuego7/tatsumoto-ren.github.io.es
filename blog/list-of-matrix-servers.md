@@ -1,63 +1,35 @@
 ---
-title: List of Matrix servers
+title: Lista de servidores de Matrix
 date: 1611943875
 tags: ['matrix']
 ---
 
-[Matrix](https://wiki.archlinux.org/index.php/Matrix)
-is a FLOSS protocol for open federated instant messaging.
-Matrix ecosystem consists of many servers which can be used for registration.
-This is a list of Matrix servers for people
-who ask what server to choose to register on.
+[Matrix](https://wiki.archlinux.org/index.php/Matrix) es un protocolo de código abierto y federado para mensajería instantánea. El ecosistema de Matrix consiste en muchos servidores que se pueden utilizar para el registro. Esta es una lista de servidores de Matrix para aquellos que preguntan qué servidor elegir para registrarse.
 
-To use Matrix, install a
-[client](https://wiki.archlinux.org/index.php/List_of_applications#Matrix_clients)
-first.
-One of the most popular clients is
-[Element](https://archlinux.org/packages/?name=element-desktop).
+Para usar Matrix, primero instala un [cliente](https://wiki.archlinux.org/index.php/List_of_applications#Matrix_clients). Uno de los clientes más populares es [Element](https://archlinux.org/packages/?name=element-desktop).
 
-If you are new to Matrix, read
-[Matrix quickstart guide](matrix-quickstart-guide.html).
+Si eres nuevo en Matrix, lee la [guía de inicio rápido de Matrix](matrix-quickstart-guide.html).
 
 ****
 
-## Matrix.org users
+## Usuarios de Matrix.org
 
-If you already have an account hosted on Matrix.org,
-please deactivate your account
-and create a new account on another homeserver immediately.
-Matrix.org is the largest Matrix homeserver, and most Matrix apps suggest it by default.
-Many users new to Matrix end up using this server because they don't know that other servers exist.
-Unfortunately, Matrix.org is far from the best choice.
-Due to its absurdly strict rules,
-the server is known for frequent bans of rooms and user accounts,
-and it does so without prior notice.
-Basically, Matrix.org uses its size and special status to impose censorship.
+Si ya tienes una cuenta alojada en Matrix.org, por favor desactiva tu cuenta y crea una nueva cuenta en otro servidor de inmediato. Matrix.org es el servidor de Matrix más grande y la mayoría de las aplicaciones de Matrix lo sugieren por defecto. Muchos usuarios nuevos en Matrix terminan usando este servidor porque no saben que existen otros servidores. Desafortunadamente, Matrix.org está lejos de ser la mejor opción. Debido a sus reglas absurdamente estrictas, el servidor es conocido por los frecuentes bloqueos de salas y cuentas de usuario, y lo hace sin previo aviso. Básicamente, Matrix.org utiliza su tamaño y estatus especial para imponer la censura.
 
-Luckily, changing Matrix homeservers is as easy as switching Email providers.
-Below I have a list of servers with less strict terms of service.
+Afortunadamente, cambiar de servidor de Matrix es tan fácil como cambiar de proveedor de correo electrónico. A continuación, tengo una lista de servidores con términos de servicio menos estrictos.
 
 <p align="center"><img class="shadow" alt="registration" src="img/element_registration.webp"></p>
-<p align="center"><i>Click "Edit".</i></p>
+<p align="center"><i>Haz clic en "Editar".</i></p>
 
-## How to choose
+## Cómo elegir
 
-Choose a server that doesn't engage in chaotic account or room purges.
-Being on such a homeserver is no different from being on Discord.
-If a homeserver has rules, read them to check if they're unreasonably strict.
-Keep an eye on the usual things that tend to stink.
-For example, if a homeserver is trying to suppress certain political opinions,
-restrict you from posting certain types of content
-or otherwise [impose authoritarian environment](https://glowers.club/wiki/doku.php?id=jannies).
+Elige un servidor que no participe en purgas caóticas de cuentas o salas. Estar en un servidor así no es diferente a estar en Discord. Si un servidor tiene reglas, léelas para comprobar si son excesivamente estrictas. Mantente alerta ante las señales de comportamientos problemáticos. Por ejemplo, si un servidor intenta suprimir ciertas opiniones políticas, restringirte de publicar ciertos tipos de contenido o [imponer un entorno autoritario](https://glowers.club/wiki/doku.php?id=jannies).
 
-## Recommendations
+## Recomendaciones
 
-Ideally you would host your own homeserver on your own hardware, but not everyone can do that.
-This section contains homeservers hand-picked by me and trusted third-parties.
-With a 🏆 I marked servers that have received a <span title="ACL ban">trophy of recognition</span> from the Matrix HQ team.
+Idealmente, alojarías tu propio servidor en tu propio hardware, pero no todos pueden hacerlo. Esta sección contiene servidores seleccionados por mí y terceros de confianza. Con el símbolo 🏆 he marcado los servidores que han recibido un <span title="bloqueo ACL">premio de reconocimiento</span> del equipo de Matrix HQ.
 
-Not all the servers may be open for registration at any point of time.
-You may need to Email an admin to get an account.
+No todos los servidores pueden estar abiertos para registrarse en cualquier momento. Es posible que debas enviar un correo electrónico a un administrador para obtener una cuenta.
 
 ### Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
 
