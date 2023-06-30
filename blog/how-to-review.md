@@ -28,20 +28,20 @@ En las versiones más recientes de Anki, es el predeterminado.
 
 ## Calificación
 
-Cuando estés listo para calificar una tarjeta, se te pedirá que elijas entre 4 opciones diferentes: "otra vez", "difícil", "bien" y "fácil". Usa **solo** "otra vez" y "bien". No presiones "difícil" y "fácil" a menos que estés consciente de las consecuencias.
+Cuando estés listo para calificar una tarjeta, se te pedirá que elijas entre 4 opciones diferentes: "Otra vez", "Difícil", "Bien" y "Fácil". Usa **solo** "Otra vez" y "Bien". No presiones "Difícil" y "Fácil" a menos que estés consciente de las consecuencias.
 
-Cuando presionas "difícil" o "fácil", el factor de Facilidad de la tarjeta cambia. Como resultado, la velocidad a la que el intervalo de la tarjeta va a crecer a partir de ese punto también cambia. Presionar "difícil" hace que el intervalo de la tarjeta crezca más lentamente, y la tarjeta aparece para repaso más a menudo. El nuevo factor de Facilidad *permanece en efecto indefinidamente* hasta que haces algo que lo restablece al valor predeterminado. Cuando una tarjeta aparece para repaso más a menudo de lo necesario, pasas tiempo innecesario revisando. Del mismo modo, presionar "fácil" hace que la tarjeta aparezca para repaso menos frecuentemente, lo que te hace más propenso a olvidarla en algún momento. Establecer la Facilidad Inicial en 131% puede mitigar algunas consecuencias, pero no todas.
+Cuando presionas "Difícil" o "Fácil", el factor de Facilidad de la tarjeta cambia. Como resultado, la velocidad a la que el intervalo de la tarjeta va a crecer a partir de ese punto también cambia. Presionar "Difícil" hace que el intervalo de la tarjeta crezca más lentamente, y la tarjeta aparece para repaso más a menudo. El nuevo factor de Facilidad *permanece en efecto indefinidamente* hasta que haces algo que lo restablece al valor predeterminado. Cuando una tarjeta aparece para repaso más a menudo de lo necesario, pasas tiempo innecesario revisando. Del mismo modo, presionar "Fácil" hace que la tarjeta aparezca para repaso menos frecuentemente, lo que te hace más propenso a olvidarla en algún momento. Establecer la Facilidad Inicial en 131% puede mitigar algunas consecuencias, pero no todas.
 
 Existe un complemento de Anki que elimina algunos o todos los botones de respuesta. Lo cubro en algunas secciones más abajo.
 
-Cuando veas una tarjeta, califícala como "bien" si entiendes la palabra objetivo. Para calificar la tarjeta como "bien", deberías poder:
+Cuando veas una tarjeta, califícala como "Bien" si entiendes la palabra objetivo. Para calificar la tarjeta como "Bien", deberías poder:
 
 * Entender lo que significa en contexto, si hay contexto en la tarjeta.
 * Leerla fonéticamente, si la palabra contiene kanji.
 
-Si no, selecciona "otra vez" y vuelve a aprender la tarjeta.
+Si no, selecciona "Otra vez" y vuelve a aprender la tarjeta.
 
-A veces necesitas presionar "otra vez" varias veces hasta que memorizas la tarjeta. Pero tan pronto como entiendas la palabra, presiona "bien". No presiones "otra vez" una y otra vez porque no tienes suficiente confianza en tu memoria.
+A veces necesitas presionar "Otra vez" varias veces hasta que memorizas la tarjeta. Pero tan pronto como entiendas la palabra, presiona "Bien". No presiones "Otra vez" una y otra vez porque no tienes suficiente confianza en tu memoria.
 
 Anki nunca garantiza que recordarás cada elemento que introduzcas en él. Solo puede garantizar una cierta tasa de retención, generalmente alrededor del 70-90% dependiendo de las configuraciones. En cada sesión de repaso, espera olvidar un número de tarjetas. Es una parte natural de usar el programa.
 
@@ -77,7 +77,7 @@ Se considera que una tasa de retención superior al 90% es subóptima. Significa
 
 ## Mazos filtrados
 
-No revises en mazos filtrados. Después de experimentar con mazos filtrados durante varios años, he llegado a la conclusión de que son demasiado propensas a errores y poco confiables. Solo son buenas para almacenar temporalmente tarjetas (en caso de acumulaciones, por ejemplo). Algunos errores que encontré desordenaron completamente los intervalos de mis tarjetas.
+No revises en mazos filtrados. Después de experimentar con mazos filtrados durante varios años, he llegado a la conclusión de que son demasiado propensos a errores y poco confiables. Solo son buenos para almacenar temporalmente tarjetas (en caso de acumulaciones, por ejemplo). Algunos errores que encontré desordenaron completamente los intervalos de mis tarjetas.
 
 ## Luchando contra las acumulaciones
 
@@ -137,13 +137,13 @@ Elige cuántas tarjetas nuevas quieres hacer cada día y mantén ese número. Re
 
 Puedes salirte con la tuya aprendiendo más tarjetas nuevas si aumentas tu [Modificador de Intervalo](configurando-anki.html#modificador-de-intervalo), pero a cambio espera que tu retención disminuya.
 
-No limites tus repasos disminuyendo la configuración de [Revisiones máximas/día](configurando-anki.html#repasos-máximas-día) para hacer más tarjetas nuevas. Solo *ocultará* las tarjetas vencidas de ti. No hacer todas tus repasos a tiempo formará un retraso. Lo que es peor, el retraso será invisible porque Anki lo ocultará de ti.
+No limites tus repasos disminuyendo la configuración de [Repasos máximos/día](configurando-anki.html#repasos-máximas-día) para hacer más tarjetas nuevas. Solo *ocultará* las tarjetas vencidas de ti. No hacer todos tus repasos a tiempo formará un retraso. Lo que es peor, el retraso será invisible porque Anki lo ocultará de ti.
 
 ## Sanguijuelas
 
 Anki tiene una configuración que controla cuántas veces puedes fallar una tarjeta antes de que se convierta en una sanguijuela, [Umbral para Sanguijuelas](configurando-anki.html#recaídas). No significa el número de veces que simplemente presionas "Otra vez" en una tarjeta, sino más bien el número de veces que fallas una tarjeta que previamente se había graduado a la cola de repaso. En otras palabras, presionar "Otra vez" en una tarjeta una y otra vez en el mismo día no la convierte en una sanguijuela.
 
-Cuando Anki marca una tarjeta como "sanguijuela", la tarjeta recibe una etiqueta de "sanguijuela". Puedes encontrar las sanguijuelas más tarde presionando Explorar y escribiendo `tag:leech` en el campo de búsqueda. Si la `Acción de Sanguijuela` está configurada en "Suspender tarjeta", la tarjeta ya no aparecerá para repaso. Es importante sacar rápidamente las sanguijuelas de la rotación suspendiéndolas para que no desperdicien tu tiempo de repaso.
+Cuando Anki marca una tarjeta como "sanguijuela", la tarjeta recibe una etiqueta de "sanguijuela". Puedes encontrar las sanguijuelas más tarde presionando Explorar y escribiendo `tag:leech` en el campo de búsqueda. Si la opción `Acción para Sanguijuelas` está configurada en "Suspender tarjeta", la tarjeta ya no aparecerá para repaso. Es importante sacar rápidamente las sanguijuelas de la rotación suspendiéndolas para que no desperdicien tu tiempo de repaso.
 
 Después de haber neutralizado una sanguijuela, decide qué hacer con ella. Cambia el contenido de la tarjeta para que sea más fácil de memorizar o simplemente espera hasta que tu cerebro esté listo para aprenderla de nuevo. Antes de volver a aprender la tarjeta, tienes que [reiniciarla](complementos-útiles-de-anki-para-japonés.html#reiniciar-programación-de-tarjeta).
 
